@@ -178,7 +178,7 @@ footer b{color:var(--ink-2);font-weight:600;display:block;margin-bottom:.2rem;}
     <h1>Supply Intelligence for CS &amp; Implementation</h1>
     <p class="lede">What wholesalers buy, who supplies it, at what timeframe and price. Demand-first.</p>
     <div class="metaline">
-      <span><b>Built</b> 2026-08-14 19:28</span>
+      <span><b>Built</b> 2026-08-14 19:42</span>
       <span><b>Data</b> Snowflake INVENTORY_DETAILS + PROCUREMENT_DETAILS</span>
       <span><b>Varieties</b> 1,171 normalized, 177 with demand</span>
       <span><b>Vendors</b> 48 with drill-down</span>
@@ -13819,202 +13819,1581 @@ footer b{color:var(--ink-2);font-weight:600;display:block;margin-bottom:.2rem;}
 <tr><td><b>Filler Flowers</b></td><td class="num">CAT-022</td><td>Filler Flowers, Filler, FLL, Misc Flowers, Miscellaneous Flowers</td><td>✓</td></tr>
 <tr><td><b>Plants</b></td><td class="num">CAT-052</td><td>@ Plant, Plants, Plants Herb, Plants Garden, Plants Air</td><td>✗</td></tr>
 </tbody></table></div></div>
-      <div class="tab-panel panel-4"><h2>Seasonality Preview</h2>
-<div class="info-box"><b>Mockup</b> — estimated demand intensity by category and month. Based on industry patterns, not yet computed from our data. v2 will use actual procurement history × buyer state/region.</div>
-<div class="tablewrap"><table style="min-width:40rem;text-align:center;">
+      <div class="tab-panel panel-4"><div class="info-box">Monthly demand by category from the last 24 months of wholesaler procurement. Helps CS reps anticipate what their wholesalers will need and when to source forward.</div>
+<h2 style="margin-bottom:.5rem;">Demand by Month (last 12 months)</h2>
+<p style="font-size:.8rem;color:var(--ink-3);margin-bottom:1rem;">Darker = higher demand. Use this to anticipate when your wholesaler will need specific categories.</p>
+<div class="tablewrap"><table style="text-align:center;">
 <thead><tr><th style="text-align:left;">Category</th>
-<th>Jan</th>
-<th title="Valentine's prep">Feb</th>
-<th>Mar</th>
-<th>Apr</th>
-<th title="Mother's Day">May</th>
-<th title="Wedding season starts">Jun</th>
-<th>Jul</th>
-<th>Aug</th>
 <th>Sep</th>
-<th title="Fall events">Oct</th>
+<th>Oct</th>
 <th>Nov</th>
-<th title="Thanksgiving/Holiday">Dec</th>
-</tr></thead><tbody>
-<tr>
-<td style="text-align:left;"><b>Rose</b></td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
+<th>Mar</th>
+<th>Nov</th>
+<th>Nov</th>
+<th>Dec</th>
+<th>May</th>
+<th>Jun</th>
+<th>Oct</th>
+<th>Jan</th>
+<th>Jan</th>
+<th>Total</th></tr></thead><tbody>
+<tr><td style="text-align:left;"><b>Rose</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$780K</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$6K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$14K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$620</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$3K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$805K</td>
 </tr>
-<tr>
-<td style="text-align:left;"><b>Carnation</b></td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
+<tr><td style="text-align:left;"><b>Hydrangea</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$337K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$337K</td>
 </tr>
-<tr>
-<td style="text-align:left;"><b>Hydrangea</b></td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
+<tr><td style="text-align:left;"><b>Greens</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$143K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$67K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$1K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#14B8A6;color:white;font-size:.7rem;font-weight:600;">$25K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$867</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$572</td>
+<td class="num" style="font-weight:700;">$237K</td>
 </tr>
-<tr>
-<td style="text-align:left;"><b>Ranunculus</b></td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
+<tr><td style="text-align:left;"><b>Carnation</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$218K</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$8K</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$3K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$229K</td>
 </tr>
-<tr>
-<td style="text-align:left;"><b>Peony</b></td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
+<tr><td style="text-align:left;"><b>Ranunculus</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$33K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$6K</td>
+<td class="num" style="font-weight:700;">$39K</td>
 </tr>
-<tr>
-<td style="text-align:left;"><b>Tulip</b></td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
+<tr><td style="text-align:left;"><b>Lisianthus</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$103K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$103K</td>
 </tr>
-<tr>
-<td style="text-align:left;"><b>Greens</b></td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
+<tr><td style="text-align:left;"><b>Peony</b></td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$0</td>
 </tr>
-<tr>
-<td style="text-align:left;"><b>Lisianthus</b></td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">Peak</td>
-<td style="background:#5EEAD4;color:white;font-size:.7rem;font-weight:600;">High</td>
-<td style="background:#CCFBF1;color:var(--tint-ink);font-size:.7rem;font-weight:600;">Med</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
-<td style="background:var(--surface-2);color:var(--ink-3);font-size:.7rem;font-weight:600;">Low</td>
+<tr><td style="text-align:left;"><b>Tulip</b></td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$0</td>
+</tr>
+<tr><td style="text-align:left;"><b>Delphinium</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$73K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$73K</td>
+</tr>
+<tr><td style="text-align:left;"><b>Stock</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$101K</td>
+<td style="background:#F7FAF9;color:#6B7A78;font-size:.7rem;font-weight:600;">$4K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$105K</td>
+</tr>
+<tr><td style="text-align:left;"><b>Eucalyptus</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$4K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$3K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$7K</td>
+</tr>
+<tr><td style="text-align:left;"><b>Bouquet</b></td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$0</td>
+</tr>
+<tr><td style="text-align:left;"><b>Gypsophila</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$16K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$16K</td>
+</tr>
+<tr><td style="text-align:left;"><b>Alstroemeria</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$6K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$6K</td>
+</tr>
+<tr><td style="text-align:left;"><b>Gerbera</b></td>
+<td style="background:#0F766E;color:white;font-size:.7rem;font-weight:600;">$183K</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td style="background:var(--surface);color:var(--ink-3);font-size:.7rem;font-weight:600;">$0</td>
+<td class="num" style="font-weight:700;">$183K</td>
 </tr>
 </tbody></table></div>
-<div style="margin-top:1rem;"><h3>Key events that drive demand</h3>
-<div class="tablewrap"><table style="min-width:20rem;"><thead><tr><th>When</th><th>Event</th><th>Categories impacted</th><th>Forward sourcing starts</th></tr></thead><tbody>
-<tr><td><b>Feb 14</b></td><td>Valentine's Day</td><td>Rose (peak), Carnation, Tulip</td><td>Mid-January (4 weeks ahead)</td></tr>
-<tr><td><b>May (2nd Sun)</b></td><td>Mother's Day</td><td>Rose, Carnation, Hydrangea, Peony</td><td>Mid-April (3-4 weeks)</td></tr>
-<tr><td><b>May-Oct</b></td><td>Wedding season</td><td>Peony, Ranunculus, Hydrangea, Lisianthus, Garden Rose</td><td>March-April for peak months</td></tr>
-<tr><td><b>Sep-Oct</b></td><td>Fall events</td><td>Carnation, Greens, Mums</td><td>August</td></tr>
-<tr><td><b>Nov-Dec</b></td><td>Thanksgiving + Holiday</td><td>Greens, Rose, Carnation, Poinsettia</td><td>October-November</td></tr>
-<tr><td><b>Year-round</b></td><td>Funerals & sympathy</td><td>Rose, Carnation, Lily, Gladiolus</td><td>Always — steady baseline</td></tr>
-</tbody></table></div></div>
-<div class="info-box" style="margin-top:1rem;"><b>What v2 will add:</b> Actual demand curves from 12-24 months of procurement data. Broken down by buyer state/region (Northeast, Southeast, Midwest, Southwest, West). Show when to source forward for each region × category combination.</div></div>
-      <div class="tab-panel panel-5"><h2>Account View Preview</h2>
-<div class="info-box"><b>Mockup</b> — what the account-specific view will look like. This example uses Zeidler Floral. v2 will be dynamic for any wholesaler.</div>
-<div style="background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.25rem;margin-bottom:1rem;">
-<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;">
-<div><h3 style="margin:0;">Zeidler Floral</h3><span style="font-size:.8rem;color:var(--ink-3);">Wholesaler · WH_CORE · Niagara Falls, NY</span></div>
-<div style="display:flex;gap:1rem;font-size:.85rem;">
-<div><b>$76.4K</b><br><span style="color:var(--ink-3);font-size:.7rem;">Procurement 6mo</span></div>
-<div><b>9</b><br><span style="color:var(--ink-3);font-size:.7rem;">Vendors connected</span></div>
-<div><b>5</b><br><span style="color:var(--ink-3);font-size:.7rem;">for 81% coverage</span></div>
-</div></div></div>
-<h3 style="margin-top:1rem;">Current Vendor Mix</h3>
-<div class="tablewrap"><table><thead><tr><th>Vendor</th><th>Amount</th><th>% of basket</th><th>Cumulative</th><th>Quality</th></tr></thead><tbody>
-<tr><td><b>Sole Farms</b></td><td class="num">$17,422</td><td class="num">22.8%</td><td class="num">22.8%</td><td class="num">77/100</td></tr>
-<tr><td><b>Fresca Farms</b></td><td class="num">$12,631</td><td class="num">16.5%</td><td class="num">39.3%</td><td class="num">82/100</td></tr>
-<tr><td><b>Continental Farms</b></td><td class="num">$11,668</td><td class="num">15.3%</td><td class="num">54.6%</td><td class="num">82/100</td></tr>
-<tr><td><b>Choice Farms</b></td><td class="num">$10,544</td><td class="num">13.8%</td><td class="num">68.4%</td><td class="num">—</td></tr>
-<tr><td><b>Equiflor Corp</b></td><td class="num">$9,811</td><td class="num">12.8%</td><td class="num">81.2%</td><td class="num">—</td></tr>
-<tr><td><b>Riverdale Farms</b></td><td class="num">$6,339</td><td class="num">8.3%</td><td class="num">89.5%</td><td class="num">—</td></tr>
-<tr><td><b>US Greens Corp</b></td><td class="num">$3,962</td><td class="num">5.2%</td><td class="num">94.7%</td><td class="num">—</td></tr>
-<tr><td><b>Galleria Farms</b></td><td class="num">$3,361</td><td class="num">4.4%</td><td class="num">99.1%</td><td class="num">—</td></tr>
-<tr><td><b>Welyflor</b></td><td class="num">$684</td><td class="num">0.9%</td><td class="num">100%</td><td class="num">—</td></tr>
+<h3 style="margin-top:1.5rem;">Key events that drive demand</h3>
+<div class="tablewrap"><table><thead><tr><th>When</th><th>Event</th><th>Categories impacted</th><th>Start sourcing</th></tr></thead><tbody>
+<tr><td><b>Feb 14</b></td><td>Valentine's Day</td><td>Rose (peak), Carnation, Tulip</td><td>4 weeks ahead (mid-Jan)</td></tr>
+<tr><td><b>May (2nd Sun)</b></td><td>Mother's Day</td><td>Rose, Carnation, Hydrangea, Peony</td><td>3-4 weeks ahead (mid-Apr)</td></tr>
+<tr><td><b>May-Oct</b></td><td>Wedding season</td><td>Peony, Ranunculus, Hydrangea, Lisianthus</td><td>March-April for peak</td></tr>
+<tr><td><b>Nov-Dec</b></td><td>Holiday season</td><td>Greens, Rose, Carnation, Poms/Mums</td><td>October-November</td></tr>
 </tbody></table></div>
-<h3 style="margin-top:1.5rem;">Category Gaps — what Zeidler buys offline but has no online vendor for</h3>
-<div class="tablewrap"><table><thead><tr><th>Category</th><th>Offline demand</th><th>Connected vendors</th><th>Gap</th><th>Recommended vendor</th></tr></thead><tbody>
-<tr><td><b>Hydrangea</b></td><td class="num">$8.2K</td><td class="num">0</td><td><span class="badge desert">DESERT</span></td><td>Bella Blossom (187K, 82/100)</td></tr>
-<tr><td><b>Tulips</b></td><td class="num">$4.1K</td><td class="num">0</td><td><span class="badge desert">DESERT</span></td><td>Jet Fresh (54K, 72/100)</td></tr>
-<tr><td><b>Lisianthus</b></td><td class="num">$3.5K</td><td class="num">0</td><td><span class="badge desert">DESERT</span></td><td>Jet Fresh (39K, 72/100)</td></tr>
-<tr><td><b>Peony</b></td><td class="num">$2.8K</td><td class="num">0</td><td><span class="badge desert">DESERT</span></td><td>Allure Farms (52K) — only source</td></tr>
-<tr><td><b>Greens</b></td><td class="num">$1.9K</td><td class="num">1 (US Greens)</td><td><span class="badge undersupplied">LIMITED</span></td><td>Add foliage specialist</td></tr>
-</tbody></table></div>
-<h3 style="margin-top:1.5rem;">Forward Buying Opportunity</h3>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:1rem;">
-<div class="panel"><h3>Current pattern</h3><p style="font-size:.85rem;color:var(--ink-2);">Zeidler buys from <b>5 vendors</b> covering 81% of basket. Concentrated — if Sole Farms or Fresca have issues, 39% of supply is at risk.</p></div>
-<div class="panel"><h3>Recommendation</h3><ul style="font-size:.85rem;color:var(--ink-2);margin:0;padding-left:1rem;">
-<li><b>Connect to Bella Blossom</b> for Hydrangea — $187K market, 82/100 quality</li>
-<li><b>Connect to Jet Fresh</b> for Tulips + Lisianthus — covers 2 gaps with 1 vendor</li>
-<li><b>Explore Allure Farms</b> for Peony — only online source, seasonal (Apr-Jun)</li>
-</ul></div>
-<div class="panel"><h3>Seasonal alert</h3><p style="font-size:.85rem;color:var(--ink-2);"><b>Valentine's prep:</b> Zeidler buys $17.4K of roses from Sole Farms. Sole has 13% forward supply. For 2-week planning, also source from <b>Continex</b> (95% at 30+d, $0.29/stem VALUE) or <b>Royal Flowers</b> (94% at 30+d).</p></div>
+<div class="info-box" style="margin-top:1rem;"><b>Coming in v2:</b> Zone-level breakdown (Northeast, Southeast, Midwest, Southwest, West) once buyer state data coverage improves.</div></div>
+      <div class="tab-panel panel-5"><div class="info-box">Priority wholesaler accounts with their vendor connections and buying patterns. Click an account to see their vendors and identify gaps. Start with accounts that have low online % — that's where the opportunity is.</div>
+<input type="text" id="account-search" class="search-box" placeholder="Search account name..." style="margin-bottom:1rem;">
+<p style="font-size:.85rem;color:var(--ink-3);margin-bottom:.75rem;">24 Core wholesaler accounts. Sorted by total buy volume.</p>
+<details class="account-row" data-search="mayesh wholesale florist inc california" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Mayesh Wholesale Florist Inc</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(California)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$463.0M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">11 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">3,479 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $463.0M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $463.0M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement</span>
+<span><b>Varieties bought:</b> 3,479</span>
+<span><b>Categories:</b> 525</span>
 </div>
-<div class="info-box" style="margin-top:1.5rem;"><b>What v2 will add:</b> Dynamic account lookup for any wholesaler. Real gap analysis from their procurement data × K2K connections. Personalized vendor recommendations based on their buying patterns. Requires ID crosswalk (vendor_id → global company_id).</div></div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $463.0M in offline buying. If 10% moves online = $46.3M incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (9 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>K2K - Welyflor</b></td>
+<td class="num">$191K</td>
+<td class="num">2</td></tr>
+<tr><td><b>K2K Queens Flowers</b></td>
+<td class="num">$100K</td>
+<td class="num">32</td></tr>
+<tr><td><b>K2K - Sunrite Farms</b></td>
+<td class="num">$90K</td>
+<td class="num">3</td></tr>
+<tr><td><b>GYPSO FLOWERS - GYPS</b></td>
+<td class="num">$67K</td>
+<td class="num">9</td></tr>
+<tr><td><b>K2K - Valley Springs</b></td>
+<td class="num">$37K</td>
+<td class="num">4</td></tr>
+<tr><td><b>MIA - GALLERIA FARMS LLC. - GAFA</b></td>
+<td class="num">$21K</td>
+<td class="num">15</td></tr>
+<tr><td><b>OLIMPO FLOWERS  FOB QUITO</b></td>
+<td class="num">$5K</td>
+<td class="num">2</td></tr>
+<tr><td><b>K2K - Cananvalle Flowers</b></td>
+<td class="num">$841</td>
+<td class="num">2</td></tr>
+<tr><td><b>K2K - L'artisan Roses</b></td>
+<td class="num">$322</td>
+<td class="num">2</td></tr>
+</tbody></table></div>
+<details style="margin-top:.5rem;border:1px dashed var(--line);">
+<summary style="font-size:.75rem;color:var(--ink-3);padding:.4rem .75rem;">Inactive connections (2 connected, $0 purchased)</summary>
+<div style="padding:.4rem .75rem;font-size:.75rem;color:var(--ink-3);">
+K2K - Flores Del Valle LTD Valleflor, K2K - Global Flowers
+</div></details>
+</div></details>
+<details class="account-row" data-search="kennicott brothers company illinois" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Kennicott Brothers Company</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Illinois)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$345.5M</span>
+<span style="font-size:.75rem;color:#059669;font-weight:600;">13.6% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">39 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">4,293 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $345.5M</span>
+<span><b>Online:</b> $47.1M (13.6%)</span>
+<span><b>Offline:</b> $298.4M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement,E-Shops Upsell</span>
+<span><b>Varieties bought:</b> 4,293</span>
+<span><b>Categories:</b> 69</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>KENNICOTT CENTRAL</b></td>
+<td class="num">$126.4M</td>
+<td class="num">41</td></tr>
+<tr><td><b>QUEENS FLOWER</b></td>
+<td class="num">$64.8M</td>
+<td class="num">24</td></tr>
+<tr><td><b>ROSA PRIMA</b></td>
+<td class="num">$35.6M</td>
+<td class="num">11</td></tr>
+<tr><td><b>SOLE FARMS</b></td>
+<td class="num">$21.4M</td>
+<td class="num">43</td></tr>
+<tr><td><b>JET FRESH FLOWER DIST.</b></td>
+<td class="num">$19.4M</td>
+<td class="num">54</td></tr>
+<tr><td><b>GOLDEN FLOWERS</b></td>
+<td class="num">$15.5M</td>
+<td class="num">27</td></tr>
+<tr><td><b>EQUIFLOR / RIO ROSES</b></td>
+<td class="num">$15.1M</td>
+<td class="num">24</td></tr>
+<tr><td><b>FRESCA FARMS LC.</b></td>
+<td class="num">$13.7M</td>
+<td class="num">45</td></tr>
+<tr><td><b>BELLA BLOSSOM LLC</b></td>
+<td class="num">$11.3M</td>
+<td class="num">36</td></tr>
+<tr><td><b>CHOICE FARMS LLC</b></td>
+<td class="num">$10.4M</td>
+<td class="num">18</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="bill doran company illinois" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Bill Doran Company</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Illinois)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$328.2M</span>
+<span style="font-size:.75rem;color:#B45309;font-weight:600;">3.5% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">60 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">5,747 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $328.2M</span>
+<span><b>Online:</b> $11.5M (3.5%)</span>
+<span><b>Offline:</b> $316.7M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement,E-Shops Upsell</span>
+<span><b>Varieties bought:</b> 5,747</span>
+<span><b>Categories:</b> 138</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $316.7M in offline buying. If 10% moves online = $31.7M incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>The Queen's Flowers</b></td>
+<td class="num">$24.6M</td>
+<td class="num">29</td></tr>
+<tr><td><b>Elite Exports Inc. - FOB MIA</b></td>
+<td class="num">$22.5M</td>
+<td class="num">43</td></tr>
+<tr><td><b>EQR Equatoroses C.A. - FOB MIA</b></td>
+<td class="num">$19.3M</td>
+<td class="num">13</td></tr>
+<tr><td><b>Multiflora - FOB MIA</b></td>
+<td class="num">$17.1M</td>
+<td class="num">53</td></tr>
+<tr><td><b>Natural Flowers</b></td>
+<td class="num">$11.0M</td>
+<td class="num">49</td></tr>
+<tr><td><b>Fern Trust Inc</b></td>
+<td class="num">$9.2M</td>
+<td class="num">11</td></tr>
+<tr><td><b>Miraflor</b></td>
+<td class="num">$7.9M</td>
+<td class="num">23</td></tr>
+<tr><td><b>Gala Roses / Ecuanros - FOB MIA</b></td>
+<td class="num">$7.8M</td>
+<td class="num">26</td></tr>
+<tr><td><b>Sunburst Farms Inc.</b></td>
+<td class="num">$7.6M</td>
+<td class="num">64</td></tr>
+<tr><td><b>Sole Farms</b></td>
+<td class="num">$6.4M</td>
+<td class="num">59</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="floralink " style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>FloraLink</b>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$4.6M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">39 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">2,419 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $4.6M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $4.6M</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 2,419</span>
+<span><b>Categories:</b> 131</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $4.6M in offline buying. If 10% moves online = $462K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Sole Farms</b></td>
+<td class="num">$936K</td>
+<td class="num">82</td></tr>
+<tr><td><b>Jet Fresh</b></td>
+<td class="num">$620K</td>
+<td class="num">111</td></tr>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$328K</td>
+<td class="num">70</td></tr>
+<tr><td><b>Stellar Farms</b></td>
+<td class="num">$313K</td>
+<td class="num">62</td></tr>
+<tr><td><b>Fresca Farms</b></td>
+<td class="num">$283K</td>
+<td class="num">89</td></tr>
+<tr><td><b>Royal Flowers</b></td>
+<td class="num">$258K</td>
+<td class="num">57</td></tr>
+<tr><td><b>US Greens Corp</b></td>
+<td class="num">$205K</td>
+<td class="num">63</td></tr>
+<tr><td><b>Choice Farms</b></td>
+<td class="num">$197K</td>
+<td class="num">29</td></tr>
+<tr><td><b>Queen's Flowers</b></td>
+<td class="num">$187K</td>
+<td class="num">33</td></tr>
+<tr><td><b>Welyflor</b></td>
+<td class="num">$186K</td>
+<td class="num">2</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="apex floral distributors " style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Apex Floral Distributors</b>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$3.7M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">0 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">781 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $3.7M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $3.7M</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 781</span>
+<span><b>Categories:</b> 76</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $3.7M in offline buying. If 10% moves online = $374K incremental.
+</div>
+<p style="font-size:.8rem;color:var(--ink-3);">No vendor connection data available for this account.</p>
+</div></details>
+<details class="account-row" data-search="ninfa flowers florida" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Ninfa Flowers</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Florida)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$3.3M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">0 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">1,050 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $3.3M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $3.3M</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 1,050</span>
+<span><b>Categories:</b> 75</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $3.3M in offline buying. If 10% moves online = $325K incremental.
+</div>
+<p style="font-size:.8rem;color:var(--ink-3);">No vendor connection data available for this account.</p>
+</div></details>
+<details class="account-row" data-search="flora fresh inc california" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Flora Fresh Inc</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(California)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$2.8M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">28 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">1,010 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $2.8M</span>
+<span><b>Online:</b> $577 (0.0%)</span>
+<span><b>Offline:</b> $2.8M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement Free Trial,E-Shops Upsell</span>
+<span><b>Varieties bought:</b> 1,010</span>
+<span><b>Categories:</b> 183</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $2.8M in offline buying. If 10% moves online = $280K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$111K</td>
+<td class="num">17</td></tr>
+<tr><td><b>Shaw Lake Farms Inc</b></td>
+<td class="num">$75K</td>
+<td class="num">11</td></tr>
+<tr><td><b>EQR USA</b></td>
+<td class="num">$53K</td>
+<td class="num">3</td></tr>
+<tr><td><b>Sole Farms</b></td>
+<td class="num">$46K</td>
+<td class="num">18</td></tr>
+<tr><td><b>STARFLOWERS/MALIMA</b></td>
+<td class="num">$26K</td>
+<td class="num">2</td></tr>
+<tr><td><b>FRESCA FARMS</b></td>
+<td class="num">$17K</td>
+<td class="num">19</td></tr>
+<tr><td><b>FLORAL CHAIN DIRECT</b></td>
+<td class="num">$10K</td>
+<td class="num">4</td></tr>
+<tr><td><b>Jet Fresh Flowers Distributors Inc.</b></td>
+<td class="num">$8K</td>
+<td class="num">16</td></tr>
+<tr><td><b>Galleria Farms</b></td>
+<td class="num">$8K</td>
+<td class="num">6</td></tr>
+<tr><td><b>A Trilogy Floral-Zamba Flowers</b></td>
+<td class="num">$3K</td>
+<td class="num">7</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="h&t wholesale flowers arizona" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>H&T Wholesale Flowers</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Arizona)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$2.7M</span>
+<span style="font-size:.75rem;color:#B45309;font-weight:600;">0.1% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">65 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">766 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $2.7M</span>
+<span><b>Online:</b> $2K (0.1%)</span>
+<span><b>Offline:</b> $2.7M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement,E-Shops Upsell</span>
+<span><b>Varieties bought:</b> 766</span>
+<span><b>Categories:</b> 106</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $2.7M in offline buying. If 10% moves online = $273K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Rosaprima International LLC</b></td>
+<td class="num">$2.0M</td>
+<td class="num">8</td></tr>
+<tr><td><b>The Queen's Flowers</b></td>
+<td class="num">$569K</td>
+<td class="num">17</td></tr>
+<tr><td><b>EcoRoses TWI</b></td>
+<td class="num">$112K</td>
+<td class="num">6</td></tr>
+<tr><td><b>Bella Blossom LLC</b></td>
+<td class="num">$109K</td>
+<td class="num">40</td></tr>
+<tr><td><b>Sunrite Farms</b></td>
+<td class="num">$102K</td>
+<td class="num">3</td></tr>
+<tr><td><b>Jet Fresh Flower Distributors Inc.</b></td>
+<td class="num">$76K</td>
+<td class="num">47</td></tr>
+<tr><td><b>Continental Floral Greens</b></td>
+<td class="num">$59K</td>
+<td class="num">5</td></tr>
+<tr><td><b>US Greens Corp</b></td>
+<td class="num">$53K</td>
+<td class="num">22</td></tr>
+<tr><td><b>Allure Farms Inc.</b></td>
+<td class="num">$52K</td>
+<td class="num">41</td></tr>
+<tr><td><b>Royal Flowers</b></td>
+<td class="num">$50K</td>
+<td class="num">32</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="arizona family florist arizona" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Arizona Family Florist</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Arizona)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$2.7M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">77 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">1,195 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $2.7M</span>
+<span><b>Online:</b> $87 (0.0%)</span>
+<span><b>Offline:</b> $2.7M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement Free Trial</span>
+<span><b>Varieties bought:</b> 1,195</span>
+<span><b>Categories:</b> 77</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $2.7M in offline buying. If 10% moves online = $272K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Holex MIA</b></td>
+<td class="num">$128K</td>
+<td class="num">26</td></tr>
+<tr><td><b>The Queens Flowers</b></td>
+<td class="num">$121K</td>
+<td class="num">7</td></tr>
+<tr><td><b>Multiflora BOG</b></td>
+<td class="num">$105K</td>
+<td class="num">8</td></tr>
+<tr><td><b>Continental Floral Greens MIA</b></td>
+<td class="num">$76K</td>
+<td class="num">5</td></tr>
+<tr><td><b>Choice Farms</b></td>
+<td class="num">$61K</td>
+<td class="num">19</td></tr>
+<tr><td><b>Allure Farms, Inc</b></td>
+<td class="num">$56K</td>
+<td class="num">34</td></tr>
+<tr><td><b>Jet Fresh Flowers</b></td>
+<td class="num">$56K</td>
+<td class="num">26</td></tr>
+<tr><td><b>Sole Farms</b></td>
+<td class="num">$46K</td>
+<td class="num">33</td></tr>
+<tr><td><b>Rosaprima MIA</b></td>
+<td class="num">$45K</td>
+<td class="num">9</td></tr>
+<tr><td><b>Mystic Flowers</b></td>
+<td class="num">$44K</td>
+<td class="num">5</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="tropical blooms inc. florida" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Tropical Blooms Inc.</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Florida)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$2.7M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">19 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">738 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $2.7M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $2.7M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement Free Trial</span>
+<span><b>Varieties bought:</b> 738</span>
+<span><b>Categories:</b> 97</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $2.7M in offline buying. If 10% moves online = $269K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (9 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>SHAW LAKE FARMS</b></td>
+<td class="num">$128K</td>
+<td class="num">3</td></tr>
+<tr><td><b>THE QUEENS FLOWERS</b></td>
+<td class="num">$117K</td>
+<td class="num">18</td></tr>
+<tr><td><b>AMERILINK</b></td>
+<td class="num">$82K</td>
+<td class="num">5</td></tr>
+<tr><td><b>CANANVALLE</b></td>
+<td class="num">$59K</td>
+<td class="num">1</td></tr>
+<tr><td><b>CONTINENTAL FARMS</b></td>
+<td class="num">$36K</td>
+<td class="num">1</td></tr>
+<tr><td><b>JET FRESH FLOWERS</b></td>
+<td class="num">$8K</td>
+<td class="num">5</td></tr>
+<tr><td><b>sole farms</b></td>
+<td class="num">$538</td>
+<td class="num">5</td></tr>
+<tr><td><b>PROTEAN FARMS</b></td>
+<td class="num">$359</td>
+<td class="num">1</td></tr>
+<tr><td><b>DP FLOWERS</b></td>
+<td class="num">$275</td>
+<td class="num">1</td></tr>
+</tbody></table></div>
+<details style="margin-top:.5rem;border:1px dashed var(--line);">
+<summary style="font-size:.75rem;color:var(--ink-3);padding:.4rem .75rem;">Inactive connections (6 connected, $0 purchased)</summary>
+<div style="padding:.4rem .75rem;font-size:.75rem;color:var(--ink-3);">
+NARANJO, MEGAFLOR, LA TOSCANA, FLORES SILVESTRES, Sierra, MELODY
+</div></details>
+</div></details>
+<details class="account-row" data-search="stemline wholesale michigan" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Stemline Wholesale</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Michigan)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$2.2M</span>
+<span style="font-size:.75rem;color:#B45309;font-weight:600;">9.2% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">41 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">1,222 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $2.2M</span>
+<span><b>Online:</b> $203K (9.2%)</span>
+<span><b>Offline:</b> $2.0M</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 1,222</span>
+<span><b>Categories:</b> 98</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Welyflor</b></td>
+<td class="num">$82K</td>
+<td class="num">2</td></tr>
+<tr><td><b>GOLDEN</b></td>
+<td class="num">$72K</td>
+<td class="num">19</td></tr>
+<tr><td><b>SOLE</b></td>
+<td class="num">$43K</td>
+<td class="num">36</td></tr>
+<tr><td><b>Galleria</b></td>
+<td class="num">$42K</td>
+<td class="num">18</td></tr>
+<tr><td><b>Jet Fresh</b></td>
+<td class="num">$40K</td>
+<td class="num">40</td></tr>
+<tr><td><b>Mayta/Native Blooms</b></td>
+<td class="num">$33K</td>
+<td class="num">2</td></tr>
+<tr><td><b>Rosa Prima</b></td>
+<td class="num">$27K</td>
+<td class="num">5</td></tr>
+<tr><td><b>Gala Roses</b></td>
+<td class="num">$25K</td>
+<td class="num">13</td></tr>
+<tr><td><b>FRESCA</b></td>
+<td class="num">$23K</td>
+<td class="num">35</td></tr>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$23K</td>
+<td class="num">27</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="jfs wholesale floral utah" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>JFS Wholesale Floral</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Utah)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$2.2M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">48 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">916 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $2.2M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $2.2M</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 916</span>
+<span><b>Categories:</b> 166</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $2.2M in offline buying. If 10% moves online = $215K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>THE QUEENS FLOWERS</b></td>
+<td class="num">$103K</td>
+<td class="num">13</td></tr>
+<tr><td><b>HOJA VERDE</b></td>
+<td class="num">$38K</td>
+<td class="num">5</td></tr>
+<tr><td><b>NATIVE BLOOMS (MAYTA INTERNATIONAL)</b></td>
+<td class="num">$37K</td>
+<td class="num">3</td></tr>
+<tr><td><b>TESSA CORP (GALA ROSES LLC)</b></td>
+<td class="num">$35K</td>
+<td class="num">10</td></tr>
+<tr><td><b>MULTIFLORA</b></td>
+<td class="num">$20K</td>
+<td class="num">13</td></tr>
+<tr><td><b>SOLE FARMS</b></td>
+<td class="num">$20K</td>
+<td class="num">18</td></tr>
+<tr><td><b>MUCH FLOWERS</b></td>
+<td class="num">$19K</td>
+<td class="num">4</td></tr>
+<tr><td><b>MONTEROSAS</b></td>
+<td class="num">$16K</td>
+<td class="num">2</td></tr>
+<tr><td><b>THE ELITE FLOWER (FLORA CONCEPT)</b></td>
+<td class="num">$15K</td>
+<td class="num">9</td></tr>
+<tr><td><b>WELYFLOR</b></td>
+<td class="num">$14K</td>
+<td class="num">1</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="orlando wholesale florist florida" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Orlando Wholesale Florist</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Florida)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$1.7M</span>
+<span style="font-size:.75rem;color:#B45309;font-weight:600;">0.2% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">55 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">466 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $1.7M</span>
+<span><b>Online:</b> $3K (0.2%)</span>
+<span><b>Offline:</b> $1.7M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement Free Trial</span>
+<span><b>Varieties bought:</b> 466</span>
+<span><b>Categories:</b> 155</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $1.7M in offline buying. If 10% moves online = $174K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Jet Fresh Flower Distributor</b></td>
+<td class="num">$72K</td>
+<td class="num">70</td></tr>
+<tr><td><b>Albin Hagstrom</b></td>
+<td class="num">$68K</td>
+<td class="num">1</td></tr>
+<tr><td><b>Choice Farms</b></td>
+<td class="num">$49K</td>
+<td class="num">25</td></tr>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$38K</td>
+<td class="num">40</td></tr>
+<tr><td><b>Sole Farms</b></td>
+<td class="num">$35K</td>
+<td class="num">40</td></tr>
+<tr><td><b>Allure Farms, Inc</b></td>
+<td class="num">$29K</td>
+<td class="num">47</td></tr>
+<tr><td><b>Fresca Farms</b></td>
+<td class="num">$28K</td>
+<td class="num">42</td></tr>
+<tr><td><b>Sunrite Farms</b></td>
+<td class="num">$24K</td>
+<td class="num">2</td></tr>
+<tr><td><b>PatFlor Italy</b></td>
+<td class="num">$24K</td>
+<td class="num">8</td></tr>
+<tr><td><b>Groflowers</b></td>
+<td class="num">$22K</td>
+<td class="num">3</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="we got flowers arizona" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>WE GOT FLOWERS</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Arizona)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$1.5M</span>
+<span style="font-size:.75rem;color:#B45309;font-weight:600;">0.6% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">48 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">486 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $1.5M</span>
+<span><b>Online:</b> $9K (0.6%)</span>
+<span><b>Offline:</b> $1.5M</span>
+<span><b>System:</b> Komet Core,Koronet Procurement</span>
+<span><b>Varieties bought:</b> 486</span>
+<span><b>Categories:</b> 86</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $1.5M in offline buying. If 10% moves online = $150K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>NARANJO ROSES MIAMI</b></td>
+<td class="num">$198K</td>
+<td class="num">6</td></tr>
+<tr><td><b>GALA ROSES LLC</b></td>
+<td class="num">$94K</td>
+<td class="num">14</td></tr>
+<tr><td><b>THE QUEEN'S FLOWERS</b></td>
+<td class="num">$83K</td>
+<td class="num">11</td></tr>
+<tr><td><b>SHAW LAKE FARMS, INC.</b></td>
+<td class="num">$50K</td>
+<td class="num">3</td></tr>
+<tr><td><b>DRAMM & ECHTER</b></td>
+<td class="num">$49K</td>
+<td class="num">21</td></tr>
+<tr><td><b>ROSA PRIMAFRESH INTERNATIONAL</b></td>
+<td class="num">$35K</td>
+<td class="num">7</td></tr>
+<tr><td><b>JET FRESH FLOWERS</b></td>
+<td class="num">$29K</td>
+<td class="num">41</td></tr>
+<tr><td><b>THE FLOWER CO, LLC</b></td>
+<td class="num">$27K</td>
+<td class="num">4</td></tr>
+<tr><td><b>GROFLOWERS</b></td>
+<td class="num">$26K</td>
+<td class="num">4</td></tr>
+<tr><td><b>GALLERIA FARMS</b></td>
+<td class="num">$21K</td>
+<td class="num">20</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="metro flower market llc " style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Metro Flower Market LLC</b>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$1.3M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">24 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">2,119 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $1.3M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $1.3M</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 2,119</span>
+<span><b>Categories:</b> 134</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $1.3M in offline buying. If 10% moves online = $135K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Queens-MIAMI</b></td>
+<td class="num">$117K</td>
+<td class="num">18</td></tr>
+<tr><td><b>ELITE-FLK MIAMI</b></td>
+<td class="num">$96K</td>
+<td class="num">30</td></tr>
+<tr><td><b>US Greens-MIAMI</b></td>
+<td class="num">$66K</td>
+<td class="num">21</td></tr>
+<tr><td><b>Patflor-FLK MIAMI</b></td>
+<td class="num">$24K</td>
+<td class="num">6</td></tr>
+<tr><td><b>Fresca Farms-MIAMI</b></td>
+<td class="num">$18K</td>
+<td class="num">44</td></tr>
+<tr><td><b>Jet Fresh-MIAMI</b></td>
+<td class="num">$15K</td>
+<td class="num">44</td></tr>
+<tr><td><b>Bella Blossom MIAMI</b></td>
+<td class="num">$14K</td>
+<td class="num">43</td></tr>
+<tr><td><b>Galleria-MIAMI</b></td>
+<td class="num">$12K</td>
+<td class="num">26</td></tr>
+<tr><td><b>Stellar-MIAMI</b></td>
+<td class="num">$5K</td>
+<td class="num">23</td></tr>
+<tr><td><b>Sole-MIAMI</b></td>
+<td class="num">$5K</td>
+<td class="num">26</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="sims flower distribution " style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Sims Flower Distribution</b>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$1.3M</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">40 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">1,381 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $1.3M</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $1.3M</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 1,381</span>
+<span><b>Categories:</b> 89</span>
+</div>
+<div style="background:#FEF3C7;border-radius:6px;padding:.5rem .75rem;font-size:.8rem;color:#92400E;margin-bottom:.75rem;">
+<b>Opportunity:</b> $1.3M in offline buying. If 10% moves online = $131K incremental.
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Royal Base America</b></td>
+<td class="num">$122K</td>
+<td class="num">1</td></tr>
+<tr><td><b>Jet Fresh Flowers</b></td>
+<td class="num">$47K</td>
+<td class="num">45</td></tr>
+<tr><td><b>Royal Flowers</b></td>
+<td class="num">$40K</td>
+<td class="num">24</td></tr>
+<tr><td><b>Sole Farms</b></td>
+<td class="num">$37K</td>
+<td class="num">32</td></tr>
+<tr><td><b>Fresca Farms</b></td>
+<td class="num">$35K</td>
+<td class="num">32</td></tr>
+<tr><td><b>Rumhora Greens LLC</b></td>
+<td class="num">$24K</td>
+<td class="num">4</td></tr>
+<tr><td><b>Moonlight</b></td>
+<td class="num">$22K</td>
+<td class="num">2</td></tr>
+<tr><td><b>Sunrite Farms MIAMI</b></td>
+<td class="num">$20K</td>
+<td class="num">2</td></tr>
+<tr><td><b>Allure Farms</b></td>
+<td class="num">$19K</td>
+<td class="num">34</td></tr>
+<tr><td><b>Golden Flowers</b></td>
+<td class="num">$18K</td>
+<td class="num">4</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="cd wholesale michigan" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>CD Wholesale</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Michigan)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$976K</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">33 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">703 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $976K</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $976K</span>
+<span><b>System:</b> Komet Core,Koronet Procurement Free Trial</span>
+<span><b>Varieties bought:</b> 703</span>
+<span><b>Categories:</b> 108</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Welyflor (G&G Cargo) - FOB Miami</b></td>
+<td class="num">$281K</td>
+<td class="num">2</td></tr>
+<tr><td><b>Cananvalle USA</b></td>
+<td class="num">$68K</td>
+<td class="num">3</td></tr>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$52K</td>
+<td class="num">28</td></tr>
+<tr><td><b>A1 Floral Expressions</b></td>
+<td class="num">$33K</td>
+<td class="num">7</td></tr>
+<tr><td><b>Fresca Farms</b></td>
+<td class="num">$31K</td>
+<td class="num">17</td></tr>
+<tr><td><b>Bella Blossoms</b></td>
+<td class="num">$27K</td>
+<td class="num">33</td></tr>
+<tr><td><b>Golden Flowers</b></td>
+<td class="num">$26K</td>
+<td class="num">9</td></tr>
+<tr><td><b>Gardens America</b></td>
+<td class="num">$13K</td>
+<td class="num">13</td></tr>
+<tr><td><b>Sole Farms</b></td>
+<td class="num">$13K</td>
+<td class="num">22</td></tr>
+<tr><td><b>Miaflora</b></td>
+<td class="num">$9K</td>
+<td class="num">23</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="ny floral supply new york" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>NY Floral Supply</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(New York)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$899K</span>
+<span style="font-size:.75rem;color:#B45309;font-weight:600;">0.3% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">24 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">671 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $899K</span>
+<span><b>Online:</b> $3K (0.3%)</span>
+<span><b>Offline:</b> $897K</span>
+<span><b>System:</b> Komet Core,Koronet Procurement Free Trial</span>
+<span><b>Varieties bought:</b> 671</span>
+<span><b>Categories:</b> 75</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>The Queens Flowers</b></td>
+<td class="num">$158K</td>
+<td class="num">14</td></tr>
+<tr><td><b>Anni Roses</b></td>
+<td class="num">$94K</td>
+<td class="num">3</td></tr>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$55K</td>
+<td class="num">30</td></tr>
+<tr><td><b>Melody Farms LLC</b></td>
+<td class="num">$40K</td>
+<td class="num">10</td></tr>
+<tr><td><b>MONTEROSAS</b></td>
+<td class="num">$32K</td>
+<td class="num">2</td></tr>
+<tr><td><b>Excellent Flowers Inc.</b></td>
+<td class="num">$26K</td>
+<td class="num">3</td></tr>
+<tr><td><b>Sunburst Farms</b></td>
+<td class="num">$24K</td>
+<td class="num">13</td></tr>
+<tr><td><b>NARANJO FARMS</b></td>
+<td class="num">$18K</td>
+<td class="num">3</td></tr>
+<tr><td><b>Bella Blossom</b></td>
+<td class="num">$13K</td>
+<td class="num">26</td></tr>
+<tr><td><b>COQUETTE ROSES</b></td>
+<td class="num">$11K</td>
+<td class="num">2</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="metropetals " style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Metropetals</b>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$864K</span>
+<span style="font-size:.75rem;color:#E11D48;font-weight:600;">0.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">37 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">951 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $864K</span>
+<span><b>Online:</b> $0 (0.0%)</span>
+<span><b>Offline:</b> $864K</span>
+<span><b>System:</b> Komet Core</span>
+<span><b>Varieties bought:</b> 951</span>
+<span><b>Categories:</b> 90</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Miaflora (MIA)</b></td>
+<td class="num">$10K</td>
+<td class="num">22</td></tr>
+<tr><td><b>Jet Fresh Flowers (MIA)</b></td>
+<td class="num">$7K</td>
+<td class="num">25</td></tr>
+<tr><td><b>Kontiki (NYC)</b></td>
+<td class="num">$7K</td>
+<td class="num">12</td></tr>
+<tr><td><b>Melody Farms (MIA)</b></td>
+<td class="num">$6K</td>
+<td class="num">20</td></tr>
+<tr><td><b>Sole Farms (MIA)</b></td>
+<td class="num">$6K</td>
+<td class="num">20</td></tr>
+<tr><td><b>Royal Flowers (MIA)</b></td>
+<td class="num">$5K</td>
+<td class="num">13</td></tr>
+<tr><td><b>Fresca Farms (MIA)</b></td>
+<td class="num">$5K</td>
+<td class="num">19</td></tr>
+<tr><td><b>The Queens Flowers (MIA)</b></td>
+<td class="num">$4K</td>
+<td class="num">13</td></tr>
+<tr><td><b>Gardens America (MIA)</b></td>
+<td class="num">$3K</td>
+<td class="num">10</td></tr>
+<tr><td><b>Pinnacle Flowers (MIA)</b></td>
+<td class="num">$3K</td>
+<td class="num">9</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="zeidler floral indiana" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Zeidler Floral</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Indiana)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$631K</span>
+<span style="font-size:.75rem;color:#059669;font-weight:600;">15.8% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">18 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">706 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $631K</span>
+<span><b>Online:</b> $100K (15.8%)</span>
+<span><b>Offline:</b> $532K</span>
+<span><b>System:</b> Komet Core,Koronet Procurement,E-Shops Upsell</span>
+<span><b>Varieties bought:</b> 706</span>
+<span><b>Categories:</b> 26</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (12 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>CONTINENTAL FARMS LLC</b></td>
+<td class="num">$122K</td>
+<td class="num">4</td></tr>
+<tr><td><b>FRESCA FARMS</b></td>
+<td class="num">$64K</td>
+<td class="num">8</td></tr>
+<tr><td><b>SOLE FARMS</b></td>
+<td class="num">$56K</td>
+<td class="num">4</td></tr>
+<tr><td><b>US GREENS CORP</b></td>
+<td class="num">$29K</td>
+<td class="num">4</td></tr>
+<tr><td><b>RIVERDALE FARMS LLC</b></td>
+<td class="num">$23K</td>
+<td class="num">3</td></tr>
+<tr><td><b>GALLERIA FARMS</b></td>
+<td class="num">$17K</td>
+<td class="num">5</td></tr>
+<tr><td><b>EQUIFLOR CORPORATION</b></td>
+<td class="num">$14K</td>
+<td class="num">6</td></tr>
+<tr><td><b>CHOICE FARMS CORP</b></td>
+<td class="num">$13K</td>
+<td class="num">7</td></tr>
+<tr><td><b>ANTON SPAARGAREN BV</b></td>
+<td class="num">$9K</td>
+<td class="num">1</td></tr>
+<tr><td><b>ROSAPRIMA INTERNATIONAL LLC</b></td>
+<td class="num">$3K</td>
+<td class="num">1</td></tr>
+</tbody></table></div>
+<details style="margin-top:.5rem;border:1px dashed var(--line);">
+<summary style="font-size:.75rem;color:var(--ink-3);padding:.4rem .75rem;">Inactive connections (3 connected, $0 purchased)</summary>
+<div style="padding:.4rem .75rem;font-size:.75rem;color:var(--ink-3);">
+AquaRose, MALIMA USA, k2kmiami
+</div></details>
+</div></details>
+<details class="account-row" data-search="floristcentric, llc " style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Floristcentric, LLC</b>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$486K</span>
+<span style="font-size:.75rem;color:#B45309;font-weight:600;">1.0% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">57 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">617 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $486K</span>
+<span><b>Online:</b> $5K (1.0%)</span>
+<span><b>Offline:</b> $481K</span>
+<span><b>System:</b> Komet Core,Koronet Procurement Free Trial</span>
+<span><b>Varieties bought:</b> 617</span>
+<span><b>Categories:</b> 205</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>ROSAPRIMA</b></td>
+<td class="num">$40K</td>
+<td class="num">7</td></tr>
+<tr><td><b>JET FRESH FLOWERS</b></td>
+<td class="num">$29K</td>
+<td class="num">42</td></tr>
+<tr><td><b>CHOICE FARMS</b></td>
+<td class="num">$23K</td>
+<td class="num">17</td></tr>
+<tr><td><b>SOLE FARMS</b></td>
+<td class="num">$16K</td>
+<td class="num">25</td></tr>
+<tr><td><b>ALBIN HAGSTROM & SON</b></td>
+<td class="num">$10K</td>
+<td class="num">19</td></tr>
+<tr><td><b>ALLURE FARMS</b></td>
+<td class="num">$9K</td>
+<td class="num">22</td></tr>
+<tr><td><b>FRESCA FARMS</b></td>
+<td class="num">$8K</td>
+<td class="num">29</td></tr>
+<tr><td><b>ECO ROSE MIAMI</b></td>
+<td class="num">$6K</td>
+<td class="num">4</td></tr>
+<tr><td><b>GALLERIA FARMS</b></td>
+<td class="num">$5K</td>
+<td class="num">14</td></tr>
+<tr><td><b>TESSA CORP</b></td>
+<td class="num">$3K</td>
+<td class="num">6</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="riverside wholesale florists ky kentucky" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Riverside Wholesale Florists KY</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Kentucky)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$467K</span>
+<span style="font-size:.75rem;color:#059669;font-weight:600;">12.6% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">22 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">892 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $467K</span>
+<span><b>Online:</b> $59K (12.6%)</span>
+<span><b>Offline:</b> $408K</span>
+<span><b>System:</b> Komet Core,Koronet Procurement</span>
+<span><b>Varieties bought:</b> 892</span>
+<span><b>Categories:</b> 100</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (14 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>-Sole Farms</b></td>
+<td class="num">$65K</td>
+<td class="num">44</td></tr>
+<tr><td><b>The Queens Flowers, Corp</b></td>
+<td class="num">$63K</td>
+<td class="num">13</td></tr>
+<tr><td><b>Royal Flowers Inc., Domestic</b></td>
+<td class="num">$43K</td>
+<td class="num">35</td></tr>
+<tr><td><b>A Trilogy Floral - Zamba Flowers</b></td>
+<td class="num">$34K</td>
+<td class="num">32</td></tr>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$19K</td>
+<td class="num">38</td></tr>
+<tr><td><b>U.S. Greens Corp</b></td>
+<td class="num">$16K</td>
+<td class="num">8</td></tr>
+<tr><td><b>Fresca Farms</b></td>
+<td class="num">$7K</td>
+<td class="num">23</td></tr>
+<tr><td><b>Jet Fresh Flower Distributors Inc.</b></td>
+<td class="num">$6K</td>
+<td class="num">26</td></tr>
+<tr><td><b>Muchflowers Inc.</b></td>
+<td class="num">$5K</td>
+<td class="num">2</td></tr>
+<tr><td><b>!A SUNRITE FARMS COLLECTIONS CORP</b></td>
+<td class="num">$2K</td>
+<td class="num">3</td></tr>
+</tbody></table></div>
+<details style="margin-top:.5rem;border:1px dashed var(--line);">
+<summary style="font-size:.75rem;color:var(--ink-3);padding:.4rem .75rem;">Inactive connections (1 connected, $0 purchased)</summary>
+<div style="padding:.4rem .75rem;font-size:.75rem;color:var(--ink-3);">
+Multiflora Corporation
+</div></details>
+</div></details>
+<details class="account-row" data-search="maple grove floral new york" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Maple Grove Floral</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(New York)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$459K</span>
+<span style="font-size:.75rem;color:#059669;font-weight:600;">17.8% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">112 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">900 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $459K</span>
+<span><b>Online:</b> $82K (17.8%)</span>
+<span><b>Offline:</b> $377K</span>
+<span><b>System:</b> Komet Core,Koronet Procurement</span>
+<span><b>Varieties bought:</b> 900</span>
+<span><b>Categories:</b> 115</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Continental Flowers Inc. (RBC)</b></td>
+<td class="num">$16K</td>
+<td class="num">18</td></tr>
+<tr><td><b>Rosaprima - MIA (RBC)</b></td>
+<td class="num">$13K</td>
+<td class="num">5</td></tr>
+<tr><td><b>Protean Flowers Farms (RBC)</b></td>
+<td class="num">$11K</td>
+<td class="num">12</td></tr>
+<tr><td><b>Galleria Farms (RBC)</b></td>
+<td class="num">$10K</td>
+<td class="num">19</td></tr>
+<tr><td><b>Sole' Farms (RBC)</b></td>
+<td class="num">$9K</td>
+<td class="num">23</td></tr>
+<tr><td><b>U.S. Greens Corp (RBC)</b></td>
+<td class="num">$8K</td>
+<td class="num">6</td></tr>
+<tr><td><b>Golden Flowers (RBC)</b></td>
+<td class="num">$7K</td>
+<td class="num">13</td></tr>
+<tr><td><b>The Queen's Flowers (RBC)</b></td>
+<td class="num">$6K</td>
+<td class="num">12</td></tr>
+<tr><td><b>Bella Blossoms LLC (ACH)</b></td>
+<td class="num">$5K</td>
+<td class="num">17</td></tr>
+<tr><td><b>Miaflora Farms (RBC)</b></td>
+<td class="num">$4K</td>
+<td class="num">19</td></tr>
+</tbody></table></div>
+</div></details>
+<details class="account-row" data-search="price's floral wholesale, llc virginia" style="margin-bottom:.35rem;">
+<summary style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;padding:.55rem .75rem;">
+<span style="flex:1;min-width:200px;"><b>Price's Floral Wholesale, LLC</b>
+ <span style="font-size:.7rem;color:var(--ink-3);">(Virginia)</span>
+</span>
+<span style="font-size:.8rem;font-weight:600;">$232K</span>
+<span style="font-size:.75rem;color:#059669;font-weight:600;">49.1% online</span>
+<span style="font-size:.75rem;color:var(--ink-3);">36 vendors</span>
+<span style="font-size:.75rem;color:var(--ink-3);">665 var</span>
+</summary>
+<div style="padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--surface);">
+<div style="display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2);margin-bottom:.75rem;">
+<span><b>Total buy (H1 2026):</b> $232K</span>
+<span><b>Online:</b> $114K (49.1%)</span>
+<span><b>Offline:</b> $118K</span>
+<span><b>System:</b> Komet Core,Koronet Procurement,E-Shops Upsell</span>
+<span><b>Varieties bought:</b> 665</span>
+<span><b>Categories:</b> 178</span>
+</div>
+<h3 style="font-size:.8rem;margin:0 0 .4rem;">Active vendor connections (15 buying)</h3>
+<div class="tablewrap"><table class="sub-table"><thead><tr>
+<th>Vendor</th><th>Buy H1 ($)</th><th>Categories</th>
+</tr></thead><tbody>
+<tr><td><b>Rosaprima International, LLC</b></td>
+<td class="num">$18K</td>
+<td class="num">9</td></tr>
+<tr><td><b>Continental Flowers</b></td>
+<td class="num">$18K</td>
+<td class="num">38</td></tr>
+<tr><td><b>A Trilogy Floral - Zamba Flowers</b></td>
+<td class="num">$17K</td>
+<td class="num">39</td></tr>
+<tr><td><b>Fresca Farms</b></td>
+<td class="num">$14K</td>
+<td class="num">41</td></tr>
+<tr><td><b>-Sole Farms</b></td>
+<td class="num">$14K</td>
+<td class="num">40</td></tr>
+<tr><td><b>U.S. Greens Corp</b></td>
+<td class="num">$13K</td>
+<td class="num">39</td></tr>
+<tr><td><b>Galleria Farms</b></td>
+<td class="num">$10K</td>
+<td class="num">15</td></tr>
+<tr><td><b>Allure Farms</b></td>
+<td class="num">$10K</td>
+<td class="num">35</td></tr>
+<tr><td><b>Choice Farms</b></td>
+<td class="num">$9K</td>
+<td class="num">26</td></tr>
+<tr><td><b>Stellar Farms</b></td>
+<td class="num">$7K</td>
+<td class="num">23</td></tr>
+</tbody></table></div>
+</div></details>
+<script>
+(function(){
+  var s=document.getElementById('account-search');
+  if(s)s.addEventListener('input',function(e){
+    var q=e.target.value.toLowerCase();
+    document.querySelectorAll('.account-row').forEach(function(r){
+      r.style.display=(q===''||r.dataset.search.indexOf(q)>=0)?'':'none';
+    });
+  });
+})();
+</script></div>
     </div>
   </div>
 
   <footer>
     <div><b>How to use</b> Search a variety or category. Check demand and balance. Click to see vendors with price and timeframe. Use Vendor Profiles for quality.</div>
     <div><b>Coming in v2</b> External vendor quality (certs, brand). Seasonality by region. Account-specific view. Daily refresh. Vendor quality inline in drill-down.</div>
-    <div><b>Data note</b> Demand = 12mo procurement (all channels). Supply = inventory snapshot (2026-08-14 19:28). Balance is directional. 177/1171 demand matched &mdash; gap is naming differences.</div>
+    <div><b>Data note</b> Demand = 12mo procurement (all channels). Supply = inventory snapshot (2026-08-14 19:42). Balance is directional. 177/1171 demand matched &mdash; gap is naming differences.</div>
   </footer>
 
 </div>

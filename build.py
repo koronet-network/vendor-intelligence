@@ -40,9 +40,9 @@ OUTPUT_DIR = SCRIPT_DIR / "output"
 OUTPUT_FILE = OUTPUT_DIR / "vendor_intelligence.html"
 
 # Source data files
-VARIETY_MASTER = SCRIPT_DIR / "data" / "variety_master.json"
-VENDOR_PROFILES = SCRIPT_DIR / "data" / "vendor_internal_profiles.json"
-CATEGORY_MAP = SCRIPT_DIR / "data" / "canonical_category_map.json"
+VARIETY_MASTER = Path("/Users/facu/Koronet_OS/ops/data/variety_master.json")
+VENDOR_PROFILES = Path("/Users/facu/Koronet_OS/ops/data/vendor_internal_profiles.json")
+CATEGORY_MAP = Path("/Users/facu/Koronet_OS/ops/data/canonical_category_map.json")
 VENDOR_VARIETY_DETAIL = Path("/Users/facu/Koronet_OS/ops/data/vendor_variety_detail.json")
 
 # Display config
@@ -67,12 +67,28 @@ def load_data():
     with open(CATEGORY_MAP) as f:
         data['categories'] = json.load(f)
 
-    vendor_complete_path = SCRIPT_DIR / "data" / "vendor_complete.json"
+    vendor_complete_path = Path("/Users/facu/Koronet_OS/ops/data/vendor_complete.json")
     if vendor_complete_path.exists():
         with open(vendor_complete_path) as f:
             data['vendor_complete'] = json.load(f)
     else:
         data['vendor_complete'] = {'vendors': {}}
+
+    # Seasonality
+    seasonality_path = Path("/Users/facu/Koronet_OS/ops/data/seasonality.json")
+    if seasonality_path.exists():
+        with open(seasonality_path) as f:
+            data['seasonality'] = json.load(f)
+    else:
+        data['seasonality'] = {}
+
+    # Accounts
+    accounts_path = Path("/Users/facu/Koronet_OS/ops/data/accounts_priority.json")
+    if accounts_path.exists():
+        with open(accounts_path) as f:
+            data['accounts'] = json.load(f)
+    else:
+        data['accounts'] = {}
 
     # Compute stats
     all_vars = [v for cat in data['varieties']['categories'].values() for v in cat]
@@ -799,8 +815,12 @@ def generate_tab3(data):
 # TABS 4-5: PLACEHOLDERS
 # ============================================================
 
-def generate_tab4():
-    # Seasonality mockup with heatmap
+def generate_tab4(data=None):
+    from tab4_clean import generate_tab4 as _clean_tab4
+    seasonality = data.get('seasonality', {}) if data else {}
+    if seasonality and seasonality.get('zones'):
+        return _clean_tab4(seasonality)
+    # Fallback to mockup
     categories = ['Rose', 'Carnation', 'Hydrangea', 'Ranunculus', 'Peony', 'Tulip', 'Greens', 'Lisianthus']
     months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
     # Rough demand index by category × month (1=low, 2=medium, 3=high, 4=peak)
@@ -860,8 +880,12 @@ def generate_tab4():
 
     return '\n'.join(html)
 
-def generate_tab5():
-    # Account View mockup with Zeidler example
+def generate_tab5(data=None):
+    from tab5_clean import generate_tab5 as _clean_tab5
+    accounts = data.get('accounts', {}) if data else {}
+    if accounts and accounts.get('accounts'):
+        return _clean_tab5(accounts)
+    # Fallback to mockup
     html = []
     html.append('<h2>Account View Preview</h2>')
     html.append('<div class="info-box"><b>Mockup</b> — what the account-specific view will look like. This example uses Zeidler Floral. v2 will be dynamic for any wholesaler.</div>')
@@ -989,8 +1013,8 @@ def build(data):
       <div class="tab-panel panel-1">{generate_tab1(data)}</div>
       <div class="tab-panel panel-2">{generate_tab2(data)}</div>
       <div class="tab-panel panel-3">{generate_tab3(data)}</div>
-      <div class="tab-panel panel-4">{generate_tab4()}</div>
-      <div class="tab-panel panel-5">{generate_tab5()}</div>
+      <div class="tab-panel panel-4">{generate_tab4(data)}</div>
+      <div class="tab-panel panel-5">{generate_tab5(data)}</div>
     </div>
   </div>
 
@@ -1037,7 +1061,9 @@ if __name__ == '__main__':
 
     # Also copy to reports for easy access
     import shutil
-    print("Skipping report copy in repo mode")
+    report_copy = Path("/Users/facu/Koronet_OS/ops/reports/vendor_intelligence_artifact.html")
+    shutil.copy2(OUTPUT_FILE, report_copy)
+    print(f"Copied to: {report_copy}")
 
     # Open if requested
     if '--open' in sys.argv:

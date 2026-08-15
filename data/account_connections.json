@@ -1,0 +1,8434 @@
+{
+  "_metadata": {
+    "generated_at": "2026-08-15",
+    "accounts": 43
+  },
+  "accounts": {
+    "! Juliet Wholesale Flowers LLC": [
+      {
+        "vendor": "MEGAFLOR FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Vegaflor FOB MDE",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Alison Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISERT SAC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Olimpo Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "AMORES FLORES INC": [
+      {
+        "vendor": "CANANVALLE USA LLS",
+        "connections": 1,
+        "buy_h1": 119431,
+        "categories": 2
+      },
+      {
+        "vendor": "TESSA CORP",
+        "connections": 1,
+        "buy_h1": 86578,
+        "categories": 10
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 1,
+        "buy_h1": 80920,
+        "categories": 33
+      },
+      {
+        "vendor": "PROTEAN FLOWERS FARMS",
+        "connections": 1,
+        "buy_h1": 22491,
+        "categories": 14
+      },
+      {
+        "vendor": "JET FRESH FLOWER DISTRIBUTOR",
+        "connections": 1,
+        "buy_h1": 19883,
+        "categories": 36
+      },
+      {
+        "vendor": "WELYFLOR",
+        "connections": 1,
+        "buy_h1": 14127,
+        "categories": 1
+      },
+      {
+        "vendor": "SUNBURST FARMS",
+        "connections": 1,
+        "buy_h1": 10555,
+        "categories": 18
+      },
+      {
+        "vendor": "NARANJO FARMS LLC",
+        "connections": 1,
+        "buy_h1": 7816,
+        "categories": 5
+      },
+      {
+        "vendor": "EQR ROSES",
+        "connections": 1,
+        "buy_h1": 2762,
+        "categories": 2
+      },
+      {
+        "vendor": "MEGAFLOR USA",
+        "connections": 1,
+        "buy_h1": 820,
+        "categories": 4
+      },
+      {
+        "vendor": "TEST VENDOR",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Apex Floral Distributors Mississauga": [
+      {
+        "vendor": "TWI Gypso",
+        "connections": 1,
+        "buy_h1": 27627,
+        "categories": 5
+      }
+    ],
+    "Arizona Family Florist": [
+      {
+        "vendor": "Holex MIA",
+        "connections": 1,
+        "buy_h1": 127797,
+        "categories": 26
+      },
+      {
+        "vendor": "The Queens Flowers",
+        "connections": 2,
+        "buy_h1": 120849,
+        "categories": 7
+      },
+      {
+        "vendor": "Multiflora BOG",
+        "connections": 1,
+        "buy_h1": 104939,
+        "categories": 8
+      },
+      {
+        "vendor": "Continental Floral Greens MIA",
+        "connections": 2,
+        "buy_h1": 76089,
+        "categories": 5
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 2,
+        "buy_h1": 60808,
+        "categories": 19
+      },
+      {
+        "vendor": "Allure Farms, Inc",
+        "connections": 2,
+        "buy_h1": 55763,
+        "categories": 34
+      },
+      {
+        "vendor": "Jet Fresh Flowers",
+        "connections": 2,
+        "buy_h1": 55533,
+        "categories": 26
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 2,
+        "buy_h1": 45969,
+        "categories": 33
+      },
+      {
+        "vendor": "Rosaprima MIA",
+        "connections": 1,
+        "buy_h1": 44882,
+        "categories": 9
+      },
+      {
+        "vendor": "Mystic Flowers",
+        "connections": 1,
+        "buy_h1": 43746,
+        "categories": 5
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 2,
+        "buy_h1": 42589,
+        "categories": 32
+      },
+      {
+        "vendor": "Royal Flowers",
+        "connections": 2,
+        "buy_h1": 36451,
+        "categories": 23
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 2,
+        "buy_h1": 33436,
+        "categories": 29
+      },
+      {
+        "vendor": "Tessa Corp MIA",
+        "connections": 1,
+        "buy_h1": 33042,
+        "categories": 10
+      },
+      {
+        "vendor": "Pat Flor",
+        "connections": 2,
+        "buy_h1": 30976,
+        "categories": 2
+      },
+      {
+        "vendor": "Multiflora MIA",
+        "connections": 1,
+        "buy_h1": 19700,
+        "categories": 25
+      },
+      {
+        "vendor": "Naranjo Group- MIA",
+        "connections": 2,
+        "buy_h1": 18121,
+        "categories": 3
+      },
+      {
+        "vendor": "U.S. Greens Corp.",
+        "connections": 1,
+        "buy_h1": 17570,
+        "categories": 16
+      },
+      {
+        "vendor": "Elite MIA",
+        "connections": 2,
+        "buy_h1": 17419,
+        "categories": 7
+      },
+      {
+        "vendor": "Protean Flower Farms",
+        "connections": 2,
+        "buy_h1": 13978,
+        "categories": 14
+      },
+      {
+        "vendor": "Golden State Flowers",
+        "connections": 1,
+        "buy_h1": 13100,
+        "categories": 13
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 2,
+        "buy_h1": 12960,
+        "categories": 19
+      },
+      {
+        "vendor": "Trilogy Floral",
+        "connections": 2,
+        "buy_h1": 10651,
+        "categories": 12
+      },
+      {
+        "vendor": "Shaw Lake Farms",
+        "connections": 2,
+        "buy_h1": 10244,
+        "categories": 4
+      },
+      {
+        "vendor": "Gardens America",
+        "connections": 2,
+        "buy_h1": 8623,
+        "categories": 10
+      },
+      {
+        "vendor": "Valleflor",
+        "connections": 2,
+        "buy_h1": 8086,
+        "categories": 3
+      },
+      {
+        "vendor": "Ecoroses",
+        "connections": 2,
+        "buy_h1": 7919,
+        "categories": 2
+      },
+      {
+        "vendor": "Flores Latitud Cero / Floricentra MIA",
+        "connections": 2,
+        "buy_h1": 7100,
+        "categories": 6
+      },
+      {
+        "vendor": "Wafex Usa MIA",
+        "connections": 2,
+        "buy_h1": 5226,
+        "categories": 9
+      },
+      {
+        "vendor": "EQ Blooms",
+        "connections": 2,
+        "buy_h1": 4481,
+        "categories": 3
+      },
+      {
+        "vendor": "Best Miami Growers",
+        "connections": 2,
+        "buy_h1": 4073,
+        "categories": 6
+      },
+      {
+        "vendor": "Profile Flowers / Welyflor MIA",
+        "connections": 2,
+        "buy_h1": 4064,
+        "categories": 1
+      },
+      {
+        "vendor": "Melody Farms",
+        "connections": 1,
+        "buy_h1": 3984,
+        "categories": 7
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 2,
+        "buy_h1": 3358,
+        "categories": 3
+      },
+      {
+        "vendor": "Premium Flowers",
+        "connections": 1,
+        "buy_h1": 3170,
+        "categories": 8
+      },
+      {
+        "vendor": "Herradura Growers",
+        "connections": 1,
+        "buy_h1": 3064,
+        "categories": 3
+      },
+      {
+        "vendor": "DP Flowers",
+        "connections": 2,
+        "buy_h1": 2813,
+        "categories": 4
+      },
+      {
+        "vendor": "Valley Springs Llc MIA",
+        "connections": 2,
+        "buy_h1": 2366,
+        "categories": 2
+      },
+      {
+        "vendor": "Malima MIA",
+        "connections": 2,
+        "buy_h1": 2119,
+        "categories": 1
+      },
+      {
+        "vendor": "Groflowers",
+        "connections": 1,
+        "buy_h1": 1612,
+        "categories": 2
+      },
+      {
+        "vendor": "Golden Flowers",
+        "connections": 1,
+        "buy_h1": 714,
+        "categories": 5
+      },
+      {
+        "vendor": "Josarflor MIA",
+        "connections": 2,
+        "buy_h1": 660,
+        "categories": 1
+      },
+      {
+        "vendor": "Zions Flowers",
+        "connections": 1,
+        "buy_h1": 609,
+        "categories": 3
+      },
+      {
+        "vendor": "Qualisa MIA",
+        "connections": 2,
+        "buy_h1": 570,
+        "categories": 1
+      },
+      {
+        "vendor": "J&E Greens",
+        "connections": 1,
+        "buy_h1": 519,
+        "categories": 2
+      },
+      {
+        "vendor": "Tutuli Flower Farms",
+        "connections": 2,
+        "buy_h1": 499,
+        "categories": 3
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 2,
+        "buy_h1": 478,
+        "categories": 1
+      },
+      {
+        "vendor": "Premium Greens Australia MIA",
+        "connections": 1,
+        "buy_h1": 277,
+        "categories": 2
+      },
+      {
+        "vendor": "SunRite Farms",
+        "connections": 1,
+        "buy_h1": 252,
+        "categories": 2
+      },
+      {
+        "vendor": "Equatoroses MIA",
+        "connections": 2,
+        "buy_h1": 235,
+        "categories": 2
+      },
+      {
+        "vendor": "Megaflor",
+        "connections": 1,
+        "buy_h1": 180,
+        "categories": 1
+      },
+      {
+        "vendor": "Sierra Flower Trading",
+        "connections": 2,
+        "buy_h1": 156,
+        "categories": 1
+      },
+      {
+        "vendor": "Native Bloom/ Asiri MIA",
+        "connections": 1,
+        "buy_h1": 99,
+        "categories": 1
+      },
+      {
+        "vendor": "Pronto Farms Llc",
+        "connections": 1,
+        "buy_h1": 93,
+        "categories": 1
+      },
+      {
+        "vendor": "Muchflowers MIA",
+        "connections": 2,
+        "buy_h1": 84,
+        "categories": 1
+      },
+      {
+        "vendor": "Cantiza Floral MIA",
+        "connections": 1,
+        "buy_h1": 82,
+        "categories": 1
+      },
+      {
+        "vendor": "Kitayama Brothers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Iris Rose/ Anne Flowers MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Flower Emporium",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gypso S.A./ Vaseflor S.A.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Aquarose",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pinnacle Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Galleria Farms",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Agrivaldani",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Andean Fields",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Albin Hagstrom & Son Inc",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FOB UIO - Alma Spray / Agrinag / Natuflor",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Amerilink",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Legacy Flowers LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Agrinag MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floraroma S.A.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores D La Hacienda",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "UNIVERSAL FLOWER SERVICE CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AnniRoses",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "HANAYA FARMS INC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Grupo Florisol (Clarivel, Florisol, Piaveri) MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AGM Bro's",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Bill Doran Company": [
+      {
+        "vendor": "The Queen's Flowers",
+        "connections": 17,
+        "buy_h1": 24594943,
+        "categories": 29
+      },
+      {
+        "vendor": "Elite Exports Inc. - FOB MIA",
+        "connections": 18,
+        "buy_h1": 22508666,
+        "categories": 43
+      },
+      {
+        "vendor": "EQR Equatoroses C.A. - FOB MIA",
+        "connections": 18,
+        "buy_h1": 19293504,
+        "categories": 13
+      },
+      {
+        "vendor": "Multiflora - FOB MIA",
+        "connections": 18,
+        "buy_h1": 17053569,
+        "categories": 53
+      },
+      {
+        "vendor": "Natural Flowers",
+        "connections": 17,
+        "buy_h1": 10967983,
+        "categories": 49
+      },
+      {
+        "vendor": "Fern Trust Inc",
+        "connections": 17,
+        "buy_h1": 9162898,
+        "categories": 11
+      },
+      {
+        "vendor": "Miraflor",
+        "connections": 18,
+        "buy_h1": 7865855,
+        "categories": 23
+      },
+      {
+        "vendor": "Gala Roses / Ecuanros - FOB MIA",
+        "connections": 17,
+        "buy_h1": 7836976,
+        "categories": 26
+      },
+      {
+        "vendor": "Sunburst Farms Inc.",
+        "connections": 18,
+        "buy_h1": 7582463,
+        "categories": 64
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 17,
+        "buy_h1": 6412861,
+        "categories": 59
+      },
+      {
+        "vendor": "US Greens Corp.",
+        "connections": 17,
+        "buy_h1": 5411019,
+        "categories": 48
+      },
+      {
+        "vendor": "Rosaprima International",
+        "connections": 17,
+        "buy_h1": 5320889,
+        "categories": 9
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 17,
+        "buy_h1": 5188278,
+        "categories": 61
+      },
+      {
+        "vendor": "Galleria Farms - FOB MIA",
+        "connections": 17,
+        "buy_h1": 4912857,
+        "categories": 36
+      },
+      {
+        "vendor": "Golden Flowers",
+        "connections": 16,
+        "buy_h1": 4532846,
+        "categories": 27
+      },
+      {
+        "vendor": "Naranjo Roses - FOB MIA",
+        "connections": 17,
+        "buy_h1": 4135713,
+        "categories": 9
+      },
+      {
+        "vendor": "Choice Farms Corp",
+        "connections": 17,
+        "buy_h1": 3927749,
+        "categories": 29
+      },
+      {
+        "vendor": "Moonlight - FOB MIA",
+        "connections": 18,
+        "buy_h1": 3690166,
+        "categories": 6
+      },
+      {
+        "vendor": "Royal Flowers Inc.",
+        "connections": 17,
+        "buy_h1": 3429931,
+        "categories": 45
+      },
+      {
+        "vendor": "Floral Chain Group Corp",
+        "connections": 17,
+        "buy_h1": 3001269,
+        "categories": 19
+      },
+      {
+        "vendor": "SunRite Farms",
+        "connections": 18,
+        "buy_h1": 2918532,
+        "categories": 4
+      },
+      {
+        "vendor": "Continental Flowers - FOB MIA",
+        "connections": 16,
+        "buy_h1": 2866449,
+        "categories": 50
+      },
+      {
+        "vendor": "Riverdale Farms, Inc.",
+        "connections": 18,
+        "buy_h1": 2746028,
+        "categories": 46
+      },
+      {
+        "vendor": "Premium Flowers Corp.",
+        "connections": 18,
+        "buy_h1": 2699120,
+        "categories": 55
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 18,
+        "buy_h1": 2670793,
+        "categories": 7
+      },
+      {
+        "vendor": "Valley Springs - FOB MIA",
+        "connections": 19,
+        "buy_h1": 2515208,
+        "categories": 12
+      },
+      {
+        "vendor": "Profile Flowers Inc (Welyflor) - FOB MIA",
+        "connections": 17,
+        "buy_h1": 2468533,
+        "categories": 3
+      },
+      {
+        "vendor": "Miaflora",
+        "connections": 18,
+        "buy_h1": 2272932,
+        "categories": 44
+      },
+      {
+        "vendor": "Continental Farms",
+        "connections": 16,
+        "buy_h1": 1730042,
+        "categories": 36
+      },
+      {
+        "vendor": "Equiflor Corp",
+        "connections": 16,
+        "buy_h1": 1575804,
+        "categories": 26
+      },
+      {
+        "vendor": "Interflor, LLC",
+        "connections": 17,
+        "buy_h1": 1567155,
+        "categories": 7
+      },
+      {
+        "vendor": "A1 Floral Xpressions LLC",
+        "connections": 18,
+        "buy_h1": 1463033,
+        "categories": 8
+      },
+      {
+        "vendor": "Bella Blossom",
+        "connections": 16,
+        "buy_h1": 1406473,
+        "categories": 48
+      },
+      {
+        "vendor": "Wafex USA LLC - FOB MIA",
+        "connections": 17,
+        "buy_h1": 1265275,
+        "categories": 24
+      },
+      {
+        "vendor": "Stellar Farms",
+        "connections": 17,
+        "buy_h1": 1197495,
+        "categories": 49
+      },
+      {
+        "vendor": "Allure Farms, Inc.",
+        "connections": 17,
+        "buy_h1": 1190471,
+        "categories": 59
+      },
+      {
+        "vendor": "Groflowers - FOB MIA",
+        "connections": 17,
+        "buy_h1": 1039261,
+        "categories": 4
+      },
+      {
+        "vendor": "Gardens America Inc.",
+        "connections": 16,
+        "buy_h1": 998431,
+        "categories": 41
+      },
+      {
+        "vendor": "Ecoroses - FOB MIA",
+        "connections": 18,
+        "buy_h1": 920310,
+        "categories": 8
+      },
+      {
+        "vendor": "Trilogy Floral",
+        "connections": 18,
+        "buy_h1": 882943,
+        "categories": 43
+      },
+      {
+        "vendor": "Protean Flowers LLC",
+        "connections": 16,
+        "buy_h1": 796777,
+        "categories": 24
+      },
+      {
+        "vendor": "MGA Flowers Corporation",
+        "connections": 18,
+        "buy_h1": 770158,
+        "categories": 3
+      },
+      {
+        "vendor": "Melody Farms LLC - FOB MIA",
+        "connections": 15,
+        "buy_h1": 565099,
+        "categories": 32
+      },
+      {
+        "vendor": "Pacifica Farms FOB CAL",
+        "connections": 17,
+        "buy_h1": 408238,
+        "categories": 14
+      },
+      {
+        "vendor": "Cananvalle USA",
+        "connections": 16,
+        "buy_h1": 379142,
+        "categories": 5
+      },
+      {
+        "vendor": "Chilfresh",
+        "connections": 17,
+        "buy_h1": 364331,
+        "categories": 10
+      },
+      {
+        "vendor": "J&E GREENS",
+        "connections": 17,
+        "buy_h1": 362979,
+        "categories": 11
+      },
+      {
+        "vendor": "Zion Flowers Inc",
+        "connections": 17,
+        "buy_h1": 334178,
+        "categories": 15
+      },
+      {
+        "vendor": "Bloomistics",
+        "connections": 17,
+        "buy_h1": 324542,
+        "categories": 4
+      },
+      {
+        "vendor": "MegaFlor USA",
+        "connections": 16,
+        "buy_h1": 312115,
+        "categories": 10
+      },
+      {
+        "vendor": "MONTEROSAS, LLC",
+        "connections": 11,
+        "buy_h1": 306209,
+        "categories": 4
+      },
+      {
+        "vendor": "Pinnacle Flowers",
+        "connections": 16,
+        "buy_h1": 256733,
+        "categories": 34
+      },
+      {
+        "vendor": "Much Flowers",
+        "connections": 17,
+        "buy_h1": 246239,
+        "categories": 12
+      },
+      {
+        "vendor": "Best Miami Growers LLC",
+        "connections": 17,
+        "buy_h1": 187002,
+        "categories": 23
+      },
+      {
+        "vendor": "Floreco, Inc.",
+        "connections": 18,
+        "buy_h1": 175770,
+        "categories": 20
+      },
+      {
+        "vendor": "Alfacor-Flodecol (EQ Blooms) FOB MIA",
+        "connections": 17,
+        "buy_h1": 147689,
+        "categories": 2
+      },
+      {
+        "vendor": "Hanaya Farms",
+        "connections": 17,
+        "buy_h1": 123673,
+        "categories": 3
+      },
+      {
+        "vendor": "PatFlor SCARL",
+        "connections": 17,
+        "buy_h1": 81672,
+        "categories": 3
+      },
+      {
+        "vendor": "Sofi's Flowers Inc.",
+        "connections": 16,
+        "buy_h1": 48877,
+        "categories": 12
+      },
+      {
+        "vendor": "Jet Fresh Flowers",
+        "connections": 1,
+        "buy_h1": 1771,
+        "categories": 6
+      }
+    ],
+    "CD Wholesale": [
+      {
+        "vendor": "Welyflor (G&G Cargo) - FOB Miami",
+        "connections": 2,
+        "buy_h1": 281288,
+        "categories": 2
+      },
+      {
+        "vendor": "Cananvalle USA",
+        "connections": 2,
+        "buy_h1": 67757,
+        "categories": 3
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 2,
+        "buy_h1": 52462,
+        "categories": 28
+      },
+      {
+        "vendor": "A1 Floral Expressions",
+        "connections": 2,
+        "buy_h1": 33001,
+        "categories": 7
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 2,
+        "buy_h1": 31082,
+        "categories": 17
+      },
+      {
+        "vendor": "Bella Blossoms",
+        "connections": 2,
+        "buy_h1": 26623,
+        "categories": 33
+      },
+      {
+        "vendor": "Golden Flowers",
+        "connections": 2,
+        "buy_h1": 26073,
+        "categories": 9
+      },
+      {
+        "vendor": "Gardens America",
+        "connections": 2,
+        "buy_h1": 12649,
+        "categories": 13
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 2,
+        "buy_h1": 12569,
+        "categories": 22
+      },
+      {
+        "vendor": "Miaflora",
+        "connections": 1,
+        "buy_h1": 9239,
+        "categories": 23
+      },
+      {
+        "vendor": "Jet Fresh Flowers - Miami",
+        "connections": 1,
+        "buy_h1": 6066,
+        "categories": 27
+      },
+      {
+        "vendor": "Native Blooms/Mayta Intl",
+        "connections": 1,
+        "buy_h1": 4156,
+        "categories": 3
+      },
+      {
+        "vendor": "Continental Floral Greens",
+        "connections": 2,
+        "buy_h1": 3288,
+        "categories": 2
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 2,
+        "buy_h1": 3223,
+        "categories": 2
+      },
+      {
+        "vendor": "Stellar Farms",
+        "connections": 2,
+        "buy_h1": 2638,
+        "categories": 8
+      },
+      {
+        "vendor": "Melody Farms",
+        "connections": 1,
+        "buy_h1": 1762,
+        "categories": 6
+      },
+      {
+        "vendor": "Best Miami Growers LLC",
+        "connections": 2,
+        "buy_h1": 1300,
+        "categories": 1
+      },
+      {
+        "vendor": "Floral Chain Group",
+        "connections": 1,
+        "buy_h1": 477,
+        "categories": 1
+      },
+      {
+        "vendor": "Galleria Farms - Miami",
+        "connections": 2,
+        "buy_h1": 465,
+        "categories": 3
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 2,
+        "buy_h1": 270,
+        "categories": 1
+      },
+      {
+        "vendor": "Dynamic Farms - DBG Legacy",
+        "connections": 2,
+        "buy_h1": 142,
+        "categories": 1
+      },
+      {
+        "vendor": "ROYAL BASE (U.S.A) CORPORATION",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Hana Farms Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flowermart",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Star roses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Miraflor - Miami",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Legacy Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Interflor LLC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Megaflor FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floreco(as G&G)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AquaRose",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Blossom Bliss",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "GroFlowers - Miami",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Charleston Wholesale Florist": [
+      {
+        "vendor": "Global Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valley Springs",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Royal Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sunrite Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORAL1 INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Flower Emporium LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Megaflor USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anniroses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MALIMA USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "DP Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "GRUPO DEL PACIFICO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Blossom Bliss",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pinnacle Flowers, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Bella Blossom",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floral Chain",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AquaRose",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AGM BROTHERS WORLD TRADING LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Groflowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SHAW LAKE FARMS INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Tutuli Flower Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "South Florals Imports LL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Rosaprima",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Zion Flowers INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Farms Connect",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A Trilogy Floral - Zamba Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Welyflor",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Creations From Heaven": [
+      {
+        "vendor": " Continental Floral LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Expobloom - BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Blossom Bliss LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FARM DIRECT FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Dynamic Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sunburst Farms Warehouse  #1",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "-Sole Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Del Tropico/ Ameriblooms": [
+      {
+        "vendor": "THE QUEENS FLOWERS",
+        "connections": 1,
+        "buy_h1": 146262,
+        "categories": 14
+      },
+      {
+        "vendor": "MEDELLIN FLOWERS Y GREENS SAS FOB BOG",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "GYPSO SA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Dreisbach Wholesale": [
+      {
+        "vendor": "Sole",
+        "connections": 6,
+        "buy_h1": 37923,
+        "categories": 19
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 5,
+        "buy_h1": 25071,
+        "categories": 15
+      },
+      {
+        "vendor": "Protean Farms US",
+        "connections": 5,
+        "buy_h1": 14125,
+        "categories": 7
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 6,
+        "buy_h1": 12177,
+        "categories": 13
+      },
+      {
+        "vendor": "Multiflora Corporation",
+        "connections": 6,
+        "buy_h1": 11239,
+        "categories": 10
+      },
+      {
+        "vendor": "Welyflor / PROFILE FLOWERS",
+        "connections": 5,
+        "buy_h1": 10005,
+        "categories": 1
+      },
+      {
+        "vendor": "The Queens Flowers, Corp",
+        "connections": 4,
+        "buy_h1": 9301,
+        "categories": 4
+      },
+      {
+        "vendor": "Royal Flowers",
+        "connections": 3,
+        "buy_h1": 9145,
+        "categories": 11
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 4,
+        "buy_h1": 8961,
+        "categories": 6
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 4,
+        "buy_h1": 7109,
+        "categories": 7
+      },
+      {
+        "vendor": "Golden Flowers",
+        "connections": 5,
+        "buy_h1": 7032,
+        "categories": 8
+      },
+      {
+        "vendor": "Rosaprima International, LLC",
+        "connections": 5,
+        "buy_h1": 6854,
+        "categories": 4
+      },
+      {
+        "vendor": "Bella Blossom LLC",
+        "connections": 3,
+        "buy_h1": 4342,
+        "categories": 8
+      },
+      {
+        "vendor": "Valley Springs LLC",
+        "connections": 6,
+        "buy_h1": 4168,
+        "categories": 1
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 5,
+        "buy_h1": 4116,
+        "categories": 1
+      },
+      {
+        "vendor": "Miaflora Farms",
+        "connections": 3,
+        "buy_h1": 4094,
+        "categories": 10
+      },
+      {
+        "vendor": "Jet Fresh Flower Distributors Inc.",
+        "connections": 4,
+        "buy_h1": 3958,
+        "categories": 8
+      },
+      {
+        "vendor": "Gala Roses",
+        "connections": 5,
+        "buy_h1": 3740,
+        "categories": 3
+      },
+      {
+        "vendor": "Hana Farms Inc.",
+        "connections": 3,
+        "buy_h1": 3679,
+        "categories": 4
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 5,
+        "buy_h1": 3394,
+        "categories": 3
+      },
+      {
+        "vendor": "Riverdale Farms",
+        "connections": 4,
+        "buy_h1": 2874,
+        "categories": 5
+      },
+      {
+        "vendor": "Mayta International LLC / Native Blooms",
+        "connections": 4,
+        "buy_h1": 2489,
+        "categories": 1
+      },
+      {
+        "vendor": "Stellar Farms",
+        "connections": 2,
+        "buy_h1": 2345,
+        "categories": 7
+      },
+      {
+        "vendor": "Muchflowers Inc.",
+        "connections": 4,
+        "buy_h1": 2316,
+        "categories": 2
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 5,
+        "buy_h1": 1885,
+        "categories": 3
+      },
+      {
+        "vendor": "DP Flowers Corp",
+        "connections": 6,
+        "buy_h1": 1590,
+        "categories": 1
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 3,
+        "buy_h1": 1554,
+        "categories": 5
+      },
+      {
+        "vendor": "LA TOSCANA FARMS",
+        "connections": 3,
+        "buy_h1": 1276,
+        "categories": 2
+      },
+      {
+        "vendor": "CANTIZA FLORAL DBA NFD",
+        "connections": 3,
+        "buy_h1": 1082,
+        "categories": 1
+      },
+      {
+        "vendor": "Shaw Lake Farms",
+        "connections": 3,
+        "buy_h1": 884,
+        "categories": 1
+      },
+      {
+        "vendor": "Galleria Farms",
+        "connections": 2,
+        "buy_h1": 695,
+        "categories": 3
+      },
+      {
+        "vendor": "A SUNRITE FARMS COLLECTIONS CORP.",
+        "connections": 3,
+        "buy_h1": 655,
+        "categories": 1
+      },
+      {
+        "vendor": "Premium Flowers",
+        "connections": 3,
+        "buy_h1": 497,
+        "categories": 3
+      },
+      {
+        "vendor": "Best Miami Growers LLC",
+        "connections": 3,
+        "buy_h1": 427,
+        "categories": 1
+      },
+      {
+        "vendor": "Legacy Flowers",
+        "connections": 6,
+        "buy_h1": 419,
+        "categories": 1
+      },
+      {
+        "vendor": "Continental Farms",
+        "connections": 2,
+        "buy_h1": 389,
+        "categories": 2
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 3,
+        "buy_h1": 360,
+        "categories": 1
+      },
+      {
+        "vendor": "Floral Chain Direct",
+        "connections": 4,
+        "buy_h1": 340,
+        "categories": 2
+      },
+      {
+        "vendor": "Equiflor LLC",
+        "connections": 2,
+        "buy_h1": 180,
+        "categories": 1
+      },
+      {
+        "vendor": "Miraflor LLC",
+        "connections": 3,
+        "buy_h1": 162,
+        "categories": 1
+      },
+      {
+        "vendor": "MALIMA USA",
+        "connections": 3,
+        "buy_h1": 151,
+        "categories": 1
+      },
+      {
+        "vendor": "Star roses",
+        "connections": 1,
+        "buy_h1": 76,
+        "categories": 1
+      },
+      {
+        "vendor": "Expobloom FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Tutuli Flower Farms",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Green Dream Foliage FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floramix, Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Patagonia Sun",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Dreaming Roses Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Megaflor FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Coquette Roses",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Much Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Remi Flowers FOB UIO",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Continental Floral LLC",
+        "connections": 5,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Melody Farms LLC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sierra Flower Trading",
+        "connections": 6,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flower List",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "UNIVERSAL FLOWER SERVICE CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Verisar Florwers - FOB UIO",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nathalia Bloemenexport LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Misty Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AquaRose",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Alison Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flora Traders LLC - Mia",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pinnacle Flowers, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Jetty Flowers LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Akarana Farms FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nazcaflor USA, Inc",
+        "connections": 6,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Elite Flower",
+        "connections": 5,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Olimpo Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Albin Hagstrom & Son, Inc.",
+        "connections": 5,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floreco, Inc",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MGA Flowers",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Greens and Flowers Connection",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A Trilogy Floral - Zamba Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pacifica Farms FOB CAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Llanos de Alba FOB UIO",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Medellin Flowers & Greens",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "HANAYA FARMS",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "J&E Greens",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Direct Farms, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Andean Fresh LLC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Agrinag Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "IRIS ROSES LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores de la Hacienda",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Florens Group LLC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Groflowers",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SUNRITE FARMS COLLECTIONS CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "EQ Blooms LLC",
+        "connections": 5,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valleflor USA",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gypso S.A. FOB UIO",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Premium Greens Australia LLC",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ECOROSES LLC",
+        "connections": 6,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Wafex USA",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anton Spaargaren B.V.",
+        "connections": 5,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "PAT FLOR SCARL CORP",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MAGNIFICA FLOWERS",
+        "connections": 3,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Cananvalle USA LLC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Salter's Evergreen Supply",
+        "connections": 4,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Vegaflor FOB MDE",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Flora Fresh Inc": [
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 110611,
+        "categories": 17
+      },
+      {
+        "vendor": "Shaw Lake Farms Inc",
+        "connections": 1,
+        "buy_h1": 75208,
+        "categories": 11
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 1,
+        "buy_h1": 52649,
+        "categories": 3
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 45832,
+        "categories": 18
+      },
+      {
+        "vendor": "STARFLOWERS/MALIMA",
+        "connections": 1,
+        "buy_h1": 25503,
+        "categories": 2
+      },
+      {
+        "vendor": "FRESCA FARMS",
+        "connections": 1,
+        "buy_h1": 17040,
+        "categories": 19
+      },
+      {
+        "vendor": "FLORAL CHAIN DIRECT",
+        "connections": 1,
+        "buy_h1": 9680,
+        "categories": 4
+      },
+      {
+        "vendor": "Jet Fresh Flowers Distributors Inc.",
+        "connections": 1,
+        "buy_h1": 8149,
+        "categories": 16
+      },
+      {
+        "vendor": "Galleria Farms",
+        "connections": 1,
+        "buy_h1": 7566,
+        "categories": 6
+      },
+      {
+        "vendor": "A Trilogy Floral-Zamba Flowers",
+        "connections": 1,
+        "buy_h1": 2507,
+        "categories": 7
+      },
+      {
+        "vendor": "Wafex USA",
+        "connections": 1,
+        "buy_h1": 1136,
+        "categories": 4
+      },
+      {
+        "vendor": "Welyflor /Profile Flowers",
+        "connections": 1,
+        "buy_h1": 1030,
+        "categories": 1
+      },
+      {
+        "vendor": "Miaflora Farms",
+        "connections": 1,
+        "buy_h1": 688,
+        "categories": 9
+      },
+      {
+        "vendor": "ROSAPRIMA",
+        "connections": 1,
+        "buy_h1": 656,
+        "categories": 4
+      },
+      {
+        "vendor": "SALTER'S EVERGREEN SUPPLY",
+        "connections": 1,
+        "buy_h1": 625,
+        "categories": 1
+      },
+      {
+        "vendor": "Melody Farms LLC",
+        "connections": 1,
+        "buy_h1": 523,
+        "categories": 6
+      },
+      {
+        "vendor": "Ecoroses LLC",
+        "connections": 1,
+        "buy_h1": 242,
+        "categories": 1
+      },
+      {
+        "vendor": "Naranjo Farms LLC",
+        "connections": 1,
+        "buy_h1": 224,
+        "categories": 1
+      },
+      {
+        "vendor": "MYSTIC FLOWERS LLC",
+        "connections": 1,
+        "buy_h1": 90,
+        "categories": 1
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 1,
+        "buy_h1": 59,
+        "categories": 1
+      },
+      {
+        "vendor": "Mayta International LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Interflor LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Texas Flowers USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ANNIROSES/NATBEAUTY",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Patagonia Sun",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MUCH FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Milena Flowers Importer",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nathalia Bloemenexport LLC - MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "FloraLink": [
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 936230,
+        "categories": 82
+      },
+      {
+        "vendor": "Jet Fresh",
+        "connections": 1,
+        "buy_h1": 620344,
+        "categories": 111
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 327857,
+        "categories": 70
+      },
+      {
+        "vendor": "Stellar Farms",
+        "connections": 1,
+        "buy_h1": 313373,
+        "categories": 62
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 283341,
+        "categories": 89
+      },
+      {
+        "vendor": "Royal Flowers",
+        "connections": 1,
+        "buy_h1": 257673,
+        "categories": 57
+      },
+      {
+        "vendor": "US Greens Corp",
+        "connections": 1,
+        "buy_h1": 204519,
+        "categories": 63
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 1,
+        "buy_h1": 197155,
+        "categories": 29
+      },
+      {
+        "vendor": "Queen's Flowers",
+        "connections": 1,
+        "buy_h1": 187468,
+        "categories": 33
+      },
+      {
+        "vendor": "Welyflor",
+        "connections": 1,
+        "buy_h1": 186346,
+        "categories": 2
+      },
+      {
+        "vendor": "Ecuanrose",
+        "connections": 1,
+        "buy_h1": 162063,
+        "categories": 23
+      },
+      {
+        "vendor": "Rosaprima",
+        "connections": 1,
+        "buy_h1": 118508,
+        "categories": 7
+      },
+      {
+        "vendor": "Naranjo",
+        "connections": 1,
+        "buy_h1": 107488,
+        "categories": 5
+      },
+      {
+        "vendor": "Floral Chain International",
+        "connections": 1,
+        "buy_h1": 95565,
+        "categories": 18
+      },
+      {
+        "vendor": "Continental Floral Greens",
+        "connections": 1,
+        "buy_h1": 86145,
+        "categories": 8
+      },
+      {
+        "vendor": "Elite Flower Services Inc",
+        "connections": 1,
+        "buy_h1": 75940,
+        "categories": 43
+      },
+      {
+        "vendor": "AmeriLink",
+        "connections": 1,
+        "buy_h1": 51170,
+        "categories": 17
+      },
+      {
+        "vendor": "Sunrite Farms",
+        "connections": 1,
+        "buy_h1": 49898,
+        "categories": 2
+      },
+      {
+        "vendor": "Equiflor",
+        "connections": 1,
+        "buy_h1": 42918,
+        "categories": 30
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 1,
+        "buy_h1": 42838,
+        "categories": 10
+      },
+      {
+        "vendor": "Ecoroses LLC",
+        "connections": 1,
+        "buy_h1": 39278,
+        "categories": 5
+      },
+      {
+        "vendor": "Valley Springs",
+        "connections": 1,
+        "buy_h1": 38689,
+        "categories": 9
+      },
+      {
+        "vendor": "Wafex",
+        "connections": 1,
+        "buy_h1": 31568,
+        "categories": 33
+      },
+      {
+        "vendor": "EQ Blooms",
+        "connections": 1,
+        "buy_h1": 29741,
+        "categories": 2
+      },
+      {
+        "vendor": "Iris Roses LLC",
+        "connections": 1,
+        "buy_h1": 21567,
+        "categories": 1
+      },
+      {
+        "vendor": "Qualisa/Bloomistics",
+        "connections": 1,
+        "buy_h1": 21209,
+        "categories": 2
+      },
+      {
+        "vendor": "MuchFlower",
+        "connections": 1,
+        "buy_h1": 20917,
+        "categories": 25
+      },
+      {
+        "vendor": "South Florals Imports",
+        "connections": 1,
+        "buy_h1": 19359,
+        "categories": 32
+      },
+      {
+        "vendor": "Patflor Italy",
+        "connections": 1,
+        "buy_h1": 17101,
+        "categories": 6
+      },
+      {
+        "vendor": "Valleflor",
+        "connections": 1,
+        "buy_h1": 12156,
+        "categories": 5
+      },
+      {
+        "vendor": "Mystic Flowers LLC",
+        "connections": 1,
+        "buy_h1": 7405,
+        "categories": 4
+      },
+      {
+        "vendor": "Dreaming Roses Corp (Josarflor)",
+        "connections": 1,
+        "buy_h1": 6045,
+        "categories": 1
+      },
+      {
+        "vendor": "Chilfresh",
+        "connections": 1,
+        "buy_h1": 5255,
+        "categories": 4
+      },
+      {
+        "vendor": "L'Artisan Roses Miami",
+        "connections": 1,
+        "buy_h1": 3811,
+        "categories": 3
+      },
+      {
+        "vendor": "Florisol Miami",
+        "connections": 1,
+        "buy_h1": 2502,
+        "categories": 10
+      },
+      {
+        "vendor": "Natural Flowers Direct",
+        "connections": 1,
+        "buy_h1": 303,
+        "categories": 1
+      },
+      {
+        "vendor": "Roots Peru (Miami)",
+        "connections": 1,
+        "buy_h1": 236,
+        "categories": 3
+      },
+      {
+        "vendor": "Riverdale Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Agrinag",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Floristcentric, LLC": [
+      {
+        "vendor": "ROSAPRIMA",
+        "connections": 1,
+        "buy_h1": 39746,
+        "categories": 7
+      },
+      {
+        "vendor": "JET FRESH FLOWERS",
+        "connections": 1,
+        "buy_h1": 28589,
+        "categories": 42
+      },
+      {
+        "vendor": "CHOICE FARMS",
+        "connections": 1,
+        "buy_h1": 23082,
+        "categories": 17
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 1,
+        "buy_h1": 16386,
+        "categories": 25
+      },
+      {
+        "vendor": "ALBIN HAGSTROM & SON",
+        "connections": 1,
+        "buy_h1": 10040,
+        "categories": 19
+      },
+      {
+        "vendor": "ALLURE FARMS",
+        "connections": 1,
+        "buy_h1": 8650,
+        "categories": 22
+      },
+      {
+        "vendor": "FRESCA FARMS",
+        "connections": 1,
+        "buy_h1": 7842,
+        "categories": 29
+      },
+      {
+        "vendor": "ECO ROSE MIAMI",
+        "connections": 1,
+        "buy_h1": 6129,
+        "categories": 4
+      },
+      {
+        "vendor": "GALLERIA FARMS",
+        "connections": 1,
+        "buy_h1": 4610,
+        "categories": 14
+      },
+      {
+        "vendor": "TESSA CORP",
+        "connections": 1,
+        "buy_h1": 3136,
+        "categories": 6
+      },
+      {
+        "vendor": "EQUIFLOR",
+        "connections": 1,
+        "buy_h1": 2734,
+        "categories": 9
+      },
+      {
+        "vendor": "FLORA CHAIN",
+        "connections": 1,
+        "buy_h1": 2684,
+        "categories": 6
+      },
+      {
+        "vendor": "ALISON FLOWERS",
+        "connections": 1,
+        "buy_h1": 2439,
+        "categories": 2
+      },
+      {
+        "vendor": "MUCH FLOWERS FOB QUITO",
+        "connections": 1,
+        "buy_h1": 1878,
+        "categories": 13
+      },
+      {
+        "vendor": "LIBERTY BLOOMS INC",
+        "connections": 1,
+        "buy_h1": 1005,
+        "categories": 4
+      },
+      {
+        "vendor": "VALLEY SPRINGS",
+        "connections": 1,
+        "buy_h1": 986,
+        "categories": 2
+      },
+      {
+        "vendor": "MUCH FLOWERS MIAMI",
+        "connections": 1,
+        "buy_h1": 969,
+        "categories": 8
+      },
+      {
+        "vendor": "PATFLOR",
+        "connections": 1,
+        "buy_h1": 784,
+        "categories": 2
+      },
+      {
+        "vendor": "GARDENS AMERICA",
+        "connections": 1,
+        "buy_h1": 766,
+        "categories": 8
+      },
+      {
+        "vendor": "SUNRITE FARMS",
+        "connections": 1,
+        "buy_h1": 641,
+        "categories": 2
+      },
+      {
+        "vendor": "PACIFICA FARMS",
+        "connections": 1,
+        "buy_h1": 327,
+        "categories": 2
+      },
+      {
+        "vendor": "ROYAL FLOWERS, INC",
+        "connections": 1,
+        "buy_h1": 187,
+        "categories": 4
+      },
+      {
+        "vendor": "FLORAL CONTINENTAL GREENS MIAMI",
+        "connections": 1,
+        "buy_h1": 169,
+        "categories": 2
+      },
+      {
+        "vendor": "AMERILINK",
+        "connections": 1,
+        "buy_h1": 161,
+        "categories": 2
+      },
+      {
+        "vendor": "FLORISOL USA",
+        "connections": 1,
+        "buy_h1": 153,
+        "categories": 1
+      },
+      {
+        "vendor": "NATIVE BLOOMS",
+        "connections": 1,
+        "buy_h1": 89,
+        "categories": 1
+      },
+      {
+        "vendor": "AQUA ROSE",
+        "connections": 1,
+        "buy_h1": 46,
+        "categories": 1
+      },
+      {
+        "vendor": "Akarana Farms FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Olimpo Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Hana Farms Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Green Dream Foliage FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MELDOY FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flower List",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Grupo Vegaflor FOB MED",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nathalia Bloemenexport LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Verisar Flowers - FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MYSTIC MIAMI",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gypso S.A. FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Medellin Flowers & Greens FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Cantiza Miami",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Expobloom FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "EQ BLOOMS BY FLODECOL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ATTAR ROSES MIAMI",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "BEST MIAMI GROWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "EQR MIAMI",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pampa Products LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Imps USA Test",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORAROMA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "STAR ROSES",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "UNIVERSAL FLOWER SERVICE CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Remi Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "HOJA VERDE FOB MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "WELLYFLOR",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flora Traders LLC - FOB MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Quimflowers - UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Jetty Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "FreshLink": [
+      {
+        "vendor": "GOLDEN FLOWERS",
+        "connections": 1,
+        "buy_h1": 136,
+        "categories": 2
+      },
+      {
+        "vendor": "PROTEAN FARMS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "GALA ROSES",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MIDWEST BLOOMS-KKUTS (MIA)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "JET FRESH FLOWER DIST.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORAL CHAIN DIRECT CORP.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CONTINENTAL FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ROSA PRIMA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ROYAL FLOWERS INC, DOMESTIC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "WELYFLOR",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "WAFEX MIAMI",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CFG-MIAMI",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "TUTULI FLORAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "TRILOGY FLORAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MULTIFLORA CORPORATION",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CONTINENTAL FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "BELLA BLOSSOM LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "KENNICOTT CENTRAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MIAFLORA FARMS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORACO-MIAMI",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FRESCA FARMS LC.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "QUEENS FLOWER",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SUN RITE FARMS COLLECTIONS CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ALBIN HAGSTROM & SON, LLC.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "K2K MIA - For KenCen use",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CHOICE FARMS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "H&T Wholesale Flowers": [
+      {
+        "vendor": "Rosaprima International LLC",
+        "connections": 2,
+        "buy_h1": 2049816,
+        "categories": 8
+      },
+      {
+        "vendor": "The Queen's Flowers",
+        "connections": 2,
+        "buy_h1": 568891,
+        "categories": 17
+      },
+      {
+        "vendor": "EcoRoses TWI",
+        "connections": 1,
+        "buy_h1": 112399,
+        "categories": 6
+      },
+      {
+        "vendor": "Bella Blossom LLC",
+        "connections": 2,
+        "buy_h1": 109358,
+        "categories": 40
+      },
+      {
+        "vendor": "Sunrite Farms",
+        "connections": 2,
+        "buy_h1": 102366,
+        "categories": 3
+      },
+      {
+        "vendor": "Jet Fresh Flower Distributors Inc.",
+        "connections": 2,
+        "buy_h1": 76231,
+        "categories": 47
+      },
+      {
+        "vendor": "Continental Floral Greens",
+        "connections": 2,
+        "buy_h1": 58654,
+        "categories": 5
+      },
+      {
+        "vendor": "US Greens Corp",
+        "connections": 2,
+        "buy_h1": 53090,
+        "categories": 22
+      },
+      {
+        "vendor": "Allure Farms Inc.",
+        "connections": 2,
+        "buy_h1": 52207,
+        "categories": 41
+      },
+      {
+        "vendor": "Royal Flowers",
+        "connections": 2,
+        "buy_h1": 50192,
+        "categories": 32
+      },
+      {
+        "vendor": "Miaflora",
+        "connections": 2,
+        "buy_h1": 29106,
+        "categories": 30
+      },
+      {
+        "vendor": "Gardens America",
+        "connections": 2,
+        "buy_h1": 24942,
+        "categories": 21
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 2,
+        "buy_h1": 23766,
+        "categories": 25
+      },
+      {
+        "vendor": "Dramm & Echter",
+        "connections": 1,
+        "buy_h1": 20966,
+        "categories": 12
+      },
+      {
+        "vendor": "Golden State Flowers",
+        "connections": 1,
+        "buy_h1": 10510,
+        "categories": 9
+      },
+      {
+        "vendor": "Groflowers",
+        "connections": 2,
+        "buy_h1": 8682,
+        "categories": 3
+      },
+      {
+        "vendor": "Tutuli Farm",
+        "connections": 1,
+        "buy_h1": 7425,
+        "categories": 20
+      },
+      {
+        "vendor": "Muchflowers TWI",
+        "connections": 2,
+        "buy_h1": 4151,
+        "categories": 14
+      },
+      {
+        "vendor": "Galleria Farms",
+        "connections": 1,
+        "buy_h1": 3834,
+        "categories": 11
+      },
+      {
+        "vendor": "Agrinag TWI",
+        "connections": 1,
+        "buy_h1": 3493,
+        "categories": 2
+      },
+      {
+        "vendor": "Greens and Flower Connection",
+        "connections": 1,
+        "buy_h1": 3379,
+        "categories": 5
+      },
+      {
+        "vendor": "Trilogy Floral",
+        "connections": 1,
+        "buy_h1": 3057,
+        "categories": 18
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 2,
+        "buy_h1": 3047,
+        "categories": 3
+      },
+      {
+        "vendor": "Zion Flowers Inc",
+        "connections": 1,
+        "buy_h1": 2682,
+        "categories": 8
+      },
+      {
+        "vendor": "MegaFlor",
+        "connections": 2,
+        "buy_h1": 2240,
+        "categories": 5
+      },
+      {
+        "vendor": "Liberty Blooms Inc.",
+        "connections": 2,
+        "buy_h1": 857,
+        "categories": 2
+      },
+      {
+        "vendor": "Floreco Inc",
+        "connections": 1,
+        "buy_h1": 690,
+        "categories": 4
+      },
+      {
+        "vendor": "Interflor LLC",
+        "connections": 2,
+        "buy_h1": 488,
+        "categories": 2
+      },
+      {
+        "vendor": "Pacifica Farms - CAL",
+        "connections": 2,
+        "buy_h1": 463,
+        "categories": 4
+      },
+      {
+        "vendor": "Premium Greens Australia",
+        "connections": 1,
+        "buy_h1": 430,
+        "categories": 1
+      },
+      {
+        "vendor": "Cananvalle",
+        "connections": 2,
+        "buy_h1": 420,
+        "categories": 1
+      },
+      {
+        "vendor": "EQR  Ecuadorian Quality Roses TWI",
+        "connections": 1,
+        "buy_h1": 293,
+        "categories": 1
+      },
+      {
+        "vendor": "Hana Farms Inc.",
+        "connections": 1,
+        "buy_h1": 189,
+        "categories": 2
+      },
+      {
+        "vendor": "Patagonia Sun",
+        "connections": 1,
+        "buy_h1": 107,
+        "categories": 1
+      },
+      {
+        "vendor": "Florisol",
+        "connections": 1,
+        "buy_h1": 60,
+        "categories": 1
+      },
+      {
+        "vendor": "Legacy Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "DP Flowers Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AquaRose",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Tessa Corp",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valley Springs",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Akarana Farms - UIO",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Fresca Farms LLC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers Ecuador",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Monterosas",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Jetty USA LLC",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anni Roses",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AmeriLink Floratrader",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Alison Flowers - UIO",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flora Traders LLC - MIA",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mystic Flowers",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Cantiza Floral TWI",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gypso S.A. FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Welyflor",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Expobloom FOB BOG",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nathalia Bloemenexport LLC - MIA",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MegaFlor - UIO",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Melody Farms LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pat Floral",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Native Blooms / Mayta Intl",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Grupo Vegaflor - Medellin",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Naranjo Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Quimflowers - UIO",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floraroma S.A.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "JFS Wholesale Floral": [
+      {
+        "vendor": "THE QUEENS FLOWERS",
+        "connections": 1,
+        "buy_h1": 102960,
+        "categories": 13
+      },
+      {
+        "vendor": "HOJA VERDE",
+        "connections": 1,
+        "buy_h1": 37642,
+        "categories": 5
+      },
+      {
+        "vendor": "NATIVE BLOOMS (MAYTA INTERNATIONAL)",
+        "connections": 1,
+        "buy_h1": 37199,
+        "categories": 3
+      },
+      {
+        "vendor": "TESSA CORP (GALA ROSES LLC)",
+        "connections": 1,
+        "buy_h1": 35421,
+        "categories": 10
+      },
+      {
+        "vendor": "MULTIFLORA",
+        "connections": 1,
+        "buy_h1": 19981,
+        "categories": 13
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 1,
+        "buy_h1": 19700,
+        "categories": 18
+      },
+      {
+        "vendor": "MUCH FLOWERS",
+        "connections": 1,
+        "buy_h1": 19453,
+        "categories": 4
+      },
+      {
+        "vendor": "MONTEROSAS",
+        "connections": 1,
+        "buy_h1": 16014,
+        "categories": 2
+      },
+      {
+        "vendor": "THE ELITE FLOWER (FLORA CONCEPT)",
+        "connections": 1,
+        "buy_h1": 14742,
+        "categories": 9
+      },
+      {
+        "vendor": "WELYFLOR",
+        "connections": 1,
+        "buy_h1": 13930,
+        "categories": 1
+      },
+      {
+        "vendor": "VALLEFLOR",
+        "connections": 1,
+        "buy_h1": 13738,
+        "categories": 7
+      },
+      {
+        "vendor": "CONTINENTAL FLOWERS",
+        "connections": 1,
+        "buy_h1": 12495,
+        "categories": 14
+      },
+      {
+        "vendor": "ECOROSES",
+        "connections": 1,
+        "buy_h1": 9622,
+        "categories": 5
+      },
+      {
+        "vendor": "FLORAL CHAIN DIRECT",
+        "connections": 1,
+        "buy_h1": 8724,
+        "categories": 6
+      },
+      {
+        "vendor": "DP FLOWERS",
+        "connections": 1,
+        "buy_h1": 8497,
+        "categories": 2
+      },
+      {
+        "vendor": "ROSAPRIMA INTERNATIONAL LLC",
+        "connections": 1,
+        "buy_h1": 7395,
+        "categories": 6
+      },
+      {
+        "vendor": "SUNRITE FARMS COLLECTIONS CORP",
+        "connections": 1,
+        "buy_h1": 7158,
+        "categories": 2
+      },
+      {
+        "vendor": "GALLERIA FARMS",
+        "connections": 1,
+        "buy_h1": 6918,
+        "categories": 12
+      },
+      {
+        "vendor": "ROYAL FLOWERS GROUP",
+        "connections": 1,
+        "buy_h1": 6107,
+        "categories": 7
+      },
+      {
+        "vendor": "FRESCA FARMS",
+        "connections": 1,
+        "buy_h1": 4452,
+        "categories": 9
+      },
+      {
+        "vendor": "MIAFLORA",
+        "connections": 1,
+        "buy_h1": 4146,
+        "categories": 10
+      },
+      {
+        "vendor": "MALIMA USA",
+        "connections": 1,
+        "buy_h1": 4089,
+        "categories": 1
+      },
+      {
+        "vendor": "DRAMM & ECHTER",
+        "connections": 1,
+        "buy_h1": 1961,
+        "categories": 1
+      },
+      {
+        "vendor": "MYSTIC FLOWERS SA",
+        "connections": 1,
+        "buy_h1": 1609,
+        "categories": 4
+      },
+      {
+        "vendor": "STAR ROSES S.A.",
+        "connections": 1,
+        "buy_h1": 1257,
+        "categories": 3
+      },
+      {
+        "vendor": "CHOICE FARMS",
+        "connections": 1,
+        "buy_h1": 1251,
+        "categories": 3
+      },
+      {
+        "vendor": "GROFLOWERS",
+        "connections": 1,
+        "buy_h1": 1151,
+        "categories": 2
+      },
+      {
+        "vendor": "TRILOGY FLORAL",
+        "connections": 1,
+        "buy_h1": 1073,
+        "categories": 2
+      },
+      {
+        "vendor": "MISTY FLOWERS",
+        "connections": 1,
+        "buy_h1": 773,
+        "categories": 5
+      },
+      {
+        "vendor": "WAFEX (MIA)",
+        "connections": 1,
+        "buy_h1": 751,
+        "categories": 2
+      },
+      {
+        "vendor": "GLOBAL FLOWERS",
+        "connections": 1,
+        "buy_h1": 738,
+        "categories": 3
+      },
+      {
+        "vendor": "MELODY FARMS LLC",
+        "connections": 1,
+        "buy_h1": 734,
+        "categories": 1
+      },
+      {
+        "vendor": "SUNBURST FARMS",
+        "connections": 1,
+        "buy_h1": 480,
+        "categories": 1
+      },
+      {
+        "vendor": "CHILFRESH",
+        "connections": 1,
+        "buy_h1": 452,
+        "categories": 3
+      },
+      {
+        "vendor": "LIBERTY BLOOMS",
+        "connections": 1,
+        "buy_h1": 136,
+        "categories": 2
+      },
+      {
+        "vendor": "Milena Flowers test",
+        "connections": 1,
+        "buy_h1": 2,
+        "categories": 1
+      },
+      {
+        "vendor": "THE VALLEY SPRINGS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A1 FLORAL XPRESSIONS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "BLOOMISTICS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLOWERS' INTERNATIONAL GROUP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "NARANJO ROSES",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "PROTEAN FARMS US",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "U.S. GREENS CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "PREMIUM (MIAMI) AUSTRAILIAN GREENS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "NAZCAFLOR USA, INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "THE FLOWER CO, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ZION FLOWERS INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Manuel Flowers Test",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Kennicott Brothers Company": [
+      {
+        "vendor": "KENNICOTT CENTRAL",
+        "connections": 17,
+        "buy_h1": 126416654,
+        "categories": 41
+      },
+      {
+        "vendor": "QUEENS FLOWER",
+        "connections": 19,
+        "buy_h1": 64750749,
+        "categories": 24
+      },
+      {
+        "vendor": "ROSA PRIMA",
+        "connections": 19,
+        "buy_h1": 35562767,
+        "categories": 11
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 18,
+        "buy_h1": 21351610,
+        "categories": 43
+      },
+      {
+        "vendor": "JET FRESH FLOWER DIST.",
+        "connections": 18,
+        "buy_h1": 19428652,
+        "categories": 54
+      },
+      {
+        "vendor": "GOLDEN FLOWERS",
+        "connections": 15,
+        "buy_h1": 15524015,
+        "categories": 27
+      },
+      {
+        "vendor": "EQUIFLOR / RIO ROSES",
+        "connections": 19,
+        "buy_h1": 15127292,
+        "categories": 24
+      },
+      {
+        "vendor": "FRESCA FARMS LC.",
+        "connections": 20,
+        "buy_h1": 13749149,
+        "categories": 45
+      },
+      {
+        "vendor": "BELLA BLOSSOM LLC",
+        "connections": 15,
+        "buy_h1": 11320174,
+        "categories": 36
+      },
+      {
+        "vendor": "CHOICE FARMS LLC",
+        "connections": 19,
+        "buy_h1": 10386695,
+        "categories": 18
+      },
+      {
+        "vendor": "ROYAL FLOWERS INC, DOMESTIC",
+        "connections": 19,
+        "buy_h1": 8889550,
+        "categories": 35
+      },
+      {
+        "vendor": "CONTINENTAL FLOWERS",
+        "connections": 18,
+        "buy_h1": 7853662,
+        "categories": 40
+      },
+      {
+        "vendor": "SUN RITE FARMS COLLECTIONS CORP",
+        "connections": 17,
+        "buy_h1": 5426562,
+        "categories": 5
+      },
+      {
+        "vendor": "PROTEAN FARMS LLC",
+        "connections": 17,
+        "buy_h1": 5364978,
+        "categories": 18
+      },
+      {
+        "vendor": "ALBIN HAGSTROM & SON, LLC.",
+        "connections": 16,
+        "buy_h1": 4519954,
+        "categories": 9
+      },
+      {
+        "vendor": "WELYFLOR",
+        "connections": 16,
+        "buy_h1": 4282509,
+        "categories": 2
+      },
+      {
+        "vendor": "MULTIFLORA CORPORATION",
+        "connections": 17,
+        "buy_h1": 4161732,
+        "categories": 32
+      },
+      {
+        "vendor": "MIAFLORA FARMS LLC",
+        "connections": 17,
+        "buy_h1": 4149332,
+        "categories": 39
+      },
+      {
+        "vendor": "GALA ROSES",
+        "connections": 19,
+        "buy_h1": 4145602,
+        "categories": 18
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 18,
+        "buy_h1": 3746209,
+        "categories": 13
+      },
+      {
+        "vendor": "TRILOGY FLORAL",
+        "connections": 18,
+        "buy_h1": 3156320,
+        "categories": 35
+      },
+      {
+        "vendor": "KENNICOTT WEST",
+        "connections": 11,
+        "buy_h1": 2496897,
+        "categories": 4
+      },
+      {
+        "vendor": "CFG-MIAMI",
+        "connections": 18,
+        "buy_h1": 2448016,
+        "categories": 9
+      },
+      {
+        "vendor": "CONTINENTAL FARMS",
+        "connections": 15,
+        "buy_h1": 2367423,
+        "categories": 31
+      },
+      {
+        "vendor": "FLORAL CHAIN DIRECT CORP.",
+        "connections": 15,
+        "buy_h1": 1242004,
+        "categories": 13
+      },
+      {
+        "vendor": "PREMIUM FLOWERS",
+        "connections": 17,
+        "buy_h1": 1173518,
+        "categories": 36
+      },
+      {
+        "vendor": "MAYTA INTERNATIONAL, LLC",
+        "connections": 16,
+        "buy_h1": 839696,
+        "categories": 6
+      },
+      {
+        "vendor": "WAFEX MIAMI",
+        "connections": 19,
+        "buy_h1": 700789,
+        "categories": 21
+      },
+      {
+        "vendor": "TUTULI FLORAL",
+        "connections": 16,
+        "buy_h1": 595381,
+        "categories": 12
+      },
+      {
+        "vendor": "MIDWEST BLOOMS-KKUTS (MIA)",
+        "connections": 17,
+        "buy_h1": 495717,
+        "categories": 7
+      },
+      {
+        "vendor": "GOLDEN STATE FLOWER, INC.",
+        "connections": 15,
+        "buy_h1": 431207,
+        "categories": 10
+      },
+      {
+        "vendor": "FLORACO-MIAMI",
+        "connections": 16,
+        "buy_h1": 210143,
+        "categories": 1
+      },
+      {
+        "vendor": "NAZCA FLOR",
+        "connections": 2,
+        "buy_h1": 113685,
+        "categories": 4
+      },
+      {
+        "vendor": "MUCH FLOWERS - MIAMI",
+        "connections": 1,
+        "buy_h1": 46584,
+        "categories": 3
+      },
+      {
+        "vendor": "ALLURE FARMS INC",
+        "connections": 1,
+        "buy_h1": 21003,
+        "categories": 25
+      },
+      {
+        "vendor": "GYPSO FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MUCH FLOWERS - ECU",
+        "connections": 16,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "VALLEY SPRINGS LLC",
+        "connections": 17,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ECOROSES LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Maple Grove Floral": [
+      {
+        "vendor": "Continental Flowers Inc. (RBC)",
+        "connections": 1,
+        "buy_h1": 16336,
+        "categories": 18
+      },
+      {
+        "vendor": "Rosaprima - MIA (RBC)",
+        "connections": 1,
+        "buy_h1": 12770,
+        "categories": 5
+      },
+      {
+        "vendor": "Protean Flowers Farms (RBC)",
+        "connections": 1,
+        "buy_h1": 11415,
+        "categories": 12
+      },
+      {
+        "vendor": "Galleria Farms (RBC)",
+        "connections": 1,
+        "buy_h1": 10474,
+        "categories": 19
+      },
+      {
+        "vendor": "Sole' Farms (RBC)",
+        "connections": 1,
+        "buy_h1": 9017,
+        "categories": 23
+      },
+      {
+        "vendor": "U.S. Greens Corp (RBC)",
+        "connections": 1,
+        "buy_h1": 7869,
+        "categories": 6
+      },
+      {
+        "vendor": "Golden Flowers (RBC)",
+        "connections": 1,
+        "buy_h1": 6838,
+        "categories": 13
+      },
+      {
+        "vendor": "The Queen's Flowers (RBC)",
+        "connections": 1,
+        "buy_h1": 5696,
+        "categories": 12
+      },
+      {
+        "vendor": "Bella Blossoms LLC (ACH)",
+        "connections": 1,
+        "buy_h1": 4963,
+        "categories": 17
+      },
+      {
+        "vendor": "Miaflora Farms (RBC)",
+        "connections": 1,
+        "buy_h1": 4305,
+        "categories": 19
+      },
+      {
+        "vendor": "Floral Chain International (ACH)",
+        "connections": 1,
+        "buy_h1": 4271,
+        "categories": 9
+      },
+      {
+        "vendor": "Jet Fresh Flower Growers (RBC)",
+        "connections": 1,
+        "buy_h1": 3898,
+        "categories": 17
+      },
+      {
+        "vendor": "Multiflora (RBC)",
+        "connections": 1,
+        "buy_h1": 3736,
+        "categories": 20
+      },
+      {
+        "vendor": "Much Flowers - MIA (RBC)",
+        "connections": 1,
+        "buy_h1": 3724,
+        "categories": 2
+      },
+      {
+        "vendor": "Royal Flowers Inc. - Domestic (RBC)",
+        "connections": 1,
+        "buy_h1": 2964,
+        "categories": 12
+      },
+      {
+        "vendor": "Pinnacle Flowers (ACH)",
+        "connections": 1,
+        "buy_h1": 2611,
+        "categories": 8
+      },
+      {
+        "vendor": "Fresca Farms (RBC)",
+        "connections": 1,
+        "buy_h1": 2289,
+        "categories": 10
+      },
+      {
+        "vendor": "Riverdale Farms Inc. (RBC)",
+        "connections": 1,
+        "buy_h1": 1828,
+        "categories": 13
+      },
+      {
+        "vendor": "Jetty Flowers LLC (ACH)",
+        "connections": 1,
+        "buy_h1": 1788,
+        "categories": 1
+      },
+      {
+        "vendor": "Albin Hagstrom & Son, (RBC)",
+        "connections": 1,
+        "buy_h1": 1703,
+        "categories": 2
+      },
+      {
+        "vendor": "Allure (RBC)",
+        "connections": 1,
+        "buy_h1": 1414,
+        "categories": 11
+      },
+      {
+        "vendor": "Megaflor ACH  FOB QUITO",
+        "connections": 1,
+        "buy_h1": 1237,
+        "categories": 6
+      },
+      {
+        "vendor": "Rumhora Greens LLC. (RBC)",
+        "connections": 1,
+        "buy_h1": 1106,
+        "categories": 2
+      },
+      {
+        "vendor": "Misty Flowers (RBC)",
+        "connections": 1,
+        "buy_h1": 1086,
+        "categories": 6
+      },
+      {
+        "vendor": "Floral Concepts/Elite Flower MIA (ACH)",
+        "connections": 1,
+        "buy_h1": 1006,
+        "categories": 7
+      },
+      {
+        "vendor": "Trilogy Floral (RBC)",
+        "connections": 1,
+        "buy_h1": 999,
+        "categories": 7
+      },
+      {
+        "vendor": "DP Flowers Corp. (RBC)",
+        "connections": 1,
+        "buy_h1": 975,
+        "categories": 1
+      },
+      {
+        "vendor": "SunRite Farms Corp (ACH)",
+        "connections": 1,
+        "buy_h1": 958,
+        "categories": 3
+      },
+      {
+        "vendor": "Sierra Flower 1801794 Ontario Inc. (Cad Check)",
+        "connections": 1,
+        "buy_h1": 911,
+        "categories": 5
+      },
+      {
+        "vendor": "Adeese Flowers LLC (RBC)",
+        "connections": 1,
+        "buy_h1": 902,
+        "categories": 4
+      },
+      {
+        "vendor": "A1 Floral Xpressions (ACH)",
+        "connections": 1,
+        "buy_h1": 882,
+        "categories": 4
+      },
+      {
+        "vendor": "Choice Farms LLC (RBC)",
+        "connections": 1,
+        "buy_h1": 815,
+        "categories": 3
+      },
+      {
+        "vendor": "Natuflor S.A (ACH)",
+        "connections": 1,
+        "buy_h1": 770,
+        "categories": 2
+      },
+      {
+        "vendor": "Tutuli Flower Farms (ACH)",
+        "connections": 1,
+        "buy_h1": 752,
+        "categories": 2
+      },
+      {
+        "vendor": "Hana Farms Inc (ACH)",
+        "connections": 1,
+        "buy_h1": 748,
+        "categories": 3
+      },
+      {
+        "vendor": "EQR MIA (RBC)",
+        "connections": 1,
+        "buy_h1": 733,
+        "categories": 3
+      },
+      {
+        "vendor": "Profile Flowers Inc. (ACH)",
+        "connections": 1,
+        "buy_h1": 639,
+        "categories": 1
+      },
+      {
+        "vendor": "FlowerList (ACH)",
+        "connections": 1,
+        "buy_h1": 590,
+        "categories": 2
+      },
+      {
+        "vendor": "Continental Farms (ACH)",
+        "connections": 1,
+        "buy_h1": 570,
+        "categories": 5
+      },
+      {
+        "vendor": "American Floral/Floral 1 Inc (ACH)",
+        "connections": 1,
+        "buy_h1": 551,
+        "categories": 4
+      },
+      {
+        "vendor": "AmeriLink Floratrader Ach",
+        "connections": 1,
+        "buy_h1": 538,
+        "categories": 1
+      },
+      {
+        "vendor": "Liberty Blooms Inc. (ACH)",
+        "connections": 1,
+        "buy_h1": 509,
+        "categories": 1
+      },
+      {
+        "vendor": "Best Miami Growers (RBC)",
+        "connections": 1,
+        "buy_h1": 501,
+        "categories": 3
+      },
+      {
+        "vendor": "Continental Floral Greens(ACH)",
+        "connections": 1,
+        "buy_h1": 461,
+        "categories": 1
+      },
+      {
+        "vendor": "Wafex - MIA (RBC)",
+        "connections": 1,
+        "buy_h1": 324,
+        "categories": 3
+      },
+      {
+        "vendor": "Groflowers (RBC)",
+        "connections": 1,
+        "buy_h1": 305,
+        "categories": 1
+      },
+      {
+        "vendor": "Zion Flowers (RBC)",
+        "connections": 1,
+        "buy_h1": 281,
+        "categories": 3
+      },
+      {
+        "vendor": "Shaw Lake Farms (RBC)",
+        "connections": 1,
+        "buy_h1": 279,
+        "categories": 1
+      },
+      {
+        "vendor": "Stellar Farms (RBC)",
+        "connections": 1,
+        "buy_h1": 217,
+        "categories": 3
+      },
+      {
+        "vendor": "Legacy Flowers (RBC INV)",
+        "connections": 1,
+        "buy_h1": 196,
+        "categories": 1
+      },
+      {
+        "vendor": "Ecoroses - MIA (ACH)",
+        "connections": 1,
+        "buy_h1": 178,
+        "categories": 2
+      },
+      {
+        "vendor": "Coquette Roses",
+        "connections": 1,
+        "buy_h1": 152,
+        "categories": 1
+      },
+      {
+        "vendor": "Blossom Bliss",
+        "connections": 1,
+        "buy_h1": 147,
+        "categories": 1
+      },
+      {
+        "vendor": "L'artisan Roses (ACH)",
+        "connections": 1,
+        "buy_h1": 123,
+        "categories": 1
+      },
+      {
+        "vendor": "MONTEROSAS LLC",
+        "connections": 1,
+        "buy_h1": 120,
+        "categories": 1
+      },
+      {
+        "vendor": "EQ Blooms by Flodecol",
+        "connections": 1,
+        "buy_h1": 117,
+        "categories": 1
+      },
+      {
+        "vendor": "The Flower Co, LLC (ACH)",
+        "connections": 1,
+        "buy_h1": 114,
+        "categories": 1
+      },
+      {
+        "vendor": "Florens Group LLC",
+        "connections": 1,
+        "buy_h1": 110,
+        "categories": 1
+      },
+      {
+        "vendor": "Alison Flowers FOB UIO (ACH)",
+        "connections": 1,
+        "buy_h1": 91,
+        "categories": 1
+      },
+      {
+        "vendor": "PAT FLOR (ACH)",
+        "connections": 1,
+        "buy_h1": 88,
+        "categories": 1
+      },
+      {
+        "vendor": "FGS.Flowers",
+        "connections": 1,
+        "buy_h1": 71,
+        "categories": 1
+      },
+      {
+        "vendor": "Verisar Flowers - FOB UIO",
+        "connections": 1,
+        "buy_h1": 60,
+        "categories": 1
+      },
+      {
+        "vendor": "Gala Roses LLC (ACH)",
+        "connections": 1,
+        "buy_h1": 58,
+        "categories": 1
+      },
+      {
+        "vendor": "Kontikflor",
+        "connections": 1,
+        "buy_h1": 46,
+        "categories": 1
+      },
+      {
+        "vendor": "Akarana Farms FOB QUITO",
+        "connections": 1,
+        "buy_h1": 35,
+        "categories": 1
+      },
+      {
+        "vendor": "Pronto Farms LLC",
+        "connections": 1,
+        "buy_h1": 29,
+        "categories": 1
+      },
+      {
+        "vendor": "Greens and Flowers Connection (RBCH)",
+        "connections": 1,
+        "buy_h1": 26,
+        "categories": 1
+      },
+      {
+        "vendor": "Equiflor Corporation (RBC)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gypso S.A. FOB UIO (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 2
+      },
+      {
+        "vendor": "Dramm Echter Farms rbc",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Remi Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SKY FLOWERS S.A.S",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AnniRoses (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Llanos de Alba FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nathalia Bloemenexport LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floreco Inc.(RBC)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CANTIZA FLORAL DBA NFD",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sunburst Farms Inc. (RBC)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores Silvestres",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Fagua Flowers International (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Dynamic Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Qualisa FOB QUITO (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores San Miguel",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Naranjo Roses MIA (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Vegaflor - FOB MDE (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pampa Products LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MAGNIFICA FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Star roses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flowers' International Group",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Olimpo Flowers FOB QUITO (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers FOB QUITO (RBC)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Cantiza FOB QUITO (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "UNIVERSAL FLOWER SERVICE CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pacifica Farms FOB CAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Medellin Flowers & Greens - BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AquaRosa (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "GQ FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Green Dream Foliage FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MYSTICFLOWERS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Inversiones Ponte Tresa S.A (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Much Flowers - UIO (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Malima USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Quimflowers - UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anton Spaargaren (RBC)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Megaflor USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Expobloom FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mayta International LLC / Native Blooms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valley Springs LLC (ACH)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores de la Hacienda",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Excellent Flowers RBC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flora Traders LLC - MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Mayesh Wholesale Florist Inc": [
+      {
+        "vendor": "K2K - Welyflor",
+        "connections": 1,
+        "buy_h1": 190550,
+        "categories": 2
+      },
+      {
+        "vendor": "K2K Queens Flowers",
+        "connections": 1,
+        "buy_h1": 99514,
+        "categories": 32
+      },
+      {
+        "vendor": "K2K - Sunrite Farms",
+        "connections": 1,
+        "buy_h1": 89890,
+        "categories": 3
+      },
+      {
+        "vendor": "GYPSO FLOWERS - GYPS",
+        "connections": 1,
+        "buy_h1": 66592,
+        "categories": 9
+      },
+      {
+        "vendor": "K2K - Valley Springs",
+        "connections": 1,
+        "buy_h1": 37321,
+        "categories": 4
+      },
+      {
+        "vendor": "MIA - GALLERIA FARMS LLC. - GAFA",
+        "connections": 1,
+        "buy_h1": 20574,
+        "categories": 15
+      },
+      {
+        "vendor": "OLIMPO FLOWERS  FOB QUITO",
+        "connections": 1,
+        "buy_h1": 5397,
+        "categories": 2
+      },
+      {
+        "vendor": "K2K - Cananvalle Flowers",
+        "connections": 1,
+        "buy_h1": 841,
+        "categories": 2
+      },
+      {
+        "vendor": "K2K - L'artisan Roses",
+        "connections": 1,
+        "buy_h1": 322,
+        "categories": 2
+      },
+      {
+        "vendor": "K2K - Flores Del Valle LTD Valleflor",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "K2K - Global Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Metro Flower Market LLC": [
+      {
+        "vendor": "Queens-MIAMI",
+        "connections": 1,
+        "buy_h1": 117418,
+        "categories": 18
+      },
+      {
+        "vendor": "ELITE-FLK MIAMI",
+        "connections": 1,
+        "buy_h1": 96317,
+        "categories": 30
+      },
+      {
+        "vendor": "US Greens-MIAMI",
+        "connections": 1,
+        "buy_h1": 65993,
+        "categories": 21
+      },
+      {
+        "vendor": "Patflor-FLK MIAMI",
+        "connections": 1,
+        "buy_h1": 23572,
+        "categories": 6
+      },
+      {
+        "vendor": "Fresca Farms-MIAMI",
+        "connections": 1,
+        "buy_h1": 18025,
+        "categories": 44
+      },
+      {
+        "vendor": "Jet Fresh-MIAMI",
+        "connections": 1,
+        "buy_h1": 15017,
+        "categories": 44
+      },
+      {
+        "vendor": "Bella Blossom MIAMI",
+        "connections": 1,
+        "buy_h1": 14455,
+        "categories": 43
+      },
+      {
+        "vendor": "Galleria-MIAMI",
+        "connections": 1,
+        "buy_h1": 11664,
+        "categories": 26
+      },
+      {
+        "vendor": "Stellar-MIAMI",
+        "connections": 1,
+        "buy_h1": 5233,
+        "categories": 23
+      },
+      {
+        "vendor": "Sole-MIAMI",
+        "connections": 1,
+        "buy_h1": 4953,
+        "categories": 26
+      },
+      {
+        "vendor": "Greens And Flowers Connection-MIAMI",
+        "connections": 1,
+        "buy_h1": 4337,
+        "categories": 7
+      },
+      {
+        "vendor": "Welyflor/Profile-FLK MIAMI",
+        "connections": 1,
+        "buy_h1": 2637,
+        "categories": 1
+      },
+      {
+        "vendor": "Choice-MIAMI",
+        "connections": 1,
+        "buy_h1": 2248,
+        "categories": 6
+      },
+      {
+        "vendor": "Chilfresh-MIAMI",
+        "connections": 1,
+        "buy_h1": 1820,
+        "categories": 5
+      },
+      {
+        "vendor": "DP Flowerss-FOB MIAMI",
+        "connections": 1,
+        "buy_h1": 1331,
+        "categories": 2
+      },
+      {
+        "vendor": "Gardens America-MIAMI",
+        "connections": 1,
+        "buy_h1": 1063,
+        "categories": 3
+      },
+      {
+        "vendor": "Sunrite-MIAMI",
+        "connections": 1,
+        "buy_h1": 634,
+        "categories": 3
+      },
+      {
+        "vendor": "Much Flowers-FLK MIAMI",
+        "connections": 1,
+        "buy_h1": 534,
+        "categories": 5
+      },
+      {
+        "vendor": "Cananvalle-MIAMI",
+        "connections": 1,
+        "buy_h1": 465,
+        "categories": 1
+      },
+      {
+        "vendor": "Wafex-FLK MIAMI",
+        "connections": 1,
+        "buy_h1": 297,
+        "categories": 3
+      },
+      {
+        "vendor": "Global Flowers",
+        "connections": 1,
+        "buy_h1": 286,
+        "categories": 2
+      },
+      {
+        "vendor": "Farms Connect",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Premium Greens Australia",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "J&E Specialty Crops LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Metropetals": [
+      {
+        "vendor": "Miaflora (MIA)",
+        "connections": 1,
+        "buy_h1": 9751,
+        "categories": 22
+      },
+      {
+        "vendor": "Jet Fresh Flowers (MIA)",
+        "connections": 1,
+        "buy_h1": 7474,
+        "categories": 25
+      },
+      {
+        "vendor": "Kontiki (NYC)",
+        "connections": 1,
+        "buy_h1": 7096,
+        "categories": 12
+      },
+      {
+        "vendor": "Melody Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 6309,
+        "categories": 20
+      },
+      {
+        "vendor": "Sole Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 5593,
+        "categories": 20
+      },
+      {
+        "vendor": "Royal Flowers (MIA)",
+        "connections": 1,
+        "buy_h1": 4908,
+        "categories": 13
+      },
+      {
+        "vendor": "Fresca Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 4550,
+        "categories": 19
+      },
+      {
+        "vendor": "The Queens Flowers (MIA)",
+        "connections": 1,
+        "buy_h1": 4298,
+        "categories": 13
+      },
+      {
+        "vendor": "Gardens America (MIA)",
+        "connections": 1,
+        "buy_h1": 2628,
+        "categories": 10
+      },
+      {
+        "vendor": "Pinnacle Flowers (MIA)",
+        "connections": 1,
+        "buy_h1": 2622,
+        "categories": 9
+      },
+      {
+        "vendor": "Naranjo Farms USA (MIA)",
+        "connections": 1,
+        "buy_h1": 2462,
+        "categories": 1
+      },
+      {
+        "vendor": "EQR (MIA)",
+        "connections": 1,
+        "buy_h1": 2424,
+        "categories": 3
+      },
+      {
+        "vendor": "Cantiza Flor (UIO) (Growers)",
+        "connections": 1,
+        "buy_h1": 2025,
+        "categories": 1
+      },
+      {
+        "vendor": "Choice Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 2016,
+        "categories": 5
+      },
+      {
+        "vendor": "Floreco (MIA)",
+        "connections": 1,
+        "buy_h1": 1907,
+        "categories": 5
+      },
+      {
+        "vendor": "The Greens and Flowers Company (MIA)",
+        "connections": 1,
+        "buy_h1": 1755,
+        "categories": 1
+      },
+      {
+        "vendor": "Galleria Farms.(MIA)",
+        "connections": 1,
+        "buy_h1": 1419,
+        "categories": 10
+      },
+      {
+        "vendor": "Star Roses (UIO)",
+        "connections": 1,
+        "buy_h1": 1025,
+        "categories": 4
+      },
+      {
+        "vendor": "Zion Flowers (MIA)",
+        "connections": 1,
+        "buy_h1": 1002,
+        "categories": 5
+      },
+      {
+        "vendor": "Continental Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 926,
+        "categories": 6
+      },
+      {
+        "vendor": "Gro Flowers (MIA)",
+        "connections": 1,
+        "buy_h1": 789,
+        "categories": 1
+      },
+      {
+        "vendor": "Welyflor Miami (MIA)",
+        "connections": 1,
+        "buy_h1": 571,
+        "categories": 1
+      },
+      {
+        "vendor": "Sunrite Farms Collection (MIA)",
+        "connections": 1,
+        "buy_h1": 507,
+        "categories": 2
+      },
+      {
+        "vendor": "Native Blooms (MIA)",
+        "connections": 1,
+        "buy_h1": 273,
+        "categories": 1
+      },
+      {
+        "vendor": "Megaflor USA (MIA)",
+        "connections": 1,
+        "buy_h1": 265,
+        "categories": 3
+      },
+      {
+        "vendor": "Albin Hagstrom (MIA)",
+        "connections": 1,
+        "buy_h1": 175,
+        "categories": 1
+      },
+      {
+        "vendor": "Fagua Flowers (MIA)",
+        "connections": 1,
+        "buy_h1": 99,
+        "categories": 1
+      },
+      {
+        "vendor": "Tutuli (CA)",
+        "connections": 1,
+        "buy_h1": 67,
+        "categories": 2
+      },
+      {
+        "vendor": "Grupo del Pacifio (UIO)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Epic Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Aurum Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mystic Flowers LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Aqua Rose (MIA)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mojanda Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Allure Farms (MIA)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Farm Connect LLC (MIA)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A.Spaargaren (MIA)",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "NORTHWEST WHOLESALE FLORIST": [
+      {
+        "vendor": "Choice Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Elite Flower",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Tutuli Flower Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "* Welyflor / PROFILE FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Multiflora Corporation",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Muchflowers Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anton Spaargaren B.V.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SHAW LAKE FARMS INC.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A SUNRITE FARMS COLLECTIONS CORP.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "NY Floral Supply": [
+      {
+        "vendor": "The Queens Flowers",
+        "connections": 1,
+        "buy_h1": 157739,
+        "categories": 14
+      },
+      {
+        "vendor": "Anni Roses",
+        "connections": 1,
+        "buy_h1": 93948,
+        "categories": 3
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 55043,
+        "categories": 30
+      },
+      {
+        "vendor": "Melody Farms LLC",
+        "connections": 1,
+        "buy_h1": 40262,
+        "categories": 10
+      },
+      {
+        "vendor": "MONTEROSAS",
+        "connections": 1,
+        "buy_h1": 32479,
+        "categories": 2
+      },
+      {
+        "vendor": "Excellent Flowers Inc.",
+        "connections": 1,
+        "buy_h1": 25652,
+        "categories": 3
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 1,
+        "buy_h1": 23611,
+        "categories": 13
+      },
+      {
+        "vendor": "NARANJO FARMS",
+        "connections": 1,
+        "buy_h1": 18109,
+        "categories": 3
+      },
+      {
+        "vendor": "Bella Blossom",
+        "connections": 1,
+        "buy_h1": 13124,
+        "categories": 26
+      },
+      {
+        "vendor": "COQUETTE ROSES",
+        "connections": 1,
+        "buy_h1": 10752,
+        "categories": 2
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 8964,
+        "categories": 17
+      },
+      {
+        "vendor": "MEGAFLOR USA",
+        "connections": 1,
+        "buy_h1": 6755,
+        "categories": 7
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 1,
+        "buy_h1": 6750,
+        "categories": 1
+      },
+      {
+        "vendor": "Continental Farms",
+        "connections": 1,
+        "buy_h1": 6442,
+        "categories": 14
+      },
+      {
+        "vendor": "CHOICE FARMS",
+        "connections": 1,
+        "buy_h1": 5665,
+        "categories": 12
+      },
+      {
+        "vendor": "Native Blooms",
+        "connections": 1,
+        "buy_h1": 2231,
+        "categories": 2
+      },
+      {
+        "vendor": "Kontikiflor",
+        "connections": 1,
+        "buy_h1": 2132,
+        "categories": 8
+      },
+      {
+        "vendor": "IRIS ROSES/ ANNE FLOWERS",
+        "connections": 1,
+        "buy_h1": 1473,
+        "categories": 1
+      },
+      {
+        "vendor": "Stellar Farms",
+        "connections": 1,
+        "buy_h1": 296,
+        "categories": 1
+      },
+      {
+        "vendor": "Flores San Miguel",
+        "connections": 1,
+        "buy_h1": 120,
+        "categories": 1
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 1,
+        "buy_h1": 69,
+        "categories": 1
+      },
+      {
+        "vendor": "Premium Flowers",
+        "connections": 1,
+        "buy_h1": 46,
+        "categories": 1
+      },
+      {
+        "vendor": "Dynamic Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Heirloom Home Decor",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "National Floral Supply": [
+      {
+        "vendor": "Queens Flowers",
+        "connections": 1,
+        "buy_h1": 9309,
+        "categories": 12
+      },
+      {
+        "vendor": "Equiflor",
+        "connections": 1,
+        "buy_h1": 4908,
+        "categories": 6
+      },
+      {
+        "vendor": "Stellar Farms",
+        "connections": 1,
+        "buy_h1": 1775,
+        "categories": 3
+      },
+      {
+        "vendor": "Gardens Of America",
+        "connections": 1,
+        "buy_h1": 1641,
+        "categories": 4
+      },
+      {
+        "vendor": "Galleria Farms",
+        "connections": 1,
+        "buy_h1": 1602,
+        "categories": 7
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 119,
+        "categories": 1
+      },
+      {
+        "vendor": "Continental Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Continental Floral Greens",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Dynamic Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Jet Fresh Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Muchflowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Melody Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "New England Wholesale Florist": [
+      {
+        "vendor": "Sole",
+        "connections": 1,
+        "buy_h1": 25522,
+        "categories": 19
+      },
+      {
+        "vendor": "Continental Farms",
+        "connections": 1,
+        "buy_h1": 17138,
+        "categories": 8
+      },
+      {
+        "vendor": "The Queens Flowers, Corp",
+        "connections": 1,
+        "buy_h1": 13280,
+        "categories": 9
+      },
+      {
+        "vendor": "Legacy Flowers",
+        "connections": 1,
+        "buy_h1": 8564,
+        "categories": 6
+      },
+      {
+        "vendor": "Welyflor / PROFILE FLOWERS",
+        "connections": 1,
+        "buy_h1": 6225,
+        "categories": 1
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 1,
+        "buy_h1": 6128,
+        "categories": 14
+      },
+      {
+        "vendor": "US GREENS CORP",
+        "connections": 1,
+        "buy_h1": 4166,
+        "categories": 4
+      },
+      {
+        "vendor": "Gardens America Inc.",
+        "connections": 1,
+        "buy_h1": 3466,
+        "categories": 7
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 1027,
+        "categories": 8
+      },
+      {
+        "vendor": "Flowers' International Group",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A Trilogy Floral - Zamba Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "LA TOSCANA FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mayta International LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Milena test",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Groflowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Nova Packaging Solutions, Inc.": [
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 4159,
+        "categories": 22
+      },
+      {
+        "vendor": "Sunburst Farms, Inc.",
+        "connections": 1,
+        "buy_h1": 2287,
+        "categories": 17
+      },
+      {
+        "vendor": "The Queen's Flowers",
+        "connections": 1,
+        "buy_h1": 2033,
+        "categories": 11
+      },
+      {
+        "vendor": "US Greens, Corp.",
+        "connections": 1,
+        "buy_h1": 806,
+        "categories": 3
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 795,
+        "categories": 7
+      },
+      {
+        "vendor": "Continental Flowers Inc",
+        "connections": 1,
+        "buy_h1": 111,
+        "categories": 2
+      },
+      {
+        "vendor": "Continental Farms",
+        "connections": 1,
+        "buy_h1": 80,
+        "categories": 1
+      },
+      {
+        "vendor": "Jet Fresh Flowers Distributors Inc",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Orlando Wholesale Florist": [
+      {
+        "vendor": "Jet Fresh Flower Distributor",
+        "connections": 1,
+        "buy_h1": 72465,
+        "categories": 70
+      },
+      {
+        "vendor": "Albin Hagstrom",
+        "connections": 1,
+        "buy_h1": 68301,
+        "categories": 1
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 1,
+        "buy_h1": 48731,
+        "categories": 25
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 37784,
+        "categories": 40
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 35370,
+        "categories": 40
+      },
+      {
+        "vendor": "Allure Farms, Inc",
+        "connections": 1,
+        "buy_h1": 29049,
+        "categories": 47
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 28085,
+        "categories": 42
+      },
+      {
+        "vendor": "Sunrite Farms",
+        "connections": 1,
+        "buy_h1": 24267,
+        "categories": 2
+      },
+      {
+        "vendor": "PatFlor Italy",
+        "connections": 1,
+        "buy_h1": 24207,
+        "categories": 8
+      },
+      {
+        "vendor": "Groflowers",
+        "connections": 1,
+        "buy_h1": 21571,
+        "categories": 3
+      },
+      {
+        "vendor": "Much Flowers",
+        "connections": 1,
+        "buy_h1": 21054,
+        "categories": 12
+      },
+      {
+        "vendor": "Sunburst",
+        "connections": 1,
+        "buy_h1": 14849,
+        "categories": 6
+      },
+      {
+        "vendor": "Trilogy Flowers",
+        "connections": 1,
+        "buy_h1": 14032,
+        "categories": 21
+      },
+      {
+        "vendor": "Ecoroses",
+        "connections": 1,
+        "buy_h1": 11693,
+        "categories": 1
+      },
+      {
+        "vendor": "US Greens",
+        "connections": 1,
+        "buy_h1": 9567,
+        "categories": 15
+      },
+      {
+        "vendor": "Florisol",
+        "connections": 1,
+        "buy_h1": 9348,
+        "categories": 4
+      },
+      {
+        "vendor": "Floral Chain USA",
+        "connections": 1,
+        "buy_h1": 8423,
+        "categories": 5
+      },
+      {
+        "vendor": "Continental Floral Greens",
+        "connections": 1,
+        "buy_h1": 3812,
+        "categories": 1
+      },
+      {
+        "vendor": "IRIS ROSES LLC",
+        "connections": 1,
+        "buy_h1": 2433,
+        "categories": 1
+      },
+      {
+        "vendor": "Alma / Agrinag / Natuflor",
+        "connections": 1,
+        "buy_h1": 2060,
+        "categories": 2
+      },
+      {
+        "vendor": "EQ Blooms LLC",
+        "connections": 1,
+        "buy_h1": 2006,
+        "categories": 2
+      },
+      {
+        "vendor": "Gardens America",
+        "connections": 1,
+        "buy_h1": 1327,
+        "categories": 10
+      },
+      {
+        "vendor": "Multiflora Corparation",
+        "connections": 1,
+        "buy_h1": 944,
+        "categories": 6
+      },
+      {
+        "vendor": "DP Flowrs Corp",
+        "connections": 1,
+        "buy_h1": 521,
+        "categories": 1
+      },
+      {
+        "vendor": "Zion Flowers INC.",
+        "connections": 1,
+        "buy_h1": 362,
+        "categories": 2
+      },
+      {
+        "vendor": "Wafex USA",
+        "connections": 1,
+        "buy_h1": 312,
+        "categories": 1
+      },
+      {
+        "vendor": "Welyflor / PROFILE FLOWERS",
+        "connections": 1,
+        "buy_h1": 292,
+        "categories": 1
+      },
+      {
+        "vendor": "Sierra Flower Trading",
+        "connections": 1,
+        "buy_h1": 273,
+        "categories": 2
+      },
+      {
+        "vendor": "Galleria Farms LLC",
+        "connections": 1,
+        "buy_h1": 271,
+        "categories": 3
+      },
+      {
+        "vendor": "Best Miami Growers LLCC",
+        "connections": 1,
+        "buy_h1": 110,
+        "categories": 1
+      },
+      {
+        "vendor": "South Florals Imports",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mayta International LLC / Native Blooms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORAL1 INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "LA TOSCANA FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Megaflor USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Aquarose",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Andean Fresh LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Legacy Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valley Springs",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flowers' International Group",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Elite Flower",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Direct Farms LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Blossom Bliss LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Global Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Protean Farms US",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Farms Connect",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anniroses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gala Roses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Chilfresh",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anton Spaargaren B.V.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "K2K TEST",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Penelope\u2019s Petals, LLC": [
+      {
+        "vendor": "JET FRESH FLOWER DISTRIBUTORS",
+        "connections": 1,
+        "buy_h1": 67149,
+        "categories": 61
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 23005,
+        "categories": 31
+      },
+      {
+        "vendor": "SUNRITE FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Patflor",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Melody Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Naranjo Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floral Chain",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "LEGACY FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Price's Floral Wholesale, LLC": [
+      {
+        "vendor": "Rosaprima International, LLC",
+        "connections": 1,
+        "buy_h1": 18049,
+        "categories": 9
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 17643,
+        "categories": 38
+      },
+      {
+        "vendor": "A Trilogy Floral - Zamba Flowers",
+        "connections": 1,
+        "buy_h1": 16608,
+        "categories": 39
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 13810,
+        "categories": 41
+      },
+      {
+        "vendor": "-Sole Farms",
+        "connections": 1,
+        "buy_h1": 13804,
+        "categories": 40
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 1,
+        "buy_h1": 12575,
+        "categories": 39
+      },
+      {
+        "vendor": "Galleria Farms",
+        "connections": 1,
+        "buy_h1": 10030,
+        "categories": 15
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 9690,
+        "categories": 35
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 1,
+        "buy_h1": 8685,
+        "categories": 26
+      },
+      {
+        "vendor": "Stellar Farms",
+        "connections": 1,
+        "buy_h1": 6547,
+        "categories": 23
+      },
+      {
+        "vendor": "Golden Flowers",
+        "connections": 1,
+        "buy_h1": 6200,
+        "categories": 14
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 1,
+        "buy_h1": 4607,
+        "categories": 20
+      },
+      {
+        "vendor": "Melody Farms LLC",
+        "connections": 1,
+        "buy_h1": 3428,
+        "categories": 14
+      },
+      {
+        "vendor": "Royal Flowers Inc., Domestic",
+        "connections": 1,
+        "buy_h1": 3420,
+        "categories": 21
+      },
+      {
+        "vendor": "Riverdale Farms",
+        "connections": 1,
+        "buy_h1": 2483,
+        "categories": 14
+      },
+      {
+        "vendor": "SUNRITE FARMS COLLECTIONS CORP",
+        "connections": 1,
+        "buy_h1": 2358,
+        "categories": 3
+      },
+      {
+        "vendor": "Mayta International LLC / Native Blooms",
+        "connections": 1,
+        "buy_h1": 2272,
+        "categories": 2
+      },
+      {
+        "vendor": "Megaflor USA",
+        "connections": 1,
+        "buy_h1": 1908,
+        "categories": 5
+      },
+      {
+        "vendor": "Miraflor LLC",
+        "connections": 1,
+        "buy_h1": 1808,
+        "categories": 8
+      },
+      {
+        "vendor": "Miaflora Farms",
+        "connections": 1,
+        "buy_h1": 1443,
+        "categories": 10
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 1,
+        "buy_h1": 1154,
+        "categories": 6
+      },
+      {
+        "vendor": "Floral Chain Direct",
+        "connections": 1,
+        "buy_h1": 691,
+        "categories": 5
+      },
+      {
+        "vendor": "Premium Flowers",
+        "connections": 1,
+        "buy_h1": 631,
+        "categories": 6
+      },
+      {
+        "vendor": "LA TOSCANA FARMS",
+        "connections": 1,
+        "buy_h1": 626,
+        "categories": 2
+      },
+      {
+        "vendor": "South Florals Imports LLC",
+        "connections": 1,
+        "buy_h1": 336,
+        "categories": 2
+      },
+      {
+        "vendor": "Greens and Flowers Connection",
+        "connections": 1,
+        "buy_h1": 267,
+        "categories": 2
+      },
+      {
+        "vendor": "Pacifica Farms",
+        "connections": 1,
+        "buy_h1": 236,
+        "categories": 2
+      },
+      {
+        "vendor": "Milena Flowers",
+        "connections": 1,
+        "buy_h1": 92,
+        "categories": 2
+      },
+      {
+        "vendor": "Jetty USA LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Muchflowers Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Blossom Bliss LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Salter's Evergreen Supply",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "* AquaRose",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Flower Emporium LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Moonlight Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "DP Flowers Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Quinlan-Wasserman, Inc": [
+      {
+        "vendor": "ALLURE FARMS",
+        "connections": 1,
+        "buy_h1": 4053,
+        "categories": 20
+      },
+      {
+        "vendor": "SUNBURST FARMS",
+        "connections": 1,
+        "buy_h1": 1990,
+        "categories": 14
+      },
+      {
+        "vendor": "BELLA BLOSSOM",
+        "connections": 1,
+        "buy_h1": 1724,
+        "categories": 11
+      },
+      {
+        "vendor": "CHOICE FARMS",
+        "connections": 1,
+        "buy_h1": 1368,
+        "categories": 5
+      },
+      {
+        "vendor": "ROSAPRIMA",
+        "connections": 1,
+        "buy_h1": 880,
+        "categories": 3
+      },
+      {
+        "vendor": "TRILOGY FLORAL-ZAMBI",
+        "connections": 1,
+        "buy_h1": 804,
+        "categories": 8
+      },
+      {
+        "vendor": "FRESCA FARMS",
+        "connections": 1,
+        "buy_h1": 783,
+        "categories": 5
+      },
+      {
+        "vendor": "GARDENS AMERICA",
+        "connections": 1,
+        "buy_h1": 495,
+        "categories": 3
+      },
+      {
+        "vendor": "MegaFlor USA",
+        "connections": 1,
+        "buy_h1": 392,
+        "categories": 2
+      },
+      {
+        "vendor": "FLORAL CHAIN",
+        "connections": 1,
+        "buy_h1": 288,
+        "categories": 3
+      },
+      {
+        "vendor": "ELITE FLOWERS",
+        "connections": 1,
+        "buy_h1": 243,
+        "categories": 2
+      },
+      {
+        "vendor": "GOLDEN FLOWERS",
+        "connections": 1,
+        "buy_h1": 221,
+        "categories": 1
+      },
+      {
+        "vendor": "EQR",
+        "connections": 1,
+        "buy_h1": 173,
+        "categories": 2
+      },
+      {
+        "vendor": "THE QUEENS FLOWERS",
+        "connections": 1,
+        "buy_h1": 158,
+        "categories": 2
+      },
+      {
+        "vendor": "MUCH",
+        "connections": 1,
+        "buy_h1": 108,
+        "categories": 2
+      },
+      {
+        "vendor": "AQUAROSE",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "ANTON SPAARGAREN",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CANTIZA FLORAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pacifica Farms FOB CAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Golden state flowers, inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Riverside Wholesale Florists KY": [
+      {
+        "vendor": "-Sole Farms",
+        "connections": 1,
+        "buy_h1": 65195,
+        "categories": 44
+      },
+      {
+        "vendor": "The Queens Flowers, Corp",
+        "connections": 1,
+        "buy_h1": 63420,
+        "categories": 13
+      },
+      {
+        "vendor": "Royal Flowers Inc., Domestic",
+        "connections": 1,
+        "buy_h1": 43322,
+        "categories": 35
+      },
+      {
+        "vendor": "A Trilogy Floral - Zamba Flowers",
+        "connections": 1,
+        "buy_h1": 33707,
+        "categories": 32
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 19283,
+        "categories": 38
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 1,
+        "buy_h1": 15700,
+        "categories": 8
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 7492,
+        "categories": 23
+      },
+      {
+        "vendor": "Jet Fresh Flower Distributors Inc.",
+        "connections": 1,
+        "buy_h1": 5807,
+        "categories": 26
+      },
+      {
+        "vendor": "Muchflowers Inc.",
+        "connections": 1,
+        "buy_h1": 4927,
+        "categories": 2
+      },
+      {
+        "vendor": "!A SUNRITE FARMS COLLECTIONS CORP",
+        "connections": 1,
+        "buy_h1": 2251,
+        "categories": 3
+      },
+      {
+        "vendor": "Milena Flowers",
+        "connections": 1,
+        "buy_h1": 1196,
+        "categories": 5
+      },
+      {
+        "vendor": "* Continental Farms",
+        "connections": 1,
+        "buy_h1": 1188,
+        "categories": 8
+      },
+      {
+        "vendor": "Floreco, Inc",
+        "connections": 1,
+        "buy_h1": 333,
+        "categories": 2
+      },
+      {
+        "vendor": "The Flower Co, LLC",
+        "connections": 1,
+        "buy_h1": 192,
+        "categories": 1
+      },
+      {
+        "vendor": "Multiflora Corporation",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "* Welyflor / PROFILE FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gala Roses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Greens and Flowers Connection",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Queens Flowers Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Rosaprima International, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "DP Flowers Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "HANAYA FARMS",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Rose Runners": [
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 17368,
+        "categories": 5
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 7843,
+        "categories": 12
+      },
+      {
+        "vendor": "Continental Farms",
+        "connections": 1,
+        "buy_h1": 1474,
+        "categories": 10
+      },
+      {
+        "vendor": "Trilogy",
+        "connections": 1,
+        "buy_h1": 1304,
+        "categories": 3
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 1,
+        "buy_h1": 731,
+        "categories": 4
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 629,
+        "categories": 4
+      },
+      {
+        "vendor": "Pacifica Farms",
+        "connections": 1,
+        "buy_h1": 204,
+        "categories": 2
+      },
+      {
+        "vendor": "Cantiza",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Ecoroses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Naranjo",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "SOS Floral": [
+      {
+        "vendor": "Fiorentina Flowers",
+        "connections": 1,
+        "buy_h1": 16587,
+        "categories": 2
+      }
+    ],
+    "SPRINGFIELD FLORIST SUPPLY INC": [
+      {
+        "vendor": "Test Fresh Cut Vendor",
+        "connections": 1,
+        "buy_h1": 5717,
+        "categories": 9
+      },
+      {
+        "vendor": "-Sole Farms",
+        "connections": 1,
+        "buy_h1": 3644,
+        "categories": 10
+      },
+      {
+        "vendor": "Floral Chain Direct",
+        "connections": 1,
+        "buy_h1": 3546,
+        "categories": 7
+      },
+      {
+        "vendor": "ECOROSES LLC",
+        "connections": 1,
+        "buy_h1": 2283,
+        "categories": 12
+      },
+      {
+        "vendor": "FOB UIO -  Alma Spray / Agrinag / Natuflor",
+        "connections": 1,
+        "buy_h1": 750,
+        "categories": 1
+      },
+      {
+        "vendor": "EQR USA",
+        "connections": 1,
+        "buy_h1": 680,
+        "categories": 1
+      },
+      {
+        "vendor": "Rosaprima International, LLC",
+        "connections": 1,
+        "buy_h1": 582,
+        "categories": 1
+      },
+      {
+        "vendor": "-Groflowers",
+        "connections": 1,
+        "buy_h1": 449,
+        "categories": 3
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 161,
+        "categories": 3
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 1,
+        "buy_h1": 160,
+        "categories": 3
+      },
+      {
+        "vendor": "Gardens America Inc.",
+        "connections": 1,
+        "buy_h1": 117,
+        "categories": 2
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 107,
+        "categories": 2
+      },
+      {
+        "vendor": "EQ Blooms by Flodecol",
+        "connections": 1,
+        "buy_h1": 63,
+        "categories": 1
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 57,
+        "categories": 1
+      },
+      {
+        "vendor": "LA TOSCANA FARMS",
+        "connections": 1,
+        "buy_h1": 54,
+        "categories": 1
+      },
+      {
+        "vendor": "Liberty Blooms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Elite Flower",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "RUMHORA GREENS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mayta International LLC / Native Blooms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Inversiones Napy S.A",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Muchflowers Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Bloomistics",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Welyflor / PROFILE FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nazcaflor USA, Inc",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Blossom Bliss LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Megaflor USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CANTIZA FLORAL DBA NFD",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Royal Flowers Inc., Domestic",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Hana Farms Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Interflor LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Flower Co, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Premium Greens Australia LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Bellaflor Group Inc.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Castle Hayne Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Legacy Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SHAW LAKE FARMS INC.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pinnacle Flowers, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "EF FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SUNRITE FARMS COLLECTIONS CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores San Miguel",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Tutuli Flower Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Protean Farms US",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MONTEROSAS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Riverdale Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anton Spaargaren B.V.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Flower Emporium LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Zion Flowers INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Andean Fresh LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MALIMA USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valleflor USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flower List",
+        "connections": 2,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Floreco, Inc",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "IRIS ROSES LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "The Queens Flowers, Corp",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valley Springs LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "A1 Floral Xpressions",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sierra Flower Trading",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "**Wafex USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Galleria Farms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AmeriLink Floratrader",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "San Jose Floral": [
+      {
+        "vendor": "Nathalia Bloemenexport LLC",
+        "connections": 1,
+        "buy_h1": 2563,
+        "categories": 2
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 1618,
+        "categories": 6
+      }
+    ],
+    "Sims Flower Distribution": [
+      {
+        "vendor": "Royal Base America",
+        "connections": 1,
+        "buy_h1": 121760,
+        "categories": 1
+      },
+      {
+        "vendor": "Jet Fresh Flowers",
+        "connections": 1,
+        "buy_h1": 46750,
+        "categories": 45
+      },
+      {
+        "vendor": "Royal Flowers",
+        "connections": 1,
+        "buy_h1": 40404,
+        "categories": 24
+      },
+      {
+        "vendor": "Sole Farms",
+        "connections": 1,
+        "buy_h1": 36958,
+        "categories": 32
+      },
+      {
+        "vendor": "Fresca Farms",
+        "connections": 1,
+        "buy_h1": 34557,
+        "categories": 32
+      },
+      {
+        "vendor": "Rumhora Greens LLC",
+        "connections": 1,
+        "buy_h1": 24450,
+        "categories": 4
+      },
+      {
+        "vendor": "Moonlight",
+        "connections": 1,
+        "buy_h1": 21861,
+        "categories": 2
+      },
+      {
+        "vendor": "Sunrite Farms MIAMI",
+        "connections": 1,
+        "buy_h1": 19781,
+        "categories": 2
+      },
+      {
+        "vendor": "Allure Farms",
+        "connections": 1,
+        "buy_h1": 19138,
+        "categories": 34
+      },
+      {
+        "vendor": "Golden Flowers",
+        "connections": 1,
+        "buy_h1": 18210,
+        "categories": 4
+      },
+      {
+        "vendor": "Protean Farms MIA",
+        "connections": 1,
+        "buy_h1": 13483,
+        "categories": 13
+      },
+      {
+        "vendor": "MiaFlora",
+        "connections": 1,
+        "buy_h1": 11032,
+        "categories": 22
+      },
+      {
+        "vendor": "Bella Blossom",
+        "connections": 1,
+        "buy_h1": 10587,
+        "categories": 23
+      },
+      {
+        "vendor": "EQR Miami",
+        "connections": 1,
+        "buy_h1": 7385,
+        "categories": 4
+      },
+      {
+        "vendor": "Elite Flowers",
+        "connections": 1,
+        "buy_h1": 7026,
+        "categories": 12
+      },
+      {
+        "vendor": "Tessa Corp (Gala)",
+        "connections": 1,
+        "buy_h1": 7026,
+        "categories": 7
+      },
+      {
+        "vendor": "Mystic LLC",
+        "connections": 1,
+        "buy_h1": 6905,
+        "categories": 3
+      },
+      {
+        "vendor": "Gardens America",
+        "connections": 1,
+        "buy_h1": 6067,
+        "categories": 20
+      },
+      {
+        "vendor": "Trilogy",
+        "connections": 1,
+        "buy_h1": 5815,
+        "categories": 15
+      },
+      {
+        "vendor": "Cananvalle MIAMI",
+        "connections": 1,
+        "buy_h1": 4909,
+        "categories": 2
+      },
+      {
+        "vendor": "Naranjo Farms MIAMI",
+        "connections": 1,
+        "buy_h1": 3719,
+        "categories": 3
+      },
+      {
+        "vendor": "Jetty Flowers",
+        "connections": 1,
+        "buy_h1": 2762,
+        "categories": 1
+      },
+      {
+        "vendor": "Ecoroses LLC",
+        "connections": 1,
+        "buy_h1": 2533,
+        "categories": 3
+      },
+      {
+        "vendor": "Floral 1",
+        "connections": 1,
+        "buy_h1": 2346,
+        "categories": 4
+      },
+      {
+        "vendor": "Juliet Wholesale",
+        "connections": 1,
+        "buy_h1": 2335,
+        "categories": 8
+      },
+      {
+        "vendor": "Floreco",
+        "connections": 1,
+        "buy_h1": 1736,
+        "categories": 4
+      },
+      {
+        "vendor": "Choice Farms",
+        "connections": 1,
+        "buy_h1": 1468,
+        "categories": 4
+      },
+      {
+        "vendor": "Groflowers",
+        "connections": 1,
+        "buy_h1": 1272,
+        "categories": 2
+      },
+      {
+        "vendor": "Riverdale",
+        "connections": 1,
+        "buy_h1": 1180,
+        "categories": 9
+      },
+      {
+        "vendor": "Vera",
+        "connections": 1,
+        "buy_h1": 976,
+        "categories": 2
+      },
+      {
+        "vendor": "The Queens Flowers",
+        "connections": 1,
+        "buy_h1": 802,
+        "categories": 4
+      },
+      {
+        "vendor": "Continental Flowers and Greens",
+        "connections": 1,
+        "buy_h1": 614,
+        "categories": 2
+      },
+      {
+        "vendor": "Premium Greens Australia",
+        "connections": 1,
+        "buy_h1": 606,
+        "categories": 1
+      },
+      {
+        "vendor": "Universal Flowers Farm",
+        "connections": 1,
+        "buy_h1": 520,
+        "categories": 2
+      },
+      {
+        "vendor": "Best Miami Growers",
+        "connections": 1,
+        "buy_h1": 478,
+        "categories": 4
+      },
+      {
+        "vendor": "Excellent Flowers",
+        "connections": 1,
+        "buy_h1": 411,
+        "categories": 1
+      },
+      {
+        "vendor": "Much Flowers",
+        "connections": 1,
+        "buy_h1": 298,
+        "categories": 4
+      },
+      {
+        "vendor": "Andean Fresh",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Fagua Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Anton Spaargaren",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Stemline Wholesale": [
+      {
+        "vendor": "Welyflor",
+        "connections": 1,
+        "buy_h1": 82023,
+        "categories": 2
+      },
+      {
+        "vendor": "GOLDEN",
+        "connections": 1,
+        "buy_h1": 72444,
+        "categories": 19
+      },
+      {
+        "vendor": "SOLE",
+        "connections": 1,
+        "buy_h1": 42859,
+        "categories": 36
+      },
+      {
+        "vendor": "Galleria",
+        "connections": 1,
+        "buy_h1": 42477,
+        "categories": 18
+      },
+      {
+        "vendor": "Jet Fresh",
+        "connections": 1,
+        "buy_h1": 40022,
+        "categories": 40
+      },
+      {
+        "vendor": "Mayta/Native Blooms",
+        "connections": 1,
+        "buy_h1": 33424,
+        "categories": 2
+      },
+      {
+        "vendor": "Rosa Prima",
+        "connections": 1,
+        "buy_h1": 27451,
+        "categories": 5
+      },
+      {
+        "vendor": "Gala Roses",
+        "connections": 1,
+        "buy_h1": 24691,
+        "categories": 13
+      },
+      {
+        "vendor": "FRESCA",
+        "connections": 1,
+        "buy_h1": 23349,
+        "categories": 35
+      },
+      {
+        "vendor": "Continental Flowers",
+        "connections": 1,
+        "buy_h1": 23075,
+        "categories": 27
+      },
+      {
+        "vendor": "Queens Flowers",
+        "connections": 1,
+        "buy_h1": 22702,
+        "categories": 17
+      },
+      {
+        "vendor": "CHOICE FARMS",
+        "connections": 1,
+        "buy_h1": 16243,
+        "categories": 15
+      },
+      {
+        "vendor": "Naranjo",
+        "connections": 1,
+        "buy_h1": 15809,
+        "categories": 2
+      },
+      {
+        "vendor": "Trilogy",
+        "connections": 1,
+        "buy_h1": 14498,
+        "categories": 29
+      },
+      {
+        "vendor": "EQUIFLOR/RIO",
+        "connections": 1,
+        "buy_h1": 12990,
+        "categories": 12
+      },
+      {
+        "vendor": "A1 Floral",
+        "connections": 1,
+        "buy_h1": 10668,
+        "categories": 5
+      },
+      {
+        "vendor": "EQR Rose",
+        "connections": 1,
+        "buy_h1": 10646,
+        "categories": 4
+      },
+      {
+        "vendor": "BELLA BLOSSOM",
+        "connections": 1,
+        "buy_h1": 9977,
+        "categories": 33
+      },
+      {
+        "vendor": "Ecoroses",
+        "connections": 1,
+        "buy_h1": 9651,
+        "categories": 4
+      },
+      {
+        "vendor": "CANANVALLE",
+        "connections": 1,
+        "buy_h1": 8643,
+        "categories": 2
+      },
+      {
+        "vendor": "Valley Springs",
+        "connections": 1,
+        "buy_h1": 8434,
+        "categories": 5
+      },
+      {
+        "vendor": "Hana Farms Inc.",
+        "connections": 1,
+        "buy_h1": 6005,
+        "categories": 6
+      },
+      {
+        "vendor": "Mystic",
+        "connections": 1,
+        "buy_h1": 4627,
+        "categories": 1
+      },
+      {
+        "vendor": "Gardens America",
+        "connections": 1,
+        "buy_h1": 3348,
+        "categories": 13
+      },
+      {
+        "vendor": "Anniroses",
+        "connections": 1,
+        "buy_h1": 1006,
+        "categories": 1
+      },
+      {
+        "vendor": "U.S. Greens Corp",
+        "connections": 1,
+        "buy_h1": 509,
+        "categories": 1
+      },
+      {
+        "vendor": "Llanos de Alba FOB UIO",
+        "connections": 1,
+        "buy_h1": 425,
+        "categories": 2
+      },
+      {
+        "vendor": "ALBIN HAGSTROM",
+        "connections": 1,
+        "buy_h1": 385,
+        "categories": 3
+      },
+      {
+        "vendor": "FARM DIRECT FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 1,
+        "buy_h1": 336,
+        "categories": 2
+      },
+      {
+        "vendor": "Pacifica Farms FOB CAL",
+        "connections": 1,
+        "buy_h1": 171,
+        "categories": 1
+      },
+      {
+        "vendor": "Sunrite",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nazca",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Alison Flowers - UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Excellent Flowers Inc",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AQUA ROSE",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Royal Flowers Inc., Domestic",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MegaFlor - UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Milena Komet test",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Inversiones Napy S.A",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Wafex USA - Miami",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "The Flower Emporium LLC": [
+      {
+        "vendor": "Stellar Farms",
+        "connections": 1,
+        "buy_h1": 9447,
+        "categories": 33
+      },
+      {
+        "vendor": "Protean Farms",
+        "connections": 1,
+        "buy_h1": 5440,
+        "categories": 7
+      },
+      {
+        "vendor": "Trilogy Floral",
+        "connections": 1,
+        "buy_h1": 4018,
+        "categories": 16
+      },
+      {
+        "vendor": "MEGAFLOR USA",
+        "connections": 1,
+        "buy_h1": 2614,
+        "categories": 6
+      },
+      {
+        "vendor": "WELYFLOR",
+        "connections": 1,
+        "buy_h1": 2319,
+        "categories": 1
+      },
+      {
+        "vendor": "Melody Farms",
+        "connections": 1,
+        "buy_h1": 2086,
+        "categories": 12
+      },
+      {
+        "vendor": "Naranjo Roses LLC",
+        "connections": 1,
+        "buy_h1": 1819,
+        "categories": 4
+      },
+      {
+        "vendor": "FLORAL1 Inc Miami",
+        "connections": 1,
+        "buy_h1": 1512,
+        "categories": 11
+      },
+      {
+        "vendor": "Florisol",
+        "connections": 1,
+        "buy_h1": 1340,
+        "categories": 7
+      },
+      {
+        "vendor": "Floreco INC",
+        "connections": 1,
+        "buy_h1": 1127,
+        "categories": 3
+      },
+      {
+        "vendor": "Adeese Flowers LLC",
+        "connections": 1,
+        "buy_h1": 571,
+        "categories": 3
+      },
+      {
+        "vendor": "EQ Blooms by Flodecol",
+        "connections": 1,
+        "buy_h1": 246,
+        "categories": 1
+      },
+      {
+        "vendor": "Sky Flowers",
+        "connections": 1,
+        "buy_h1": 238,
+        "categories": 2
+      },
+      {
+        "vendor": "Riverdale Farms",
+        "connections": 1,
+        "buy_h1": 181,
+        "categories": 2
+      },
+      {
+        "vendor": "Florens Group LLC",
+        "connections": 1,
+        "buy_h1": 135,
+        "categories": 1
+      },
+      {
+        "vendor": "Zion Flowers INC",
+        "connections": 1,
+        "buy_h1": 55,
+        "categories": 1
+      },
+      {
+        "vendor": "Green Dream Foliage FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pampa Products LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Alison Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gypso S.A. FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Olimpo Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Star roses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flora Traders LLC - Mia",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Quimflowers - UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Vegaflor FOB MDE",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flower List",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Remi Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores de la Hacienda",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Akarana Farms FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Llanos de Alba FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nathalia Bloemenexport LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "GQ FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Jetty Flowers LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "UNIVERSAL FLOWER SERVICE CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Coquette Roses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Medellin Flowers & Greens FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Aqua Rose",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Expobloom FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Megaflor FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "HOJA VERDE FOB MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Verisar Flowers - FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Much Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Tropical Blooms Inc.": [
+      {
+        "vendor": "SHAW LAKE FARMS",
+        "connections": 1,
+        "buy_h1": 128378,
+        "categories": 3
+      },
+      {
+        "vendor": "THE QUEENS FLOWERS",
+        "connections": 1,
+        "buy_h1": 117273,
+        "categories": 18
+      },
+      {
+        "vendor": "AMERILINK",
+        "connections": 1,
+        "buy_h1": 82040,
+        "categories": 5
+      },
+      {
+        "vendor": "CANANVALLE",
+        "connections": 1,
+        "buy_h1": 58961,
+        "categories": 1
+      },
+      {
+        "vendor": "CONTINENTAL FARMS",
+        "connections": 1,
+        "buy_h1": 35570,
+        "categories": 1
+      },
+      {
+        "vendor": "JET FRESH FLOWERS",
+        "connections": 1,
+        "buy_h1": 7787,
+        "categories": 5
+      },
+      {
+        "vendor": "sole farms",
+        "connections": 1,
+        "buy_h1": 538,
+        "categories": 5
+      },
+      {
+        "vendor": "PROTEAN FARMS",
+        "connections": 1,
+        "buy_h1": 359,
+        "categories": 1
+      },
+      {
+        "vendor": "DP FLOWERS",
+        "connections": 1,
+        "buy_h1": 275,
+        "categories": 1
+      },
+      {
+        "vendor": "NARANJO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MEGAFLOR",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "LA TOSCANA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORES SILVESTRES",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Sierra",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MELODY",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "RIVERDALE FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Patagonia Sun",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "trilogy floral",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MIAFLORA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Vosz Floral LLC": [
+      {
+        "vendor": "GOLDEN FLOWERS",
+        "connections": 1,
+        "buy_h1": 29972,
+        "categories": 18
+      },
+      {
+        "vendor": "US GREENS CORP",
+        "connections": 1,
+        "buy_h1": 22372,
+        "categories": 27
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 1,
+        "buy_h1": 13445,
+        "categories": 25
+      },
+      {
+        "vendor": "AMERILINK",
+        "connections": 1,
+        "buy_h1": 13035,
+        "categories": 5
+      },
+      {
+        "vendor": "PREMIUM FLOWERS MIA",
+        "connections": 1,
+        "buy_h1": 10561,
+        "categories": 28
+      },
+      {
+        "vendor": "CONTINENTAL FLOWERS INC.",
+        "connections": 1,
+        "buy_h1": 10346,
+        "categories": 26
+      },
+      {
+        "vendor": "SHAW LAKE FARMS INC",
+        "connections": 1,
+        "buy_h1": 9007,
+        "categories": 6
+      },
+      {
+        "vendor": "MELODY FARMS LLC",
+        "connections": 1,
+        "buy_h1": 7340,
+        "categories": 15
+      },
+      {
+        "vendor": "MULTIFLORA MIA",
+        "connections": 1,
+        "buy_h1": 5218,
+        "categories": 16
+      },
+      {
+        "vendor": "FLORAL1 INC",
+        "connections": 1,
+        "buy_h1": 4291,
+        "categories": 6
+      },
+      {
+        "vendor": "PROTEAN FLOWERS LLC",
+        "connections": 1,
+        "buy_h1": 3936,
+        "categories": 10
+      },
+      {
+        "vendor": "FRESCA FARMS",
+        "connections": 1,
+        "buy_h1": 3002,
+        "categories": 18
+      },
+      {
+        "vendor": "GALLERIA FARMS MIA",
+        "connections": 1,
+        "buy_h1": 2527,
+        "categories": 8
+      },
+      {
+        "vendor": "BELLA  BLOSSOM",
+        "connections": 1,
+        "buy_h1": 2507,
+        "categories": 15
+      },
+      {
+        "vendor": "MUCH FLOWERS MIA",
+        "connections": 1,
+        "buy_h1": 1838,
+        "categories": 2
+      },
+      {
+        "vendor": "GARDENS AMERICA",
+        "connections": 1,
+        "buy_h1": 1752,
+        "categories": 10
+      },
+      {
+        "vendor": "CHOICE FARMS",
+        "connections": 1,
+        "buy_h1": 864,
+        "categories": 4
+      },
+      {
+        "vendor": "THE GREENS AND FLOWERS CONNECTION",
+        "connections": 1,
+        "buy_h1": 554,
+        "categories": 3
+      },
+      {
+        "vendor": "Megaflor FOB QUITO",
+        "connections": 1,
+        "buy_h1": 399,
+        "categories": 2
+      },
+      {
+        "vendor": "MUCH FLOWERS UIO",
+        "connections": 1,
+        "buy_h1": 311,
+        "categories": 6
+      },
+      {
+        "vendor": "VALLEFLOR",
+        "connections": 1,
+        "buy_h1": 211,
+        "categories": 1
+      },
+      {
+        "vendor": "MEGAFLOR",
+        "connections": 1,
+        "buy_h1": 151,
+        "categories": 2
+      },
+      {
+        "vendor": "LIBERTY BLOOMS",
+        "connections": 1,
+        "buy_h1": 146,
+        "categories": 1
+      },
+      {
+        "vendor": "ZION FLOWERS",
+        "connections": 1,
+        "buy_h1": 81,
+        "categories": 1
+      },
+      {
+        "vendor": "ROYAL FLOWERS INC",
+        "connections": 1,
+        "buy_h1": 75,
+        "categories": 1
+      },
+      {
+        "vendor": "Hana Farms Inc.",
+        "connections": 1,
+        "buy_h1": 38,
+        "categories": 1
+      },
+      {
+        "vendor": "OLIMPO FLOWERS FOB UIO",
+        "connections": 1,
+        "buy_h1": 35,
+        "categories": 1
+      },
+      {
+        "vendor": "Premium Greens Australia LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flower List",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Welyflor",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Medellin Flowers & Greens FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores San Miguel",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "CANANVALLE",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Verisar Flowers - FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Quimflowers - UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "EQ Blooms by Flodecol",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pampa Products LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Matthioli Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "UNIVERSAL FLOWER SERVICE CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Continental Floral LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pacifica Farms FOB CAL",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Green Dream Foliage FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "LA TOSCANA FARMS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AGRIVALDANI SA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "VALLEY SPRINGS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Fagua Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Akarana Farms FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Alison Flowers FOB QUITO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Mayta International LLC / Native Blooms",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "AquaRose",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Remi Flowers FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISOL MIA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Jetty Flowers LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Nathalia Bloemenexport LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "C.I. FLORES DE LA VEGA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "SUNRITE FARMS COLLECTIONS CORP",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Coquette Roses",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flora Traders LLC - Mia",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Gypso S.A. FOB UIO",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Expobloom FOB BOG",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "WE GOT FLOWERS": [
+      {
+        "vendor": "NARANJO ROSES MIAMI",
+        "connections": 1,
+        "buy_h1": 198359,
+        "categories": 6
+      },
+      {
+        "vendor": "GALA ROSES LLC",
+        "connections": 1,
+        "buy_h1": 93782,
+        "categories": 14
+      },
+      {
+        "vendor": "THE QUEEN'S FLOWERS",
+        "connections": 1,
+        "buy_h1": 83456,
+        "categories": 11
+      },
+      {
+        "vendor": "SHAW LAKE FARMS, INC.",
+        "connections": 1,
+        "buy_h1": 49995,
+        "categories": 3
+      },
+      {
+        "vendor": "DRAMM & ECHTER",
+        "connections": 1,
+        "buy_h1": 48536,
+        "categories": 21
+      },
+      {
+        "vendor": "ROSA PRIMAFRESH INTERNATIONAL",
+        "connections": 1,
+        "buy_h1": 34890,
+        "categories": 7
+      },
+      {
+        "vendor": "JET FRESH FLOWERS",
+        "connections": 1,
+        "buy_h1": 29009,
+        "categories": 41
+      },
+      {
+        "vendor": "THE FLOWER CO, LLC",
+        "connections": 1,
+        "buy_h1": 26635,
+        "categories": 4
+      },
+      {
+        "vendor": "GROFLOWERS",
+        "connections": 1,
+        "buy_h1": 25772,
+        "categories": 4
+      },
+      {
+        "vendor": "GALLERIA FARMS",
+        "connections": 1,
+        "buy_h1": 21378,
+        "categories": 20
+      },
+      {
+        "vendor": "CANANVALLEY FLOWERS",
+        "connections": 1,
+        "buy_h1": 20506,
+        "categories": 3
+      },
+      {
+        "vendor": "ROYAL FLOWERS INC",
+        "connections": 1,
+        "buy_h1": 17739,
+        "categories": 15
+      },
+      {
+        "vendor": "FRESCA FARMS",
+        "connections": 1,
+        "buy_h1": 17221,
+        "categories": 34
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 1,
+        "buy_h1": 15861,
+        "categories": 21
+      },
+      {
+        "vendor": "US GREENS CORP",
+        "connections": 1,
+        "buy_h1": 14824,
+        "categories": 4
+      },
+      {
+        "vendor": "CONTINENTAL FLOWERS",
+        "connections": 1,
+        "buy_h1": 10104,
+        "categories": 15
+      },
+      {
+        "vendor": "FLORAL CHAIN",
+        "connections": 1,
+        "buy_h1": 6337,
+        "categories": 8
+      },
+      {
+        "vendor": "GOLDEN FLOWERS",
+        "connections": 1,
+        "buy_h1": 6124,
+        "categories": 16
+      },
+      {
+        "vendor": "MEGA FLOR",
+        "connections": 1,
+        "buy_h1": 6090,
+        "categories": 6
+      },
+      {
+        "vendor": "GARDENS AMERICA",
+        "connections": 1,
+        "buy_h1": 5727,
+        "categories": 19
+      },
+      {
+        "vendor": "CHOICE FARMS",
+        "connections": 1,
+        "buy_h1": 4714,
+        "categories": 9
+      },
+      {
+        "vendor": "NATIVE BLOOMS - MAYTA NTERNATIONAL LLC",
+        "connections": 1,
+        "buy_h1": 4271,
+        "categories": 3
+      },
+      {
+        "vendor": "MIAFLORA FARMS",
+        "connections": 1,
+        "buy_h1": 3981,
+        "categories": 17
+      },
+      {
+        "vendor": "VALLEY SPRINGS",
+        "connections": 1,
+        "buy_h1": 3361,
+        "categories": 2
+      },
+      {
+        "vendor": "ALLURE FARMS, INC.",
+        "connections": 1,
+        "buy_h1": 3275,
+        "categories": 12
+      },
+      {
+        "vendor": "PACIFICA FARMS",
+        "connections": 1,
+        "buy_h1": 2547,
+        "categories": 6
+      },
+      {
+        "vendor": "DP FLOWERS",
+        "connections": 1,
+        "buy_h1": 2431,
+        "categories": 1
+      },
+      {
+        "vendor": "PATFLOR SCARL",
+        "connections": 1,
+        "buy_h1": 1775,
+        "categories": 6
+      },
+      {
+        "vendor": "SALTER'S EVERGREEN SUPPLY",
+        "connections": 1,
+        "buy_h1": 1590,
+        "categories": 1
+      },
+      {
+        "vendor": "WAFEX MIAMI",
+        "connections": 1,
+        "buy_h1": 1267,
+        "categories": 5
+      },
+      {
+        "vendor": "PRONTO FARMS",
+        "connections": 1,
+        "buy_h1": 1071,
+        "categories": 3
+      },
+      {
+        "vendor": "SUNRITE FARMS",
+        "connections": 1,
+        "buy_h1": 780,
+        "categories": 2
+      },
+      {
+        "vendor": "MUCH FLOWERS",
+        "connections": 1,
+        "buy_h1": 312,
+        "categories": 4
+      },
+      {
+        "vendor": "Sunburst Farms",
+        "connections": 1,
+        "buy_h1": 186,
+        "categories": 2
+      },
+      {
+        "vendor": "Premium Greens Australia LLC",
+        "connections": 1,
+        "buy_h1": 95,
+        "categories": 1
+      },
+      {
+        "vendor": "ECOROSES LLC",
+        "connections": 1,
+        "buy_h1": 62,
+        "categories": 1
+      },
+      {
+        "vendor": "Welyflor / PROFILE FLOWERS",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MYSTICFLOWERS LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Milena test",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "BELLA BLOSSOM",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Trilogy Floral - Zamba Flowers",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "South Florals Imports LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "FLORISOL & COMPANY FLOWER TRADING LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Blossom Bliss LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Zion Flowers INC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Andean Fresh LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Pinnacle Flowers, LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "White Rose Flowers & Supplies Inc.": [
+      {
+        "vendor": "Floral Chain",
+        "connections": 1,
+        "buy_h1": 2399,
+        "categories": 2
+      },
+      {
+        "vendor": "Naranjo Farms LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "OLIMPO FLOWERS CIA. LTDA.",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ],
+    "Zeidler Floral": [
+      {
+        "vendor": "CONTINENTAL FARMS LLC",
+        "connections": 1,
+        "buy_h1": 121915,
+        "categories": 4
+      },
+      {
+        "vendor": "FRESCA FARMS",
+        "connections": 1,
+        "buy_h1": 64225,
+        "categories": 8
+      },
+      {
+        "vendor": "SOLE FARMS",
+        "connections": 1,
+        "buy_h1": 55635,
+        "categories": 4
+      },
+      {
+        "vendor": "US GREENS CORP",
+        "connections": 1,
+        "buy_h1": 29112,
+        "categories": 4
+      },
+      {
+        "vendor": "RIVERDALE FARMS LLC",
+        "connections": 1,
+        "buy_h1": 23319,
+        "categories": 3
+      },
+      {
+        "vendor": "GALLERIA FARMS",
+        "connections": 1,
+        "buy_h1": 16776,
+        "categories": 5
+      },
+      {
+        "vendor": "EQUIFLOR CORPORATION",
+        "connections": 1,
+        "buy_h1": 14007,
+        "categories": 6
+      },
+      {
+        "vendor": "CHOICE FARMS CORP",
+        "connections": 1,
+        "buy_h1": 12549,
+        "categories": 7
+      },
+      {
+        "vendor": "ANTON SPAARGAREN BV",
+        "connections": 1,
+        "buy_h1": 8595,
+        "categories": 1
+      },
+      {
+        "vendor": "ROSAPRIMA INTERNATIONAL LLC",
+        "connections": 1,
+        "buy_h1": 2804,
+        "categories": 1
+      },
+      {
+        "vendor": "WELYFLOR",
+        "connections": 1,
+        "buy_h1": 1057,
+        "categories": 1
+      },
+      {
+        "vendor": "JET FRESH FLOWERS",
+        "connections": 1,
+        "buy_h1": 217,
+        "categories": 3
+      },
+      {
+        "vendor": "AquaRose",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "MALIMA USA",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "k2kmiami",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Flores San Miguel",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Valley Springs LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      },
+      {
+        "vendor": "Faguaflowers Intl LLC",
+        "connections": 1,
+        "buy_h1": 0,
+        "categories": 0
+      }
+    ]
+  }
+}
