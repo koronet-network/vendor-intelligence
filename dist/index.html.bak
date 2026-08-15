@@ -178,7 +178,7 @@ footer b{color:var(--ink-2);font-weight:600;display:block;margin-bottom:.2rem;}
     <h1>Supply Intelligence for CS &amp; Implementation</h1>
     <p class="lede">What wholesalers buy, who supplies it, at what timeframe and price. Demand-first.</p>
     <div class="metaline">
-      <span><b>Built</b> 2026-08-14 19:28</span>
+      <span><b>Built</b> 2026-08-14 17:55</span>
       <span><b>Data</b> Snowflake INVENTORY_DETAILS + PROCUREMENT_DETAILS</span>
       <span><b>Varieties</b> 1,171 normalized, 177 with demand</span>
       <span><b>Vendors</b> 48 with drill-down</span>
@@ -14014,7 +14014,7 @@ footer b{color:var(--ink-2);font-weight:600;display:block;margin-bottom:.2rem;}
   <footer>
     <div><b>How to use</b> Search a variety or category. Check demand and balance. Click to see vendors with price and timeframe. Use Vendor Profiles for quality.</div>
     <div><b>Coming in v2</b> External vendor quality (certs, brand). Seasonality by region. Account-specific view. Daily refresh. Vendor quality inline in drill-down.</div>
-    <div><b>Data note</b> Demand = 12mo procurement (all channels). Supply = inventory snapshot (2026-08-14 19:28). Balance is directional. 177/1171 demand matched &mdash; gap is naming differences.</div>
+    <div><b>Data note</b> Demand = 12mo procurement (all channels). Supply = inventory snapshot (2026-08-14 17:55). Balance is directional. 177/1171 demand matched &mdash; gap is naming differences.</div>
   </footer>
 
 </div>

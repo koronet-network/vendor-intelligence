@@ -1,0 +1,312 @@
+{
+  "_metadata": {
+    "generated_at": "2026-08-14",
+    "version": "0.1",
+    "method": "Phase 0 — initial mapping from top 50 BUY + SELL categories by volume",
+    "coverage": {
+      "buy_volume_covered_pct": "~85% of total BUY volume mapped",
+      "categories_mapped": 0,
+      "categories_unmapped": 0,
+      "needs_validation": ["WG", "OR", "FLL", "FLOW", "PRE-A", "PRE-CASV", "PRE-C"]
+    },
+    "rules": [
+      "1. Lowercase + trim for matching",
+      "2. Plural normalization (Roses → Rose, Hydrangeas → Hydrangea)",
+      "3. Case normalization (ROSE → Rose)",
+      "4. Tenant codes decoded by variety inspection",
+      "5. Subtypes preserved as subcategories (Rose Spray ≠ Rose Standard)",
+      "6. Assembled products (Bouquet, Combo Box) = separate canonical category",
+      "7. Non-fresh (Dried, Preserved, Holiday) = separate canonical categories"
+    ]
+  },
+  "canonical_categories": [
+    {
+      "canonical_name": "Rose",
+      "canonical_id": "CAT-001",
+      "aliases": ["Rose", "Roses", "ROSE", "ROSES", "ROS"],
+      "subcategories": [
+        {"name": "Rose Standard", "aliases": ["Rose", "Roses", "ROSE", "ROSES", "ROS"]},
+        {"name": "Rose Spray", "aliases": ["Rose Spray", "Spray Rose", "Spray Roses"]},
+        {"name": "Rose Garden", "aliases": ["Rose Garden", "Garden Rose", "Garden Roses"]},
+        {"name": "Rose Globe", "aliases": ["Rose Globe"]},
+        {"name": "Rose CB", "aliases": ["Rose CB's", "Rose CBs"]}
+      ],
+      "buy_volume_h1": 283000000,
+      "sell_volume_h1": 270000000,
+      "buyer_count": 217,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Hydrangea",
+      "canonical_id": "CAT-002",
+      "aliases": ["Hydrangea", "Hydrangeas", "HYDRANGEA"],
+      "subcategories": [],
+      "buy_volume_h1": 30000000,
+      "sell_volume_h1": 45000000,
+      "buyer_count": 215,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Ranunculus",
+      "canonical_id": "CAT-003",
+      "aliases": ["Ranunculus", "RANUNCULUS"],
+      "subcategories": [],
+      "buy_volume_h1": 15100000,
+      "sell_volume_h1": 18000000,
+      "buyer_count": 188,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Carnation",
+      "canonical_id": "CAT-004",
+      "aliases": ["Carnation", "Carnations", "CARNATION", "Carns", "Mini-Carnation", "Carnation Mini"],
+      "subcategories": [
+        {"name": "Carnation Standard", "aliases": ["Carnation", "Carnations", "CARNATION", "Carns"]},
+        {"name": "Carnation Mini", "aliases": ["Mini-Carnation", "Carnation Mini", "CARNATION MINI"]}
+      ],
+      "buy_volume_h1": 19400000,
+      "sell_volume_h1": 15900000,
+      "buyer_count": 199,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Greens & Foliage",
+      "canonical_id": "CAT-005",
+      "aliases": ["Greens", "GREENS", "Foliage/Greens", "Foliage", "WG"],
+      "subcategories": [
+        {"name": "Eucalyptus", "aliases": ["Eucalyptus", "EUCALYPTUS"]},
+        {"name": "Ruscus", "aliases": ["Ruscus", "RUSCUS"]},
+        {"name": "Salal", "aliases": ["Salal"]},
+        {"name": "Leather Leaf", "aliases": ["Leather Leaf", "LEATHER LEAF"]}
+      ],
+      "buy_volume_h1": 35900000,
+      "sell_volume_h1": 20800000,
+      "buyer_count": 151,
+      "is_fresh_cut": true,
+      "notes": "WG tenant code needs validation — likely Greens"
+    },
+    {
+      "canonical_name": "Stock",
+      "canonical_id": "CAT-006",
+      "aliases": ["Stock", "Stocks", "STOCK"],
+      "subcategories": [],
+      "buy_volume_h1": 9500000,
+      "sell_volume_h1": 11500000,
+      "buyer_count": 191,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Lisianthus",
+      "canonical_id": "CAT-007",
+      "aliases": ["Lisianthus", "LISIANTHUS", "Eustoma"],
+      "subcategories": [],
+      "buy_volume_h1": 8500000,
+      "sell_volume_h1": 9500000,
+      "buyer_count": 166,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Poms & Mums",
+      "canonical_id": "CAT-008",
+      "aliases": ["Pom", "Poms", "POM", "Mums", "Spray Mums (pompons)", "Mums/disbuds/spiders"],
+      "subcategories": [
+        {"name": "Poms", "aliases": ["Pom", "Poms", "POM", "Spray Mums (pompons)"]},
+        {"name": "Mums", "aliases": ["Mums", "Mums/disbuds/spiders"]}
+      ],
+      "buy_volume_h1": 17000000,
+      "sell_volume_h1": 22000000,
+      "buyer_count": 153,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Bouquet (Assembled)",
+      "canonical_id": "CAT-009",
+      "aliases": ["Bouquet", "BOUQUET", "BQ", "Bouquets"],
+      "subcategories": [],
+      "buy_volume_h1": 26000000,
+      "sell_volume_h1": 46000000,
+      "buyer_count": 33,
+      "is_fresh_cut": false,
+      "notes": "Assembled products — structurally different from fresh stems"
+    },
+    {
+      "canonical_name": "Combo Box (Mixed)",
+      "canonical_id": "CAT-010",
+      "aliases": ["CB", "Combo Box", "Mixed Box", "MB"],
+      "subcategories": [],
+      "buy_volume_h1": 26200000,
+      "sell_volume_h1": 26700000,
+      "buyer_count": 17,
+      "is_fresh_cut": false,
+      "notes": "Mixed boxes of various flowers. MB (1 buyer) may be same concept"
+    },
+    {
+      "canonical_name": "Peony",
+      "canonical_id": "CAT-011",
+      "aliases": ["Peony", "Peonies", "PEONY"],
+      "subcategories": [],
+      "buy_volume_h1": 7000000,
+      "sell_volume_h1": 0,
+      "buyer_count": 140,
+      "is_fresh_cut": true,
+      "notes": "High demand, near-zero online supply"
+    },
+    {
+      "canonical_name": "Delphinium",
+      "canonical_id": "CAT-012",
+      "aliases": ["Delphinium", "DELPHINIUM"],
+      "subcategories": [],
+      "buy_volume_h1": 6800000,
+      "sell_volume_h1": 7800000,
+      "buyer_count": 186,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Alstroemeria",
+      "canonical_id": "CAT-013",
+      "aliases": ["Alstroemeria", "ALSTROEMERIA", "Alstromeria"],
+      "subcategories": [],
+      "buy_volume_h1": 5900000,
+      "sell_volume_h1": 8700000,
+      "buyer_count": 188,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Hypericum",
+      "canonical_id": "CAT-014",
+      "aliases": ["Hypericum", "HYPERICUM"],
+      "subcategories": [],
+      "buy_volume_h1": 11700000,
+      "sell_volume_h1": 9200000,
+      "buyer_count": 180,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Gerbera",
+      "canonical_id": "CAT-015",
+      "aliases": ["Gerbera", "Gerberas", "GERBERA", "Gerbera Daisy"],
+      "subcategories": [],
+      "buy_volume_h1": 4400000,
+      "sell_volume_h1": 0,
+      "buyer_count": 142,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Lily",
+      "canonical_id": "CAT-016",
+      "aliases": ["Lily", "Lilies", "LILY", "Lilium", "Lily Oriental", "Lily Asiatic", "Lily LA"],
+      "subcategories": [
+        {"name": "Oriental Lily", "aliases": ["Lily Oriental", "Oriental"]},
+        {"name": "Asiatic Lily", "aliases": ["Lily Asiatic", "Asiatic"]},
+        {"name": "LA Hybrid Lily", "aliases": ["Lily LA", "LA Hybrid"]}
+      ],
+      "buy_volume_h1": 9200000,
+      "sell_volume_h1": 0,
+      "buyer_count": 146,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Gladiolus",
+      "canonical_id": "CAT-017",
+      "aliases": ["Gladiolus", "Gladioli", "GLADIOLUS", "Glads"],
+      "subcategories": [],
+      "buy_volume_h1": 4200000,
+      "sell_volume_h1": 0,
+      "buyer_count": 78,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Orchid",
+      "canonical_id": "CAT-018",
+      "aliases": ["Orchid", "Orchids", "ORCHID", "OR"],
+      "subcategories": [],
+      "buy_volume_h1": 11500000,
+      "sell_volume_h1": 0,
+      "buyer_count": 3,
+      "is_fresh_cut": true,
+      "notes": "OR tenant code needs validation — likely Orchids based on volume/buyer pattern"
+    },
+    {
+      "canonical_name": "Tulip",
+      "canonical_id": "CAT-019",
+      "aliases": ["Tulip", "Tulips", "TULIP", "TULIPS"],
+      "subcategories": [],
+      "buy_volume_h1": 3000000,
+      "sell_volume_h1": 0,
+      "buyer_count": 23,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Snapdragon",
+      "canonical_id": "CAT-020",
+      "aliases": ["Snapdragon", "Snapdragons", "SNAPDRAGON"],
+      "subcategories": [],
+      "buy_volume_h1": 0,
+      "sell_volume_h1": 0,
+      "buyer_count": 0,
+      "is_fresh_cut": true
+    },
+    {
+      "canonical_name": "Christmas & Holiday",
+      "canonical_id": "CAT-050",
+      "aliases": ["CX", "CX-Bulk", "Holiday", "Christmas"],
+      "subcategories": [
+        {"name": "Wreaths", "aliases": ["Wreath"]},
+        {"name": "Garlands", "aliases": ["Garland"]},
+        {"name": "Holiday Greens", "aliases": ["Noble Fir", "Cedar", "Boughs"]}
+      ],
+      "buy_volume_h1": 86100000,
+      "sell_volume_h1": 76200000,
+      "buyer_count": 6,
+      "is_fresh_cut": false,
+      "notes": "Seasonal holiday products — wreaths, garlands, decorated items. CX is Kennicott internal code."
+    },
+    {
+      "canonical_name": "Dried & Preserved",
+      "canonical_id": "CAT-051",
+      "aliases": ["Dried", "PRESERVED", "Dried/Preserved", "Preserved", "Dried Cuts"],
+      "subcategories": [],
+      "buy_volume_h1": 38900000,
+      "sell_volume_h1": 0,
+      "buyer_count": 11,
+      "is_fresh_cut": false
+    },
+    {
+      "canonical_name": "Filler Flowers",
+      "canonical_id": "CAT-022",
+      "aliases": ["Filler Flowers", "Filler", "FLL", "Misc Flowers", "Miscellaneous Flowers", "FLOW"],
+      "subcategories": [],
+      "buy_volume_h1": 17100000,
+      "sell_volume_h1": 13000000,
+      "buyer_count": 3,
+      "is_fresh_cut": true,
+      "notes": "FLL and FLOW tenant codes need validation"
+    },
+    {
+      "canonical_name": "Plants",
+      "canonical_id": "CAT-052",
+      "aliases": ["@ Plant", "Plants", "Plants Herb", "Plants Garden", "Plants Air"],
+      "subcategories": [],
+      "buy_volume_h1": 4100000,
+      "sell_volume_h1": 0,
+      "buyer_count": 2,
+      "is_fresh_cut": false
+    }
+  ],
+  "tenant_codes_decoded": {
+    "CX": {"canonical": "Christmas & Holiday", "confidence": "HIGH", "evidence": "Top varieties are wreaths, garlands, noble fir"},
+    "CX-Bulk": {"canonical": "Christmas & Holiday", "confidence": "HIGH", "evidence": "Bulk version of CX"},
+    "ROS": {"canonical": "Rose", "confidence": "HIGH", "evidence": "Obvious abbreviation, 3 buyers"},
+    "CB": {"canonical": "Combo Box (Mixed)", "confidence": "HIGH", "evidence": "Varieties are mixed: Tulip, Sunflower, Spray Rose"},
+    "BQ": {"canonical": "Bouquet (Assembled)", "confidence": "HIGH", "evidence": "Classic 1, Designer 1, Growers Choice = bouquet names"},
+    "MB": {"canonical": "Combo Box (Mixed)", "confidence": "MEDIUM", "evidence": "Likely Mixed Box, 1 buyer, similar pattern to CB"},
+    "WG": {"canonical": "Greens & Foliage", "confidence": "MEDIUM", "evidence": "6 buyers, $18.5M — likely Wedding Greens or Wild Greens"},
+    "OR": {"canonical": "Orchid", "confidence": "MEDIUM", "evidence": "3 buyers, $11.5M — needs variety validation"},
+    "FLL": {"canonical": "Filler Flowers", "confidence": "LOW", "evidence": "3 buyers, $5.4M — needs variety validation"},
+    "FLOW": {"canonical": "Filler Flowers", "confidence": "LOW", "evidence": "1 buyer, $5.5M — generic catch-all"},
+    "PRE-A": {"canonical": "UNKNOWN_PREBOOK", "confidence": "LOW", "evidence": "Prebook code, 2 buyers"},
+    "PRE-CASV": {"canonical": "UNKNOWN_PREBOOK", "confidence": "LOW", "evidence": "Prebook code, 2 buyers"},
+    "PRE-C": {"canonical": "UNKNOWN_PREBOOK", "confidence": "LOW", "evidence": "Prebook code, 2 buyers"}
+  },
+  "normalization_rules_sql": "-- Apply in this order:\n-- 1. LOWER(TRIM(product_category_name))\n-- 2. Map tenant codes: CX→Christmas & Holiday, ROS→Rose, CB/MB→Combo Box, BQ→Bouquet, WG→Greens\n-- 3. Plurals: roses→rose, hydrangeas→hydrangea, carnations→carnation\n-- 4. Case: ROSE→Rose, BOUQUET→Bouquet\n-- 5. Subtypes: 'spray rose'/'spray roses'/'rose spray' → Rose Spray subcategory\n-- 6. Residual: anything unmapped → flag as NEEDS_REVIEW"
+}
