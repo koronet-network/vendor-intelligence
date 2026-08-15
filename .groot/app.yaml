@@ -1,0 +1,31 @@
+apiVersion: groot.koronet.com/v1alpha1
+kind: GrootApp
+metadata:
+    annotations:
+        groot.koronet.com/description: vendor-intelligence Labs app.
+        groot.koronet.com/labs-template: static-site
+    labels:
+        groot.koronet.com/lane: labs
+        groot.koronet.com/product: labs
+        groot.koronet.com/tier: tier-4-low
+    name: vendor-intelligence
+spec:
+    cells:
+        - default: true
+          deployments:
+            - workload: web
+          environment: production
+          name: labs
+          routes:
+            - access:
+                policyRef: vendor-intelligence-labs
+                provider: cloudflare-access
+              host: vendor-intelligence.koronetlabs.com
+              name: web
+              port: http
+              visibility: edge-protected
+              workload: web
+          target: koronet-labs-us-east-1
+    workloads:
+        - name: web
+          type: api
