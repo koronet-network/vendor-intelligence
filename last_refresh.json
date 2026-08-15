@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-08-15T13:23:02.581858",
+  "status": "OK",
+  "varieties": 0,
+  "vendors": 80,
+  "vendors_with_cats": 32,
+  "errors": null,
+  "raw_available": {
+    "vendor_profiles": true,
+    "vendor_categories": true,
+    "variety_inventory": true,
+    "variety_demand": true
+  }
+}

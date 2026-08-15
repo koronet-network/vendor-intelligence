@@ -40,10 +40,10 @@ OUTPUT_DIR = SCRIPT_DIR / "output"
 OUTPUT_FILE = OUTPUT_DIR / "vendor_intelligence.html"
 
 # Source data files
-VARIETY_MASTER = Path("/Users/facu/Koronet_OS/ops/data/variety_master.json")
-VENDOR_PROFILES = Path("/Users/facu/Koronet_OS/ops/data/vendor_internal_profiles.json")
-CATEGORY_MAP = Path("/Users/facu/Koronet_OS/ops/data/canonical_category_map.json")
-VENDOR_VARIETY_DETAIL = Path("/Users/facu/Koronet_OS/ops/data/vendor_variety_detail.json")
+VARIETY_MASTER = DATA_DIR / "variety_master.json"
+VENDOR_PROFILES = DATA_DIR / "vendor_internal_profiles.json"
+CATEGORY_MAP = DATA_DIR / "canonical_category_map.json"
+VENDOR_VARIETY_DETAIL = DATA_DIR / "vendor_variety_detail.json"
 
 # Display config
 MAX_VENDORS_PER_VARIETY = 15
@@ -67,7 +67,7 @@ def load_data():
     with open(CATEGORY_MAP) as f:
         data['categories'] = json.load(f)
 
-    vendor_complete_path = Path("/Users/facu/Koronet_OS/ops/data/vendor_complete.json")
+    vendor_complete_path = DATA_DIR / "vendor_complete.json"
     if vendor_complete_path.exists():
         with open(vendor_complete_path) as f:
             data['vendor_complete'] = json.load(f)
@@ -75,7 +75,7 @@ def load_data():
         data['vendor_complete'] = {'vendors': {}}
 
     # Seasonality
-    seasonality_path = Path("/Users/facu/Koronet_OS/ops/data/seasonality.json")
+    seasonality_path = DATA_DIR / "seasonality.json"
     if seasonality_path.exists():
         with open(seasonality_path) as f:
             data['seasonality'] = json.load(f)
@@ -83,7 +83,7 @@ def load_data():
         data['seasonality'] = {}
 
     # Accounts
-    accounts_path = Path("/Users/facu/Koronet_OS/ops/data/accounts_priority.json")
+    accounts_path = DATA_DIR / "accounts_priority.json"
     if accounts_path.exists():
         with open(accounts_path) as f:
             data['accounts'] = json.load(f)
@@ -1061,7 +1061,8 @@ if __name__ == '__main__':
 
     # Also copy to reports for easy access
     import shutil
-    report_copy = Path("/Users/facu/Koronet_OS/ops/reports/vendor_intelligence_artifact.html")
+    report_copy = SCRIPT_DIR / "dist" / "index.html"
+    report_copy.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(OUTPUT_FILE, report_copy)
     print(f"Copied to: {report_copy}")
 

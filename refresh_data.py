@@ -25,7 +25,7 @@ from pathlib import Path
 from collections import defaultdict
 
 SCRIPT_DIR = Path(__file__).parent
-DATA_DIR = Path("/Users/facu/Koronet_OS/ops/data")
+DATA_DIR = SCRIPT_DIR / "data"
 RAW_DIR = SCRIPT_DIR / "data" / "raw"
 OUTPUT_DIR = SCRIPT_DIR / "output"
 LAST_REFRESH = SCRIPT_DIR / "last_refresh.json"
