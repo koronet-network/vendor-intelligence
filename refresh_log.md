@@ -1,5 +1,46 @@
 # Vendor Intelligence Refresh Log
 
+## 2026-08-16 13:19 UTC
+
+### Status: SUCCESS (deploy pending)
+
+### Queries executed:
+- ✅ vendor_profiles: 80 vendors (top by GMV, last 18 months)
+- ✅ vendor_categories: 2,618 category rows (3 query batches, 79/80 vendors — FreshLink has no qualifying rows)
+- ✅ variety_inventory: 1,222 variety rows (importer inventory)
+- ✅ variety_demand: 793 variety rows (wholesaler demand)
+
+### Build:
+- ✅ refresh_data.py: OK — 80 vendors, 79 with categories
+- ✅ build.py: OK — 817KB dashboard generated
+- ✅ Audit: All checks pass
+
+### Script fixes (one-time):
+- Fixed empty-string handling in refresh_data.py process_vendor_categories()
+  (16 rows in vendor_categories had '' for stems/s_short — e.g. Syndicate Sales glass/plastic/foam/wire categories)
+  Applied: `def _int(v): return int(float(v)) if v != '' else 0`
+
+### Files updated:
+- data/raw/vendor_profiles.json
+- data/raw/vendor_categories.json
+- data/raw/variety_inventory.json
+- data/raw/variety_demand.json
+- data/vendor_internal_profiles.json
+- data/vendor_complete.json
+- output/vendor_intelligence.html
+- dist/index.html
+
+### Git:
+- ✅ Committed: (see below)
+- ✅ Pushed to origin/main
+
+### Deploy:
+- ❌ grootctl not installed in remote execution environment
+- Action needed: Run manually:
+  GROOT_API_URL=https://groot-api.koronet.sh grootctl labs deploy vendor-intelligence --version v0.1.X --execute --output json
+  (increment patch version from current)
+
+
 ## 2026-08-15 13:23 UTC
 
 ### Status: SUCCESS (deploy pending)
@@ -38,4 +79,3 @@
 - Action needed: Run manually:
   GROOT_API_URL=https://groot-api.koronet.sh grootctl labs deploy vendor-intelligence --version v0.1.X --execute --output json
   (increment patch version from current)
-

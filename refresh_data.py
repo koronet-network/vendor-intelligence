@@ -99,13 +99,14 @@ def process_vendor_categories(raw_data, profiles):
         vname, cat, sold, stems, buyers, s_spot, s_short, s_med, s_fwd, s_deep = row
         if vname not in vendors:
             continue
+        def _int(v): return int(float(v)) if v != '' else 0
         vendors[vname]['categories'].append({
-            'category': cat, 'sold': int(float(sold)), 'stems': int(stems), 'buyers': int(buyers),
-            's_spot': int(s_spot), 's_short': int(s_short), 's_med': int(s_med),
-            's_fwd': int(s_fwd), 's_deep': int(s_deep)
+            'category': cat, 'sold': _int(sold), 'stems': _int(stems), 'buyers': _int(buyers),
+            's_spot': _int(s_spot), 's_short': _int(s_short), 's_med': _int(s_med),
+            's_fwd': _int(s_fwd), 's_deep': _int(s_deep)
         })
         for k, val in [('spot', s_spot), ('short', s_short), ('med', s_med), ('fwd', s_fwd), ('deep', s_deep)]:
-            vendors[vname]['timeframe_total'][k] += int(val)
+            vendors[vname]['timeframe_total'][k] += _int(val)
 
     # Compute forward % and sort
     for v in vendors.values():
