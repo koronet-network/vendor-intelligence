@@ -1,5 +1,48 @@
 # Vendor Intelligence Refresh Log
 
+## 2026-08-20 13:10 UTC
+
+### Status: SUCCESS (deploy pending)
+
+### Queries executed:
+- ✅ vendor_profiles: 80 vendors (top by GMV, last 18 months)
+- ✅ vendor_categories: 2,580 category rows (3 query batches, 79/80 vendors — FreshLink has no qualifying rows)
+- ✅ variety_inventory: 1,235 variety rows (importer inventory)
+- ✅ variety_demand: 795 variety rows (wholesaler demand)
+
+### Data note:
+- Raw data content identical to 2026-08-19 (Snowflake queries returned same results)
+- Timestamp-only change in generated files (expected)
+
+### Script fixes (one-time, already applied in 2026-08-19 run on remote):
+- build.py & refresh_data.py: hardcoded macOS paths — already fixed in origin/main
+- refresh_data.py: empty-string handling (_int helper) — already in origin/main
+- Git state: previous run left HEAD detached; resolved by rebasing onto origin/main
+
+### Build:
+- ✅ refresh_data.py: OK — 80 vendors, 79 with categories
+- ✅ build.py: OK — 840KB dashboard generated
+- ✅ Audit: All checks pass
+
+### Files updated:
+- data/vendor_internal_profiles.json
+- data/vendor_complete.json
+- output/vendor_intelligence.html
+- dist/index.html
+- last_refresh.json
+
+### Git:
+- ✅ Committed: 7378bb0 "Daily refresh 2026-08-20"
+- ✅ Pushed to origin/main
+
+### Deploy:
+- ❌ grootctl not installed in remote execution environment (6th consecutive run)
+- Action needed: Run manually:
+  GROOT_API_URL=https://groot-api.koronet.sh grootctl labs deploy vendor-intelligence --version v0.1.X --execute --output json
+  (increment patch version from current)
+
+---
+
 ## 2026-08-19 13:XX UTC
 
 ### Status: SUCCESS (deploy pending)
