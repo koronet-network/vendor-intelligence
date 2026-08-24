@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-23T13:09:19.018075",
+  "timestamp": "2026-08-24T13:09:41.368819",
   "status": "OK",
   "varieties": 0,
   "vendors": 80,
-  "vendors_with_cats": 32,
+  "vendors_with_cats": 33,
   "errors": null,
   "raw_available": {
     "vendor_profiles": true,
