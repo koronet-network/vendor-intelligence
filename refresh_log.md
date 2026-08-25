@@ -1,5 +1,42 @@
 # Vendor Intelligence Refresh Log
 
+## 2026-08-25 13:11 UTC
+
+### Status: SUCCESS (deploy pending — grootctl not in remote env)
+
+### Queries executed:
+- ✅ vendor_profiles: 80 vendors (top by GMV, last 18 months)
+- ✅ vendor_categories: 974 category rows (33/80 vendors with categories)
+- ✅ variety_inventory: 1,242 variety rows (importer inventory)
+- ✅ variety_demand: 795 variety rows (wholesaler demand)
+
+### Build:
+- ✅ refresh_data.py: OK — 80 vendors, 33 with categories
+- ✅ build.py: OK — 645KB dashboard generated
+- ✅ Audit: All checks pass
+
+### Files updated:
+- data/raw/vendor_profiles.json
+- data/raw/vendor_categories.json
+- data/raw/variety_inventory.json
+- data/raw/variety_demand.json
+- data/vendor_internal_profiles.json
+- data/vendor_complete.json
+- output/vendor_intelligence.html
+- dist/index.html
+
+### Git:
+- ✅ Committed: d373b9b "Daily refresh 2026-08-25"
+- ✅ Pushed to origin/main
+
+### Deploy:
+- ❌ grootctl not installed in remote execution environment (9th consecutive run)
+- Action needed: Run manually:
+  GROOT_API_URL=https://groot-api.koronet.sh grootctl labs deploy vendor-intelligence --version v0.1.X --execute --output json
+  (increment patch version from current)
+
+---
+
 ## 2026-08-24 13:09 UTC
 
 ### Status: SUCCESS (deploy pending — grootctl not in remote env)
