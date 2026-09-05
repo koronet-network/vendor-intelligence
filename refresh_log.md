@@ -1,5 +1,26 @@
 # Vendor Intelligence Refresh Log
 
+## 2026-09-05 Daily Refresh
+
+### Status: SUCCESS (deploy pending — grootctl not in remote env)
+
+### Queries executed:
+- ✅ vendor_profiles: 80 vendors (top by GMV, last 18 months)
+- ✅ vendor_categories: 2,522 rows, 79/80 vendors with categories (fixed pagination — ran 3 batches to cover all vendors; FreshLink has no qualifying category rows)
+- ✅ variety_inventory: 1,233 variety rows (importer inventory)
+- ✅ variety_demand: 711 variety rows (wholesaler demand, last 12 months)
+
+### Build: OK — 80 vendors, 79 with categories, all audit checks pass
+
+### Commit: 32fbeaf — pushed to origin/main
+
+### Deploy: grootctl not installed in remote env (day 17+ consecutive)
+
+### Notes:
+- Vendor category coverage improved from 33/80 (yesterday) to 79/80 today by running 3 Snowflake batches to bypass pagination limits on large result sets.
+
+---
+
 ## 2026-09-04 Daily Refresh
 
 ### Status: SUCCESS (deploy pending — grootctl not in remote env)
