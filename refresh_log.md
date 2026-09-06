@@ -1,5 +1,26 @@
 # Vendor Intelligence Refresh Log
 
+## 2026-09-06 Daily Refresh
+
+### Status: SUCCESS (deploy pending — grootctl not in remote env)
+
+### Queries executed:
+- ✅ vendor_profiles: 80 vendors (top by GMV, last 18 months)
+- ✅ vendor_categories: 974 rows (33/80 vendors with categories)
+- ✅ variety_inventory: 1,235 variety rows (importer inventory)
+- ✅ variety_demand: 708 variety rows (wholesaler demand, last 12 months)
+
+### Build: OK — 80 vendors, 33 with categories, all audit checks pass
+
+### Commit: 1e7efbb — pushed to origin/main
+
+### Deploy: grootctl not installed in remote env (day 18+ consecutive)
+
+### Notes:
+- vendor_categories reverted to 974 rows / 33 vendors with categories vs 2,522 / 79 yesterday. Query ran as single batch (no pagination). If yesterday's multi-batch approach matters, need to fix the query or run multiple batches.
+
+---
+
 ## 2026-09-05 Daily Refresh
 
 ### Status: SUCCESS (deploy pending — grootctl not in remote env)
