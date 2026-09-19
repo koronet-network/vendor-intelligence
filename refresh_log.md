@@ -27,7 +27,8 @@
 - dist/index.html
 
 ### Git:
-- ✅ Committed and pushed to origin/main
+- ✅ Committed: a1af7a8 "Daily refresh 2026-09-19"
+- ✅ Pushed to origin/main
 
 ### Deploy:
 - ❌ grootctl not installed in remote execution environment
@@ -449,7 +450,8 @@
 - dist/index.html
 
 ### Git:
-- ✅ Committed and pushed to origin/main
+- ✅ Committed: a1af7a8 "Daily refresh 2026-09-19"
+- ✅ Pushed to origin/main
 
 ### Deploy:
 - ❌ grootctl not installed in remote execution environment (recurring issue)
@@ -851,7 +853,8 @@
 - last_refresh.json
 
 ### Git:
-- ✅ Committed and pushed to origin/main
+- ✅ Committed: a1af7a8 "Daily refresh 2026-09-19"
+- ✅ Pushed to origin/main
 
 ### Deploy:
 - ❌ grootctl not installed in remote execution environment (8th consecutive run)
@@ -888,7 +891,8 @@
 - last_refresh.json
 
 ### Git:
-- ✅ Committed and pushed to origin/main
+- ✅ Committed: a1af7a8 "Daily refresh 2026-09-19"
+- ✅ Pushed to origin/main
 
 ### Deploy:
 - ❌ grootctl not installed in remote execution environment (7th consecutive run)
