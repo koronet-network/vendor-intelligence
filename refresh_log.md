@@ -1,5 +1,31 @@
 # Vendor Intelligence Refresh Log
 
+## Daily Refresh 2026-09-24
+
+**Date:** 2026-09-24
+**Status:** ❌ FAILED — Snowflake MCP requires interactive authentication
+
+### Error:
+The Snowflake MCP server requires OAuth authentication that can only be completed in an interactive Claude Code session. This scheduled (non-interactive) run cannot initiate the OAuth flow.
+
+### Action Required:
+1. Open an interactive Claude Code session
+2. Authorize the Snowflake connector at claude.ai connector settings or via `/mcp` in interactive session
+3. Re-run the daily refresh manually or wait for the next scheduled run
+
+### Queries:
+- ❌ vendor_profiles: SKIPPED — Snowflake not authenticated
+- ❌ vendor_categories: SKIPPED — Snowflake not authenticated
+- ❌ variety_inventory: SKIPPED — Snowflake not authenticated
+- ❌ variety_demand: SKIPPED — Snowflake not authenticated
+
+### Build:
+- ⏭️ Skipped (no new data)
+
+### Last successful refresh: 2026-09-22
+
+---
+
 ## Daily Refresh 2026-09-22
 
 **Date:** 2026-09-22
