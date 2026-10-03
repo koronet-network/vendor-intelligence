@@ -1,5 +1,38 @@
 # Vendor Intelligence Refresh Log
 
+## Daily Refresh 2026-10-03
+
+**Date:** 2026-10-03
+
+### Queries:
+- ✅ vendor_profiles: 80 vendors (Query 1)
+- ✅ vendor_categories: 2591 category rows (Query 2)
+- ✅ variety_inventory: 3477 variety rows (Query 3)
+- ✅ variety_demand: 702 variety rows (Query 4)
+
+### Build:
+- ✅ refresh_data.py: OK — 80 vendors, 79 with categories
+- ✅ build.py: OK — dashboard generated
+- ✅ Audit: All checks pass
+
+### Files updated:
+- data/raw/vendor_profiles.json
+- data/raw/vendor_categories.json
+- data/raw/variety_inventory.json
+- data/raw/variety_demand.json
+- data/vendor_internal_profiles.json
+- data/vendor_complete.json
+- output/vendor_intelligence.html
+- dist/index.html
+
+### Git:
+- ✅ Committed and pushed (79e4a8a)
+
+### Deploy:
+- ❌ grootctl deploy: command not found (recurring — not installed in remote env)
+
+---
+
 ## Daily Refresh 2026-10-02
 
 **Date:** 2026-10-02
