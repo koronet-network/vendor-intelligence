@@ -1,5 +1,16 @@
 # Vendor Intelligence Refresh Log
 
+## Daily Refresh 2026-10-04
+
+**Date:** 2026-10-04
+
+### Queries:
+- ✅ vendor_profiles: 80 vendors (Query 1)
+- ✅ vendor_categories: 2582 category rows, 79/80 vendors (Query 2, 3-batch approach; FreshLink no qualifying rows)
+- ✅ variety_inventory: 3480 variety rows (Query 3)
+
+---
+
 ## Daily Refresh 2026-10-03
 
 **Date:** 2026-10-03
@@ -26,13 +37,18 @@
 - dist/index.html
 
 ### Git:
+<<<<<<< HEAD
 - ✅ Committed and pushed (79e4a8a)
+=======
+- Committing and pushing
+>>>>>>> 256188f (Daily refresh 2026-10-04)
 
 ### Deploy:
 - ❌ grootctl deploy: command not found (recurring — not installed in remote env)
 
 ---
 
+<<<<<<< HEAD
 ## Daily Refresh 2026-10-02
 
 **Date:** 2026-10-02
@@ -102,6 +118,8 @@
 
 ---
 
+=======
+>>>>>>> 256188f (Daily refresh 2026-10-04)
 ## Daily Refresh 2026-09-30
 
 **Date:** 2026-09-30
