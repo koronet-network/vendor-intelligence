@@ -1,5 +1,44 @@
 # Vendor Intelligence Refresh Log
 
+## Daily Refresh 2026-10-05
+
+**Date:** 2026-10-05
+
+### Queries (via Cortex Analyst MCP tools):
+- ✅ vendor_profiles: 65 vendors (procurements-query + sql_exec_tool). Note: Cortex Analyst query differs from original SQL — filters by sales_channel='Procurement' and joins buyers differently; DISTINCT_BUYER_COMPANY_COUNT=1 for all vendors (join issue).
+- ✅ vendor_categories: 3718 rows (procurements-query + sql_exec_tool)
+- ❌ variety_inventory: No Cortex Analyst tool available for INVENTORY_DETAILS — kept previous run data
+- ✅ variety_demand: 707 rows fetched; kept existing raw file format (variety_master.json used by build)
+
+### Processing:
+- ✅ refresh_data.py: 65 vendor profiles, 47 vendors with categories
+- ✅ build.py: OK — 662KB HTML, 5 tabs, 347 variety rows, 49 vendor rows
+- ⚠️ Audit: has_tiers check failed — no vendors qualify quality_score≥70 due to buyers=1 (Cortex Analyst join issue)
+
+### Files updated:
+- data/raw/vendor_profiles.json
+- data/raw/vendor_categories.json
+- data/vendor_internal_profiles.json
+- data/vendor_complete.json
+- output/vendor_intelligence.html
+- dist/index.html
+
+### Git:
+- ✅ Committed: 41649f0 "Daily refresh 2026-10-05"
+- ✅ Pushed to origin/main
+
+### Deploy:
+- ❌ grootctl not installed in remote execution environment
+- Action needed: Run manually:
+  GROOT_API_URL=https://groot-api.koronet.sh grootctl labs deploy vendor-intelligence --version v0.1.X --execute --output json
+  (increment patch version from current)
+
+### Known issues for next run:
+- vendor_profiles query produces buyers=1 for all vendors — the original SQL in refresh_prompt.md may produce better results if run with relaxed tool constraints
+- variety_inventory cannot be refreshed via Cortex Analyst (INVENTORY_DETAILS not in semantic model)
+
+
+
 ## Daily Refresh 2026-10-04
 
 **Date:** 2026-10-04
