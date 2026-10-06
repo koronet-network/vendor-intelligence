@@ -1,12 +1,10 @@
 {
-  "timestamp": "2026-10-05T13:16:35.365288",
-  "status": "ERRORS",
+  "timestamp": "2026-10-06T13:29:38.224655",
+  "status": "OK",
   "varieties": 0,
-  "vendors": 65,
-  "vendors_with_cats": 47,
-  "errors": [
-    "Audit failed: ['has_tiers']"
-  ],
+  "vendors": 80,
+  "vendors_with_cats": 79,
+  "errors": null,
   "raw_available": {
     "vendor_profiles": true,
     "vendor_categories": true,
