@@ -1794,3 +1794,11 @@
 - dist/index.html
 
 ### Git:
+- ✅ Committed: 322e1c9 "Daily refresh 2026-10-11"
+- ✅ Pushed to origin/main
+
+### Deploy:
+- ❌ grootctl not installed in remote execution environment
+- Action needed: Run manually:
+  GROOT_API_URL=https://groot-api.koronet.sh grootctl labs deploy vendor-intelligence --version v0.1.X --execute --output json
+  (increment patch version from current)
