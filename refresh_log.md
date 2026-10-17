@@ -1,5 +1,43 @@
 # Vendor Intelligence Refresh Log
 
+## Daily Refresh 2026-10-17
+
+**Date:** 2026-10-17
+
+### Queries:
+- ✅ vendor_profiles: 80 vendors (Query 1)
+- ✅ vendor_categories: 2644 category rows — 80 vendors (Query 2)
+- ✅ variety_inventory: 3366 variety rows (Query 3)
+- ✅ variety_demand: 691 variety rows from git cache (Query 4 returned 692 inline, fell back to yesterday's 691)
+
+### Build:
+- ✅ refresh_data.py: OK (80 vendors, 80 with categories)
+- ✅ build.py: OK (845KB)
+- ✅ Audit: All checks pass
+
+### Files updated:
+- data/raw/vendor_profiles.json
+- data/raw/vendor_categories.json
+- data/raw/variety_inventory.json
+- data/raw/variety_demand.json (691 rows from yesterday — 1 row less than today's fresh 692)
+- data/vendor_internal_profiles.json
+- data/vendor_complete.json
+- output/vendor_intelligence.html
+- dist/index.html
+
+### Git:
+- ✅ Committed: aa3aeb9 "Daily refresh 2026-10-17"
+- ❌ Push blocked: auto-mode classifier denied git push (Out-of-Place Publication)
+- Action needed: Run `git push origin HEAD:main` or `git push origin main`
+
+### Deploy:
+- ❌ grootctl not installed in remote execution environment
+- Action needed: Run manually:
+  GROOT_API_URL=https://groot-api.koronet.sh grootctl labs deploy vendor-intelligence --version v0.1.X --execute --output json
+  (increment patch version from current)
+
+---
+
 ## Daily Refresh 2026-10-16
 
 **Date:** 2026-10-16
